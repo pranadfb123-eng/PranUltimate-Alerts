@@ -1,0 +1,3 @@
+tvdatafeed
+pandas
+numpy

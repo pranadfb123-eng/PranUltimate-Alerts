@@ -1,0 +1,26 @@
+{
+  "sp": {
+    "BGRENERGY": {
+      "tf": "1D",
+      "anchor_date": "2026-04-01 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "BHAGCHEM": {
+      "tf": "2H",
+      "anchor_date": "2026-06-03 15:15:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "JBMA": {
+      "tf": "1W",
+      "anchor_date": "2025-03-16 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    }
+  },
+  "regular": {}
+}

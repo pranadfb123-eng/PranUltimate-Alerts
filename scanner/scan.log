@@ -1,0 +1,22 @@
+2026-06-28 17:01:07,973  INFO  ============================================================
+2026-06-28 17:01:07,973  INFO  PranUltimate Scanner started
+2026-06-28 17:01:07,974  INFO  Time: 2026-06-28 17:01:07
+2026-06-28 17:01:07,974  INFO  ============================================================
+2026-06-28 17:01:12,711  INFO  Verifying Dhan connection (one test fetch)...
+2026-06-28 17:01:13,661  ERROR  ============================================================
+2026-06-28 17:01:13,661  ERROR  ABORTING — Dhan connection check failed: 401 Unauthorized — access_token is invalid or expired
+2026-06-28 17:01:13,662  ERROR  Check intraday_config.json — the access_token likely needs regenerating.
+2026-06-28 17:01:13,662  ERROR  ============================================================
+2026-06-28 20:48:26,078  INFO  ============================================================
+2026-06-28 20:48:26,078  INFO  PranUltimate Scanner — SP-ONLY MODE
+2026-06-28 20:48:26,079  INFO  Time: 2026-06-28 20:48:26
+2026-06-28 20:48:26,079  INFO  ============================================================
+2026-06-28 20:48:27,902  INFO  Verifying Dhan connection (one test fetch)...
+2026-06-28 20:48:28,414  INFO  Dhan connection OK.
+2026-06-28 20:48:28,414  INFO  
+Scanning 97 SP watchlist stocks...
+2026-06-28 20:53:52,694  INFO  SP Stocks: 91/97 have a setup on some timeframe.
+2026-06-28 20:53:52,738  INFO  
+SP-only results saved to: C:\Users\prana\PranUltimate\scanner\..\server\results.json
+2026-06-28 20:53:52,738  INFO  (Timeframe tabs preserved from the last full scan, if any.)
+2026-06-28 20:53:55,357  INFO  Published to GitHub Pages — dashboard updated.

@@ -1,0 +1,192 @@
+{
+  "SWARAJENG_2H": {
+    "symbol": "SWARAJENG",
+    "timeframe": "2H",
+    "resistance": 3970.0,
+    "first_low": 3636.9,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "INDHOTEL_2H": {
+    "symbol": "INDHOTEL",
+    "timeframe": "2H",
+    "resistance": 740.0,
+    "first_low": 622.45,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "OSWALPUMPS_2H": {
+    "symbol": "OSWALPUMPS",
+    "timeframe": "2H",
+    "resistance": 448.0,
+    "first_low": 371.2,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "DIXON_2H": {
+    "symbol": "DIXON",
+    "timeframe": "2H",
+    "resistance": 12650.0,
+    "first_low": 10100.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "PREMIERENE_2H": {
+    "symbol": "PREMIERENE",
+    "timeframe": "2H",
+    "resistance": 1103.9,
+    "first_low": 943.1,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "WEBELSOLAR_2H": {
+    "symbol": "WEBELSOLAR",
+    "timeframe": "2H",
+    "resistance": 107.4,
+    "first_low": 99.42,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "PNGSREVA_2H": {
+    "symbol": "PNGSREVA",
+    "timeframe": "2H",
+    "resistance": 414.55,
+    "first_low": 360.05,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "SPORTKING_2H": {
+    "symbol": "SPORTKING",
+    "timeframe": "2H",
+    "resistance": 193.0,
+    "first_low": 136.5,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "ZENTEC_2H": {
+    "symbol": "ZENTEC",
+    "timeframe": "2H",
+    "resistance": 1926.6,
+    "first_low": 1466.1,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "TDPOWERSYS_2H": {
+    "symbol": "TDPOWERSYS",
+    "timeframe": "2H",
+    "resistance": 1364.0,
+    "first_low": 1115.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "CMSINFO_2H": {
+    "symbol": "CMSINFO",
+    "timeframe": "2H",
+    "resistance": 319.5,
+    "first_low": 285.1,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "IDEAFORGE_1H": {
+    "symbol": "IDEAFORGE",
+    "timeframe": "1H",
+    "resistance": 828.0,
+    "first_low": 785.3,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "BGRENERGY_1H": {
+    "symbol": "BGRENERGY",
+    "timeframe": "1H",
+    "resistance": 325.9,
+    "first_low": 281.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "HAL_1H": {
+    "symbol": "HAL",
+    "timeframe": "1H",
+    "resistance": 4522.0,
+    "first_low": 4175.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "RAIN_1H": {
+    "symbol": "RAIN",
+    "timeframe": "1H",
+    "resistance": 194.2,
+    "first_low": 179.65,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "MEIL_1H": {
+    "symbol": "MEIL",
+    "timeframe": "1H",
+    "resistance": 332.0,
+    "first_low": 291.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "UTLSOLAR_1H": {
+    "symbol": "UTLSOLAR",
+    "timeframe": "1H",
+    "resistance": 330.0,
+    "first_low": 260.7,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "BSE_1H": {
+    "symbol": "BSE",
+    "timeframe": "1H",
+    "resistance": 4219.9,
+    "first_low": 3855.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  },
+  "SHAILY_1H": {
+    "symbol": "SHAILY",
+    "timeframe": "1H",
+    "resistance": 3233.9,
+    "first_low": 2376.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-28 18:58:14",
+    "triggered_at": null
+  }
+}
