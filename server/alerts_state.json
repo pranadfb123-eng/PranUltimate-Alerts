@@ -188,5 +188,155 @@
     "source": "sp_stocks",
     "added_at": "2026-06-28 18:58:14",
     "triggered_at": null
+  },
+  "MCLEODRUSS_2H": {
+    "symbol": "MCLEODRUSS",
+    "timeframe": "2H",
+    "resistance": 62.43,
+    "first_low": 59.71,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "ANANDRATHI_1H": {
+    "symbol": "ANANDRATHI",
+    "timeframe": "1H",
+    "resistance": 1953.6,
+    "first_low": 1800.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "MOTILALOFS_1H": {
+    "symbol": "MOTILALOFS",
+    "timeframe": "1H",
+    "resistance": 961.9,
+    "first_low": 883.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "INFY_1H": {
+    "symbol": "INFY",
+    "timeframe": "1H",
+    "resistance": 1068.0,
+    "first_low": 1026.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "TRENT_1H": {
+    "symbol": "TRENT",
+    "timeframe": "1H",
+    "resistance": 3290.9,
+    "first_low": 2991.4,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "OMPOWER_1H": {
+    "symbol": "OMPOWER",
+    "timeframe": "1H",
+    "resistance": 187.0,
+    "first_low": 172.18,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "THANGAMAYL_1H": {
+    "symbol": "THANGAMAYL",
+    "timeframe": "1H",
+    "resistance": 5749.0,
+    "first_low": 4752.1,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "KNRCON_1H": {
+    "symbol": "KNRCON",
+    "timeframe": "1H",
+    "resistance": 138.8,
+    "first_low": 114.7,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "MBEL_1H": {
+    "symbol": "MBEL",
+    "timeframe": "1H",
+    "resistance": 311.95,
+    "first_low": 301.95,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "RUBICON_1H": {
+    "symbol": "RUBICON",
+    "timeframe": "1H",
+    "resistance": 1468.7,
+    "first_low": 1118.1,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "KIRLOSENG_1H": {
+    "symbol": "KIRLOSENG",
+    "timeframe": "1H",
+    "resistance": 2576.6,
+    "first_low": 2412.4,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "IVALUE_1H": {
+    "symbol": "IVALUE",
+    "timeframe": "1H",
+    "resistance": 287.85,
+    "first_low": 252.63,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "SANGHVIMOV_1H": {
+    "symbol": "SANGHVIMOV",
+    "timeframe": "1H",
+    "resistance": 431.7,
+    "first_low": 406.05,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "SHILCTECH_1H": {
+    "symbol": "SHILCTECH",
+    "timeframe": "1H",
+    "resistance": 4779.9,
+    "first_low": 4240.9,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
+  },
+  "INOXINDIA_1H": {
+    "symbol": "INOXINDIA",
+    "timeframe": "1H",
+    "resistance": 2017.0,
+    "first_low": 1755.4,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 02:10:48",
+    "triggered_at": null
   }
 }
