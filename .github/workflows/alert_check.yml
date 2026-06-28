@@ -35,13 +35,12 @@ jobs:
 
       - name: Run alert checker
         env:
-          DHAN_CLIENT_ID:      ${{ secrets.DHAN_CLIENT_ID }}
-          DHAN_ACCESS_TOKEN:   ${{ secrets.DHAN_ACCESS_TOKEN }}
-          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
-          GMAIL_ADDRESS:       ${{ secrets.GMAIL_ADDRESS }}
-          GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
-          ALERT_EMAIL_TO:      ${{ secrets.ALERT_EMAIL_TO }}
+          DHAN_CLIENT_ID:         ${{ secrets.DHAN_CLIENT_ID }}
+          DHAN_ACCESS_TOKEN:      ${{ secrets.DHAN_ACCESS_TOKEN }}
+          TELEGRAM_BOT_TOKEN:     ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:       ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_BOT_TOKEN_SP:  ${{ secrets.TELEGRAM_BOT_TOKEN_SP }}
+          TELEGRAM_CHAT_ID_SP:    ${{ secrets.TELEGRAM_CHAT_ID_SP }}
         run: python scanner/check_alerts.py
 
       - name: Commit updated alert state

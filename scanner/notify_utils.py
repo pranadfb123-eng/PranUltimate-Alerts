@@ -5,10 +5,11 @@ Telegram sender for PranUltimate's alert system. Reads credentials from
 environment variables (populated from GitHub Actions secrets when run in
 CI, or from a local .env / exported vars when run on your own machine).
 
-Required env vars:
-  TELEGRAM_BOT_TOKEN   — from @BotFather
-  TELEGRAM_CHAT_ID     — your numeric chat id (DM the bot once, then check
-                          https://api.telegram.org/bot<TOKEN>/getUpdates)
+Two bots supported:
+  Default bot (everything except SP Stocks):
+    TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+  SP Stocks bot (separate channel, routed by source=="sp_stocks"):
+    TELEGRAM_BOT_TOKEN_SP, TELEGRAM_CHAT_ID_SP
 
 send_telegram() is best-effort: failures are logged, never raised.
 """
@@ -21,11 +22,13 @@ import requests
 log = logging.getLogger(__name__)
 
 
-def send_telegram(message: str) -> bool:
-    token   = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+def send_telegram(message: str, bot="default") -> bool:
+    """bot: "default" or "sp" — selects which token/chat_id pair to use."""
+    suffix  = "_SP" if bot == "sp" else ""
+    token   = os.environ.get(f"TELEGRAM_BOT_TOKEN{suffix}")
+    chat_id = os.environ.get(f"TELEGRAM_CHAT_ID{suffix}")
     if not token or not chat_id:
-        log.warning("Telegram: missing TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID — skipped.")
+        log.warning(f"Telegram ({bot}): missing TELEGRAM_BOT_TOKEN{suffix} / TELEGRAM_CHAT_ID{suffix} — skipped.")
         return False
     try:
         url = f"https://api.telegram.org/bot{token}/sendMessage"
@@ -35,11 +38,11 @@ def send_telegram(message: str) -> bool:
             timeout=15,
         )
         if resp.status_code != 200:
-            log.warning(f"Telegram send failed: {resp.status_code} {resp.text}")
+            log.warning(f"Telegram send failed ({bot}): {resp.status_code} {resp.text}")
             return False
         return True
     except Exception as e:
-        log.warning(f"Telegram send error: {e}")
+        log.warning(f"Telegram send error ({bot}): {e}")
         return False
 
 
@@ -71,7 +74,8 @@ def notify_breakout(symbol, timeframe, close, resistance, source="regular"):
         f"Close: Rs{close}\n"
         f"Resistance crossed: Rs{resistance}"
     )
-    send_telegram(msg)
+    bot = "sp" if source == "sp_stocks" else "default"
+    send_telegram(msg, bot=bot)
 
 
 def notify_error(context: str, detail: str):
