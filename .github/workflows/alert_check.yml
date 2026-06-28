@@ -19,6 +19,8 @@ on:
 jobs:
   check-alerts:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # required so the final "commit updated alert state" step can push back
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -37,6 +39,9 @@ jobs:
           DHAN_ACCESS_TOKEN:   ${{ secrets.DHAN_ACCESS_TOKEN }}
           TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
+          GMAIL_ADDRESS:       ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_EMAIL_TO:      ${{ secrets.ALERT_EMAIL_TO }}
         run: python scanner/check_alerts.py
 
       - name: Commit updated alert state
