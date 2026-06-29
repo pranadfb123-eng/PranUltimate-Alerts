@@ -7,13 +7,13 @@ name: PranUltimate Alert Check
 # fine here since we're confirming a closed candle, not catching a tick.
 on:
   schedule:
-    - cron: "45 4  * * 1-5"   # 10:15 IST
-    - cron: "45 5  * * 1-5"   # 11:15 IST
-    - cron: "45 6  * * 1-5"   # 12:15 IST
-    - cron: "45 7  * * 1-5"   # 13:15 IST
-    - cron: "45 8  * * 1-5"   # 14:15 IST
-    - cron: "45 9  * * 1-5"   # 15:15 IST
-    - cron: "0  10 * * 1-5"   # 15:30 IST (final/partial candle)
+    - cron: "45 4 * * 1-5"    # 10:15 IST
+    - cron: "45 5 * * 1-5"    # 11:15 IST
+    - cron: "45 6 * * 1-5"    # 12:15 IST
+    - cron: "45 7 * * 1-5"    # 13:15 IST
+    - cron: "45 8 * * 1-5"    # 14:15 IST
+    - cron: "45 9 * * 1-5"    # 15:15 IST
+    - cron: "0 10 * * 1-5"    # 15:30 IST (final/partial candle)
   workflow_dispatch: {}        # lets you trigger a manual test run from the Actions tab
 
 jobs:
