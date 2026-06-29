@@ -338,5 +338,55 @@
     "source": "sp_stocks",
     "added_at": "2026-06-29 02:10:48",
     "triggered_at": null
+  },
+  "MEIL_2H": {
+    "symbol": "MEIL",
+    "timeframe": "2H",
+    "resistance": 307.95,
+    "first_low": 295.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 18:08:23",
+    "triggered_at": null
+  },
+  "AIAENG_1H": {
+    "symbol": "AIAENG",
+    "timeframe": "1H",
+    "resistance": 5019.3,
+    "first_low": 4806.9,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 18:08:23",
+    "triggered_at": null
+  },
+  "SWANDEF_1H": {
+    "symbol": "SWANDEF",
+    "timeframe": "1H",
+    "resistance": 2235.0,
+    "first_low": 1825.1,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 18:08:23",
+    "triggered_at": null
+  },
+  "TMCV_1H": {
+    "symbol": "TMCV",
+    "timeframe": "1H",
+    "resistance": 432.9,
+    "first_low": 381.4,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 18:08:23",
+    "triggered_at": null
+  },
+  "MCLEODRUSS_1H": {
+    "symbol": "MCLEODRUSS",
+    "timeframe": "1H",
+    "resistance": 59.97,
+    "first_low": 50.01,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-29 18:08:23",
+    "triggered_at": null
   }
 }
