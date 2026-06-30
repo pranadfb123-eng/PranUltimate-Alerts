@@ -417,5 +417,1905 @@
     "source": "sp_stocks",
     "added_at": "2026-06-30 17:59:58",
     "triggered_at": null
+  },
+  "CORDSCABLE_1H": {
+    "symbol": "CORDSCABLE",
+    "timeframe": "1H",
+    "resistance": 214.23,
+    "first_low": 202.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SGFIN_1H": {
+    "symbol": "SGFIN",
+    "timeframe": "1H",
+    "resistance": 621.35,
+    "first_low": 553.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "STEELCAS_1H": {
+    "symbol": "STEELCAS",
+    "timeframe": "1H",
+    "resistance": 306.3,
+    "first_low": 290.55,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SAHYADRI_1H": {
+    "symbol": "SAHYADRI",
+    "timeframe": "1H",
+    "resistance": 285.0,
+    "first_low": 271.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "INNOVACAP_1H": {
+    "symbol": "INNOVACAP",
+    "timeframe": "1H",
+    "resistance": 987.4,
+    "first_low": 702.3,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "POLYCAB_1H": {
+    "symbol": "POLYCAB",
+    "timeframe": "1H",
+    "resistance": 10008.0,
+    "first_low": 9420.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GAYAPROJ_1H": {
+    "symbol": "GAYAPROJ",
+    "timeframe": "1H",
+    "resistance": 21.55,
+    "first_low": 20.76,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SOTL_1H": {
+    "symbol": "SOTL",
+    "timeframe": "1H",
+    "resistance": 517.5,
+    "first_low": 496.35,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "CREDITACC_1H": {
+    "symbol": "CREDITACC",
+    "timeframe": "1H",
+    "resistance": 1496.0,
+    "first_low": 1215.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GENUSPOWER_1H": {
+    "symbol": "GENUSPOWER",
+    "timeframe": "1H",
+    "resistance": 302.3,
+    "first_low": 282.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ZYDUSWELL_1H": {
+    "symbol": "ZYDUSWELL",
+    "timeframe": "1H",
+    "resistance": 580.0,
+    "first_low": 502.85,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BANDHANBNK_1H": {
+    "symbol": "BANDHANBNK",
+    "timeframe": "1H",
+    "resistance": 205.3,
+    "first_low": 193.51,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BBOX_1H": {
+    "symbol": "BBOX",
+    "timeframe": "1H",
+    "resistance": 956.0,
+    "first_low": 903.7,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BAJAJCON_1H": {
+    "symbol": "BAJAJCON",
+    "timeframe": "1H",
+    "resistance": 605.3,
+    "first_low": 563.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MODEFENCE_1H": {
+    "symbol": "MODEFENCE",
+    "timeframe": "1H",
+    "resistance": 105.57,
+    "first_low": 95.65,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MMP_1H": {
+    "symbol": "MMP",
+    "timeframe": "1H",
+    "resistance": 282.0,
+    "first_low": 268.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "STYRENIX_1H": {
+    "symbol": "STYRENIX",
+    "timeframe": "1H",
+    "resistance": 2320.0,
+    "first_low": 2251.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "EICHERMOT_1H": {
+    "symbol": "EICHERMOT",
+    "timeframe": "1H",
+    "resistance": 7168.5,
+    "first_low": 6942.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MOHEALTH_1H": {
+    "symbol": "MOHEALTH",
+    "timeframe": "1H",
+    "resistance": 50.62,
+    "first_low": 46.31,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "QPOWER_1H": {
+    "symbol": "QPOWER",
+    "timeframe": "1H",
+    "resistance": 1235.0,
+    "first_low": 1192.7,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "CERA_1H": {
+    "symbol": "CERA",
+    "timeframe": "1H",
+    "resistance": 6521.5,
+    "first_low": 5500.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GUJTHEM_1H": {
+    "symbol": "GUJTHEM",
+    "timeframe": "1H",
+    "resistance": 401.0,
+    "first_low": 383.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MENONBE_1H": {
+    "symbol": "MENONBE",
+    "timeframe": "1H",
+    "resistance": 170.0,
+    "first_low": 153.62,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SMALLADD_1H": {
+    "symbol": "SMALLADD",
+    "timeframe": "1H",
+    "resistance": 17.95,
+    "first_low": 16.42,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MARICO_1H": {
+    "symbol": "MARICO",
+    "timeframe": "1H",
+    "resistance": 847.75,
+    "first_low": 760.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "20MICRONS_1H": {
+    "symbol": "20MICRONS",
+    "timeframe": "1H",
+    "resistance": 205.9,
+    "first_low": 162.05,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "HAPPYFORGE_1H": {
+    "symbol": "HAPPYFORGE",
+    "timeframe": "1H",
+    "resistance": 1552.0,
+    "first_low": 1324.7,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "CONFIPET_1H": {
+    "symbol": "CONFIPET",
+    "timeframe": "1H",
+    "resistance": 75.0,
+    "first_low": 50.11,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "VSSL_1H": {
+    "symbol": "VSSL",
+    "timeframe": "1H",
+    "resistance": 281.6,
+    "first_low": 274.55,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "DDEVPLSTIK_1H": {
+    "symbol": "DDEVPLSTIK",
+    "timeframe": "1H",
+    "resistance": 275.7,
+    "first_low": 232.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GLOTTIS_1H": {
+    "symbol": "GLOTTIS",
+    "timeframe": "1H",
+    "resistance": 68.0,
+    "first_low": 64.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "HNDFDS_1H": {
+    "symbol": "HNDFDS",
+    "timeframe": "1H",
+    "resistance": 568.85,
+    "first_low": 515.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MMTC_1H": {
+    "symbol": "MMTC",
+    "timeframe": "1H",
+    "resistance": 69.18,
+    "first_low": 66.4,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ABSLNN50ET_1H": {
+    "symbol": "ABSLNN50ET",
+    "timeframe": "1H",
+    "resistance": 76.75,
+    "first_low": 71.59,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "LINDEINDIA_1H": {
+    "symbol": "LINDEINDIA",
+    "timeframe": "1H",
+    "resistance": 7439.0,
+    "first_low": 7010.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "JKIPL_1H": {
+    "symbol": "JKIPL",
+    "timeframe": "1H",
+    "resistance": 115.0,
+    "first_low": 81.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "PACEDIGITK_1H": {
+    "symbol": "PACEDIGITK",
+    "timeframe": "1H",
+    "resistance": 207.74,
+    "first_low": 173.34,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "VINDHYATEL_1H": {
+    "symbol": "VINDHYATEL",
+    "timeframe": "1H",
+    "resistance": 2117.1,
+    "first_low": 2020.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "FCL_1H": {
+    "symbol": "FCL",
+    "timeframe": "1H",
+    "resistance": 39.67,
+    "first_low": 37.07,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "AMBER_1H": {
+    "symbol": "AMBER",
+    "timeframe": "1H",
+    "resistance": 7694.5,
+    "first_low": 6955.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ARIHANT_1H": {
+    "symbol": "ARIHANT",
+    "timeframe": "1H",
+    "resistance": 896.8,
+    "first_low": 825.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "EMCURE_1H": {
+    "symbol": "EMCURE",
+    "timeframe": "1H",
+    "resistance": 1871.3,
+    "first_low": 1497.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ANTHEM_1H": {
+    "symbol": "ANTHEM",
+    "timeframe": "1H",
+    "resistance": 785.3,
+    "first_low": 755.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SEIL_1H": {
+    "symbol": "SEIL",
+    "timeframe": "1H",
+    "resistance": 218.99,
+    "first_low": 188.07,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "UMESLTD_1H": {
+    "symbol": "UMESLTD",
+    "timeframe": "1H",
+    "resistance": 5.95,
+    "first_low": 5.35,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ADFFOODS_1H": {
+    "symbol": "ADFFOODS",
+    "timeframe": "1H",
+    "resistance": 316.95,
+    "first_low": 267.3,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "RAJPALAYAM_1H": {
+    "symbol": "RAJPALAYAM",
+    "timeframe": "1H",
+    "resistance": 863.35,
+    "first_low": 801.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MANAPPURAM_1H": {
+    "symbol": "MANAPPURAM",
+    "timeframe": "1H",
+    "resistance": 330.9,
+    "first_low": 305.9,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KICL_1H": {
+    "symbol": "KICL",
+    "timeframe": "1H",
+    "resistance": 5428.5,
+    "first_low": 4670.4,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MOLDTKPAC_1H": {
+    "symbol": "MOLDTKPAC",
+    "timeframe": "1H",
+    "resistance": 736.5,
+    "first_low": 646.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "TAALTECH_1H": {
+    "symbol": "TAALTECH",
+    "timeframe": "1H",
+    "resistance": 3185.5,
+    "first_low": 3090.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "EVEREADY_1H": {
+    "symbol": "EVEREADY",
+    "timeframe": "1H",
+    "resistance": 378.4,
+    "first_low": 309.95,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MOM100_1H": {
+    "symbol": "MOM100",
+    "timeframe": "1H",
+    "resistance": 68.71,
+    "first_low": 63.93,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KRONOX_1H": {
+    "symbol": "KRONOX",
+    "timeframe": "1H",
+    "resistance": 153.61,
+    "first_low": 123.19,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "NIRLON_1H": {
+    "symbol": "NIRLON",
+    "timeframe": "1H",
+    "resistance": 634.8,
+    "first_low": 557.15,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SHBAJRG_1H": {
+    "symbol": "SHBAJRG",
+    "timeframe": "1H",
+    "resistance": 198.7,
+    "first_low": 175.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "WINDMACHIN_1H": {
+    "symbol": "WINDMACHIN",
+    "timeframe": "1H",
+    "resistance": 311.7,
+    "first_low": 271.3,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "WALCHANNAG_1H": {
+    "symbol": "WALCHANNAG",
+    "timeframe": "1H",
+    "resistance": 279.9,
+    "first_low": 230.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "WIPL_1H": {
+    "symbol": "WIPL",
+    "timeframe": "1H",
+    "resistance": 179.8,
+    "first_low": 148.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SAIPARENT_1H": {
+    "symbol": "SAIPARENT",
+    "timeframe": "1H",
+    "resistance": 606.0,
+    "first_low": 465.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "INDHOTEL_1H": {
+    "symbol": "INDHOTEL",
+    "timeframe": "1H",
+    "resistance": 735.8,
+    "first_low": 622.45,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MGEL_1H": {
+    "symbol": "MGEL",
+    "timeframe": "1H",
+    "resistance": 16.4,
+    "first_low": 15.01,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "TENNIND_1H": {
+    "symbol": "TENNIND",
+    "timeframe": "1H",
+    "resistance": 609.8,
+    "first_low": 551.35,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ELANTAS_1H": {
+    "symbol": "ELANTAS",
+    "timeframe": "1H",
+    "resistance": 10949.0,
+    "first_low": 9055.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GIPCL_1H": {
+    "symbol": "GIPCL",
+    "timeframe": "1H",
+    "resistance": 166.79,
+    "first_low": 153.44,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MID150_1H": {
+    "symbol": "MID150",
+    "timeframe": "1H",
+    "resistance": 23.78,
+    "first_low": 18.97,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "CLSEL_1H": {
+    "symbol": "CLSEL",
+    "timeframe": "1H",
+    "resistance": 293.8,
+    "first_low": 277.35,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BANSALWIRE_1H": {
+    "symbol": "BANSALWIRE",
+    "timeframe": "1H",
+    "resistance": 349.9,
+    "first_low": 280.45,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "JUBLCPL_1H": {
+    "symbol": "JUBLCPL",
+    "timeframe": "1H",
+    "resistance": 2082.0,
+    "first_low": 1695.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GOODLUCK_1H": {
+    "symbol": "GOODLUCK",
+    "timeframe": "1H",
+    "resistance": 1525.0,
+    "first_low": 1270.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "CREST_1H": {
+    "symbol": "CREST",
+    "timeframe": "1H",
+    "resistance": 391.95,
+    "first_low": 370.35,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GULPOLY_1H": {
+    "symbol": "GULPOLY",
+    "timeframe": "1H",
+    "resistance": 194.0,
+    "first_low": 189.49,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "NIFTY100EW_1H": {
+    "symbol": "NIFTY100EW",
+    "timeframe": "1H",
+    "resistance": 35.7,
+    "first_low": 33.23,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ATHERENERG_1H": {
+    "symbol": "ATHERENERG",
+    "timeframe": "1H",
+    "resistance": 1147.4,
+    "first_low": 950.35,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GCSL_1H": {
+    "symbol": "GCSL",
+    "timeframe": "1H",
+    "resistance": 443.4,
+    "first_low": 363.95,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KTKBANK_1H": {
+    "symbol": "KTKBANK",
+    "timeframe": "1H",
+    "resistance": 282.4,
+    "first_low": 257.15,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "IFCI_1H": {
+    "symbol": "IFCI",
+    "timeframe": "1H",
+    "resistance": 77.73,
+    "first_low": 75.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "RISHABH_1H": {
+    "symbol": "RISHABH",
+    "timeframe": "1H",
+    "resistance": 595.8,
+    "first_low": 453.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "FERMENTA_1H": {
+    "symbol": "FERMENTA",
+    "timeframe": "1H",
+    "resistance": 369.0,
+    "first_low": 316.45,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "VIDYAWIRES_1H": {
+    "symbol": "VIDYAWIRES",
+    "timeframe": "1H",
+    "resistance": 103.48,
+    "first_low": 95.7,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SARLAPOLY_1H": {
+    "symbol": "SARLAPOLY",
+    "timeframe": "1H",
+    "resistance": 102.0,
+    "first_low": 95.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GLOBAL_1H": {
+    "symbol": "GLOBAL",
+    "timeframe": "1H",
+    "resistance": 106.95,
+    "first_low": 103.9,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MPSLTD_1H": {
+    "symbol": "MPSLTD",
+    "timeframe": "1H",
+    "resistance": 1957.9,
+    "first_low": 1750.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KENNAMET_1H": {
+    "symbol": "KENNAMET",
+    "timeframe": "1H",
+    "resistance": 3197.0,
+    "first_low": 2712.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BIMETAL_1H": {
+    "symbol": "BIMETAL",
+    "timeframe": "1H",
+    "resistance": 664.9,
+    "first_low": 601.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KRYSTAL_1H": {
+    "symbol": "KRYSTAL",
+    "timeframe": "1H",
+    "resistance": 624.0,
+    "first_low": 575.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "THACKER_1H": {
+    "symbol": "THACKER",
+    "timeframe": "1H",
+    "resistance": 1224.7,
+    "first_low": 1137.8,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SBCL_1H": {
+    "symbol": "SBCL",
+    "timeframe": "1H",
+    "resistance": 789.85,
+    "first_low": 662.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SHEMAROO_1H": {
+    "symbol": "SHEMAROO",
+    "timeframe": "1H",
+    "resistance": 132.49,
+    "first_low": 99.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SNXT30BEES_1H": {
+    "symbol": "SNXT30BEES",
+    "timeframe": "1H",
+    "resistance": 43.4,
+    "first_low": 40.91,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MOMIDMTM_1H": {
+    "symbol": "MOMIDMTM",
+    "timeframe": "1H",
+    "resistance": 66.9,
+    "first_low": 61.17,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "JBMA_1H": {
+    "symbol": "JBMA",
+    "timeframe": "1H",
+    "resistance": 728.25,
+    "first_low": 607.65,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BLUEJET_1H": {
+    "symbol": "BLUEJET",
+    "timeframe": "1H",
+    "resistance": 547.6,
+    "first_low": 434.8,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "E2E_1H": {
+    "symbol": "E2E",
+    "timeframe": "1H",
+    "resistance": 415.0,
+    "first_low": 361.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "HIRECT_1H": {
+    "symbol": "HIRECT",
+    "timeframe": "1H",
+    "resistance": 1212.1,
+    "first_low": 797.55,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MON100_1H": {
+    "symbol": "MON100",
+    "timeframe": "1H",
+    "resistance": 340.0,
+    "first_low": 315.55,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GROWWDEFNC_1H": {
+    "symbol": "GROWWDEFNC",
+    "timeframe": "1H",
+    "resistance": 99.44,
+    "first_low": 87.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "DJML_1H": {
+    "symbol": "DJML",
+    "timeframe": "1H",
+    "resistance": 119.29,
+    "first_low": 91.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "INDGN_1H": {
+    "symbol": "INDGN",
+    "timeframe": "1H",
+    "resistance": 550.35,
+    "first_low": 481.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ANGELONE_1H": {
+    "symbol": "ANGELONE",
+    "timeframe": "1H",
+    "resistance": 344.85,
+    "first_low": 319.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "NIVABUPA_1H": {
+    "symbol": "NIVABUPA",
+    "timeframe": "1H",
+    "resistance": 89.0,
+    "first_low": 78.06,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "AHCL_1H": {
+    "symbol": "AHCL",
+    "timeframe": "1H",
+    "resistance": 16.78,
+    "first_low": 12.91,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KRBL_1H": {
+    "symbol": "KRBL",
+    "timeframe": "1H",
+    "resistance": 398.25,
+    "first_low": 339.7,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "PRIMO_1H": {
+    "symbol": "PRIMO",
+    "timeframe": "1H",
+    "resistance": 25.74,
+    "first_low": 23.4,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "RACLGEAR_2H": {
+    "symbol": "RACLGEAR",
+    "timeframe": "2H",
+    "resistance": 1410.0,
+    "first_low": 1282.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "DIAMONDYD_2H": {
+    "symbol": "DIAMONDYD",
+    "timeframe": "2H",
+    "resistance": 1160.1,
+    "first_low": 967.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "LICHSGFIN_2H": {
+    "symbol": "LICHSGFIN",
+    "timeframe": "2H",
+    "resistance": 567.6,
+    "first_low": 533.75,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MEGASTAR_2H": {
+    "symbol": "MEGASTAR",
+    "timeframe": "2H",
+    "resistance": 366.0,
+    "first_low": 265.35,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "DIVISLAB_2H": {
+    "symbol": "DIVISLAB",
+    "timeframe": "2H",
+    "resistance": 6646.5,
+    "first_low": 6535.5,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KAPSTON_2H": {
+    "symbol": "KAPSTON",
+    "timeframe": "2H",
+    "resistance": 370.4,
+    "first_low": 308.3,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SHREEPUSHK_2H": {
+    "symbol": "SHREEPUSHK",
+    "timeframe": "2H",
+    "resistance": 410.0,
+    "first_low": 333.4,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "VBL_2H": {
+    "symbol": "VBL",
+    "timeframe": "2H",
+    "resistance": 514.6,
+    "first_low": 502.95,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "POWERINDIA_2H": {
+    "symbol": "POWERINDIA",
+    "timeframe": "2H",
+    "resistance": 35360.0,
+    "first_low": 33120.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BALRAMCHIN_2H": {
+    "symbol": "BALRAMCHIN",
+    "timeframe": "2H",
+    "resistance": 565.0,
+    "first_low": 510.15,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "HAL_2H": {
+    "symbol": "HAL",
+    "timeframe": "2H",
+    "resistance": 4423.5,
+    "first_low": 4269.9,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "PAGEIND_2H": {
+    "symbol": "PAGEIND",
+    "timeframe": "2H",
+    "resistance": 41905.0,
+    "first_low": 34720.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "FORTIS_2H": {
+    "symbol": "FORTIS",
+    "timeframe": "2H",
+    "resistance": 966.25,
+    "first_low": 899.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SMLMAH_2H": {
+    "symbol": "SMLMAH",
+    "timeframe": "2H",
+    "resistance": 4134.8,
+    "first_low": 3860.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "NESTLEIND_2H": {
+    "symbol": "NESTLEIND",
+    "timeframe": "2H",
+    "resistance": 1430.7,
+    "first_low": 1370.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SUNFLAG_2H": {
+    "symbol": "SUNFLAG",
+    "timeframe": "2H",
+    "resistance": 344.0,
+    "first_low": 333.15,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "JSWCEMENT_2H": {
+    "symbol": "JSWCEMENT",
+    "timeframe": "2H",
+    "resistance": 136.9,
+    "first_low": 119.32,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "HDFCMOMENT_2H": {
+    "symbol": "HDFCMOMENT",
+    "timeframe": "2H",
+    "resistance": 31.9,
+    "first_low": 29.72,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "WAAREERTL_2H": {
+    "symbol": "WAAREERTL",
+    "timeframe": "2H",
+    "resistance": 1028.8,
+    "first_low": 907.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ARFIN_2H": {
+    "symbol": "ARFIN",
+    "timeframe": "2H",
+    "resistance": 86.95,
+    "first_low": 81.55,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SAILIFE_2H": {
+    "symbol": "SAILIFE",
+    "timeframe": "2H",
+    "resistance": 1260.0,
+    "first_low": 949.3,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ECAPINSURE_2H": {
+    "symbol": "ECAPINSURE",
+    "timeframe": "2H",
+    "resistance": 24.65,
+    "first_low": 22.94,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "NSLNISP_2H": {
+    "symbol": "NSLNISP",
+    "timeframe": "2H",
+    "resistance": 43.5,
+    "first_low": 42.86,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GROWWRLTY_2H": {
+    "symbol": "GROWWRLTY",
+    "timeframe": "2H",
+    "resistance": 9.4,
+    "first_low": 8.12,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SIEMENS_2H": {
+    "symbol": "SIEMENS",
+    "timeframe": "2H",
+    "resistance": 3668.4,
+    "first_low": 3550.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "CHEMICAL_2H": {
+    "symbol": "CHEMICAL",
+    "timeframe": "2H",
+    "resistance": 30.17,
+    "first_low": 28.47,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "PVTBANIETF_2H": {
+    "symbol": "PVTBANIETF",
+    "timeframe": "2H",
+    "resistance": 28.84,
+    "first_low": 25.93,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SHAILY_2H": {
+    "symbol": "SHAILY",
+    "timeframe": "2H",
+    "resistance": 2956.0,
+    "first_low": 2630.8,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BHAGCHEM_2H": {
+    "symbol": "BHAGCHEM",
+    "timeframe": "2H",
+    "resistance": 298.0,
+    "first_low": 232.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MIDCAPETF_2H": {
+    "symbol": "MIDCAPETF",
+    "timeframe": "2H",
+    "resistance": 23.73,
+    "first_low": 22.11,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "SNXT50BETA_2H": {
+    "symbol": "SNXT50BETA",
+    "timeframe": "2H",
+    "resistance": 94.7,
+    "first_low": 87.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KINGFA_2H": {
+    "symbol": "KINGFA",
+    "timeframe": "2H",
+    "resistance": 5265.0,
+    "first_low": 4931.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KIRLOSIND_2H": {
+    "symbol": "KIRLOSIND",
+    "timeframe": "2H",
+    "resistance": 4016.1,
+    "first_low": 2941.9,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GLFL_2H": {
+    "symbol": "GLFL",
+    "timeframe": "2H",
+    "resistance": 6.39,
+    "first_low": 5.55,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "LENSKART_2H": {
+    "symbol": "LENSKART",
+    "timeframe": "2H",
+    "resistance": 525.65,
+    "first_low": 496.6,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KNAGRI_2H": {
+    "symbol": "KNAGRI",
+    "timeframe": "2H",
+    "resistance": 216.9,
+    "first_low": 172.15,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GROWWNXT50_2H": {
+    "symbol": "GROWWNXT50",
+    "timeframe": "2H",
+    "resistance": 73.65,
+    "first_low": 66.51,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "NLCINDIA_2H": {
+    "symbol": "NLCINDIA",
+    "timeframe": "2H",
+    "resistance": 328.9,
+    "first_low": 306.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GROWWPSUBK_2H": {
+    "symbol": "GROWWPSUBK",
+    "timeframe": "2H",
+    "resistance": 87.7,
+    "first_low": 81.99,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "RELIABLE_2H": {
+    "symbol": "RELIABLE",
+    "timeframe": "2H",
+    "resistance": 151.84,
+    "first_low": 112.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MIDCAP_2H": {
+    "symbol": "MIDCAP",
+    "timeframe": "2H",
+    "resistance": 18.55,
+    "first_low": 15.01,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "IMPAL_2H": {
+    "symbol": "IMPAL",
+    "timeframe": "2H",
+    "resistance": 1140.0,
+    "first_low": 1035.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "FINCABLES_2H": {
+    "symbol": "FINCABLES",
+    "timeframe": "2H",
+    "resistance": 1198.9,
+    "first_low": 961.8,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "PVTBANKADD_2H": {
+    "symbol": "PVTBANKADD",
+    "timeframe": "2H",
+    "resistance": 29.1,
+    "first_low": 25.72,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "V2RETAIL_2H": {
+    "symbol": "V2RETAIL",
+    "timeframe": "2H",
+    "resistance": 232.0,
+    "first_low": 214.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GHCLTEXTIL_2H": {
+    "symbol": "GHCLTEXTIL",
+    "timeframe": "2H",
+    "resistance": 101.8,
+    "first_low": 73.9,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MTARTECH_2H": {
+    "symbol": "MTARTECH",
+    "timeframe": "2H",
+    "resistance": 7840.0,
+    "first_low": 6180.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "DCBBANK_2H": {
+    "symbol": "DCBBANK",
+    "timeframe": "2H",
+    "resistance": 190.8,
+    "first_low": 170.8,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "RSL_2H": {
+    "symbol": "RSL",
+    "timeframe": "2H",
+    "resistance": 133.4,
+    "first_low": 124.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GROWWMOM50_2H": {
+    "symbol": "GROWWMOM50",
+    "timeframe": "2H",
+    "resistance": 11.1,
+    "first_low": 10.22,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "DATAMATICS_2H": {
+    "symbol": "DATAMATICS",
+    "timeframe": "2H",
+    "resistance": 838.0,
+    "first_low": 713.7,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "HBLENGINE_2H": {
+    "symbol": "HBLENGINE",
+    "timeframe": "2H",
+    "resistance": 843.0,
+    "first_low": 736.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "LGEINDIA_2H": {
+    "symbol": "LGEINDIA",
+    "timeframe": "2H",
+    "resistance": 1594.4,
+    "first_low": 1462.4,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "GROWW_2H": {
+    "symbol": "GROWW",
+    "timeframe": "2H",
+    "resistance": 208.49,
+    "first_low": 182.13,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "EVINDIA_2H": {
+    "symbol": "EVINDIA",
+    "timeframe": "2H",
+    "resistance": 32.18,
+    "first_low": 29.55,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "AFIL_2H": {
+    "symbol": "AFIL",
+    "timeframe": "2H",
+    "resistance": 11.1,
+    "first_low": 8.7,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "OILCOUNTUB_2H": {
+    "symbol": "OILCOUNTUB",
+    "timeframe": "2H",
+    "resistance": 61.8,
+    "first_low": 54.15,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "NEPHROPLUS_2H": {
+    "symbol": "NEPHROPLUS",
+    "timeframe": "2H",
+    "resistance": 700.0,
+    "first_low": 527.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "UMIYA-MRO_2H": {
+    "symbol": "UMIYA-MRO",
+    "timeframe": "2H",
+    "resistance": 94.53,
+    "first_low": 79.8,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MOMENTUM_2H": {
+    "symbol": "MOMENTUM",
+    "timeframe": "2H",
+    "resistance": 32.29,
+    "first_low": 29.53,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "AONETOTAL_2H": {
+    "symbol": "AONETOTAL",
+    "timeframe": "2H",
+    "resistance": 12.11,
+    "first_low": 10.96,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "STAR_2H": {
+    "symbol": "STAR",
+    "timeframe": "2H",
+    "resistance": 1124.0,
+    "first_low": 1072.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "KRN_2H": {
+    "symbol": "KRN",
+    "timeframe": "2H",
+    "resistance": 1305.0,
+    "first_low": 987.8,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "NGLFINE_2H": {
+    "symbol": "NGLFINE",
+    "timeframe": "2H",
+    "resistance": 3225.1,
+    "first_low": 2159.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "OLECTRA_2H": {
+    "symbol": "OLECTRA",
+    "timeframe": "2H",
+    "resistance": 1552.9,
+    "first_low": 1166.4,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BANCOINDIA_2H": {
+    "symbol": "BANCOINDIA",
+    "timeframe": "2H",
+    "resistance": 693.8,
+    "first_low": 565.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ASAL_2H": {
+    "symbol": "ASAL",
+    "timeframe": "2H",
+    "resistance": 539.65,
+    "first_low": 460.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "TFCILTD_2H": {
+    "symbol": "TFCILTD",
+    "timeframe": "2H",
+    "resistance": 79.8,
+    "first_low": 71.15,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MBAPL_2H": {
+    "symbol": "MBAPL",
+    "timeframe": "2H",
+    "resistance": 585.0,
+    "first_low": 523.85,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "EUROPRATIK_2H": {
+    "symbol": "EUROPRATIK",
+    "timeframe": "2H",
+    "resistance": 290.95,
+    "first_low": 242.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "TPLPLASTEH_2H": {
+    "symbol": "TPLPLASTEH",
+    "timeframe": "2H",
+    "resistance": 75.39,
+    "first_low": 61.27,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "LALPATHLAB_2H": {
+    "symbol": "LALPATHLAB",
+    "timeframe": "2H",
+    "resistance": 1706.1,
+    "first_low": 1500.1,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "VTL_2H": {
+    "symbol": "VTL",
+    "timeframe": "2H",
+    "resistance": 659.0,
+    "first_low": 570.25,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "AMANTA_2H": {
+    "symbol": "AMANTA",
+    "timeframe": "2H",
+    "resistance": 167.9,
+    "first_low": 114.05,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "PRECOT_2H": {
+    "symbol": "PRECOT",
+    "timeframe": "2H",
+    "resistance": 776.95,
+    "first_low": 531.55,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "BORORENEW_2H": {
+    "symbol": "BORORENEW",
+    "timeframe": "2H",
+    "resistance": 628.9,
+    "first_low": 485.45,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ONEPOINT_2H": {
+    "symbol": "ONEPOINT",
+    "timeframe": "2H",
+    "resistance": 59.45,
+    "first_low": 52.01,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "HDFCPVTBAN_2H": {
+    "symbol": "HDFCPVTBAN",
+    "timeframe": "2H",
+    "resistance": 29.57,
+    "first_low": 26.18,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "MOCAPITAL_2H": {
+    "symbol": "MOCAPITAL",
+    "timeframe": "2H",
+    "resistance": 57.15,
+    "first_low": 52.01,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ANTELOPUS_2H": {
+    "symbol": "ANTELOPUS",
+    "timeframe": "2H",
+    "resistance": 828.4,
+    "first_low": 721.25,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "3MINDIA_2H": {
+    "symbol": "3MINDIA",
+    "timeframe": "2H",
+    "resistance": 34545.0,
+    "first_low": 30790.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "INOXGREEN_2H": {
+    "symbol": "INOXGREEN",
+    "timeframe": "2H",
+    "resistance": 207.4,
+    "first_low": 165.11,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "AXISVALUE_2H": {
+    "symbol": "AXISVALUE",
+    "timeframe": "2H",
+    "resistance": 34.37,
+    "first_low": 31.97,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "CCL_2H": {
+    "symbol": "CCL",
+    "timeframe": "2H",
+    "resistance": 1236.2,
+    "first_low": 1044.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "ENGINERSIN_2H": {
+    "symbol": "ENGINERSIN",
+    "timeframe": "2H",
+    "resistance": 251.82,
+    "first_low": 220.0,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
+  },
+  "WEALTH_2H": {
+    "symbol": "WEALTH",
+    "timeframe": "2H",
+    "resistance": 1015.05,
+    "first_low": 870.2,
+    "status": "active",
+    "source": "regular",
+    "added_at": "2026-06-30 23:20:12",
+    "triggered_at": null
   }
 }
