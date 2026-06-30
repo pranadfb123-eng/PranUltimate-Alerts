@@ -4,10 +4,11 @@
     "timeframe": "2H",
     "resistance": 3970.0,
     "first_low": 3636.9,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-28 18:58:14",
-    "triggered_at": null
+    "triggered_at": "2026-06-30 17:10:16",
+    "trigger_close": 4000.0
   },
   "INDHOTEL_2H": {
     "symbol": "INDHOTEL",
@@ -104,10 +105,11 @@
     "timeframe": "2H",
     "resistance": 319.5,
     "first_low": 285.1,
-    "status": "active",
+    "status": "disabled",
     "source": "sp_stocks",
     "added_at": "2026-06-28 18:58:14",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-06-30 17:10:32"
   },
   "IDEAFORGE_1H": {
     "symbol": "IDEAFORGE",
@@ -204,10 +206,11 @@
     "timeframe": "1H",
     "resistance": 1953.6,
     "first_low": 1800.0,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-29 02:10:48",
-    "triggered_at": null
+    "triggered_at": "2026-06-30 17:10:49",
+    "trigger_close": 1980.0
   },
   "MOTILALOFS_1H": {
     "symbol": "MOTILALOFS",
@@ -224,10 +227,11 @@
     "timeframe": "1H",
     "resistance": 1068.0,
     "first_low": 1026.0,
-    "status": "active",
+    "status": "disabled",
     "source": "sp_stocks",
     "added_at": "2026-06-29 02:10:48",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-06-30 17:10:52"
   },
   "TRENT_1H": {
     "symbol": "TRENT",
@@ -254,10 +258,11 @@
     "timeframe": "1H",
     "resistance": 5749.0,
     "first_low": 4752.1,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-29 02:10:48",
-    "triggered_at": null
+    "triggered_at": "2026-06-30 17:10:58",
+    "trigger_close": 6410.0
   },
   "KNRCON_1H": {
     "symbol": "KNRCON",
@@ -274,10 +279,11 @@
     "timeframe": "1H",
     "resistance": 311.95,
     "first_low": 301.95,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-29 02:10:48",
-    "triggered_at": null
+    "triggered_at": "2026-06-30 17:11:02",
+    "trigger_close": 312.8
   },
   "RUBICON_1H": {
     "symbol": "RUBICON",
@@ -294,10 +300,11 @@
     "timeframe": "1H",
     "resistance": 2576.6,
     "first_low": 2412.4,
-    "status": "active",
+    "status": "disabled",
     "source": "sp_stocks",
     "added_at": "2026-06-29 02:10:48",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-06-30 17:11:05"
   },
   "IVALUE_1H": {
     "symbol": "IVALUE",
@@ -314,10 +321,11 @@
     "timeframe": "1H",
     "resistance": 431.7,
     "first_low": 406.05,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-29 02:10:48",
-    "triggered_at": null
+    "triggered_at": "2026-06-30 17:11:09",
+    "trigger_close": 439.95
   },
   "SHILCTECH_1H": {
     "symbol": "SHILCTECH",
@@ -354,10 +362,11 @@
     "timeframe": "1H",
     "resistance": 5019.3,
     "first_low": 4806.9,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-29 18:08:23",
-    "triggered_at": null
+    "triggered_at": "2026-06-30 17:11:16",
+    "trigger_close": 5052.0
   },
   "SWANDEF_1H": {
     "symbol": "SWANDEF",
