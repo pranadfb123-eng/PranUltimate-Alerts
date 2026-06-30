@@ -388,5 +388,25 @@
     "source": "sp_stocks",
     "added_at": "2026-06-29 18:08:23",
     "triggered_at": null
+  },
+  "WENDT_1H": {
+    "symbol": "WENDT",
+    "timeframe": "1H",
+    "resistance": 8420.0,
+    "first_low": 7850.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-30 17:59:58",
+    "triggered_at": null
+  },
+  "CARBORUNIV_1H": {
+    "symbol": "CARBORUNIV",
+    "timeframe": "1H",
+    "resistance": 1208.1,
+    "first_low": 902.0,
+    "status": "active",
+    "source": "sp_stocks",
+    "added_at": "2026-06-30 17:59:58",
+    "triggered_at": null
   }
 }
