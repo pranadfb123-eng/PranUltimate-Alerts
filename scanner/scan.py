@@ -85,9 +85,18 @@ def load_scanner_state():
             data = json.load(f)
         data.setdefault("sp", {})
         data.setdefault("regular", {})
+        # Migrate legacy graduated_daily → graduated[symbol][tf] structure
+        if "graduated_daily" in data and "graduated" not in data:
+            data["graduated"] = {
+                sym: {"1D": info}
+                for sym, info in data.pop("graduated_daily").items()
+            }
+        else:
+            data.pop("graduated_daily", None)
+        data.setdefault("graduated", {})
         return data
     except Exception:
-        return {"sp": {}, "regular": {}}
+        return {"sp": {}, "regular": {}, "graduated": {}}
 
 
 def save_scanner_state(state):
@@ -177,6 +186,56 @@ def publish_to_github():
 
     except Exception as e:
         log.warning(f"GitHub publish: skipped — {e}")
+        return False
+
+
+def publish_alerts_repo():
+    """
+    Commits and pushes server/alerts_state.json + server/results.json to the
+    PranUltimate-Alerts repo (the SEPARATE repo at the PranUltimate root —
+    not public/, which is its own independent git repo for GitHub Pages).
+
+    Run right after sync_alerts() so every new alert candidate added by a
+    scan is immediately pushed and available to the GitHub Actions checker,
+    with zero manual `git add/commit/push` needed.
+
+    Best-effort, same as publish_to_github(): logs a warning and returns
+    False on any failure rather than crashing the scan.
+    """
+    try:
+        import subprocess
+
+        repo_root = os.path.join(BASE_DIR, "..")  # PranUltimate/ root, NOT public/
+
+        def run(cmd):
+            return subprocess.run(
+                cmd, cwd=repo_root, capture_output=True, text=True, timeout=60
+            )
+
+        # Pull first so GitHub Actions' "Update alert state" commits don't
+        # cause a non-fast-forward rejection when we push.
+        pull = run(["git", "pull", "--rebase", "origin", "main"])
+        if pull.returncode != 0:
+            log.warning(f"Alerts repo publish: pull --rebase failed — {pull.stderr.strip()}")
+            # Don't abort — attempt the push anyway; worst case it fails too.
+
+        run(["git", "add", "server/alerts_state.json", "server/results.json"])
+        commit = run(["git", "commit", "-m",
+                      f"Update alerts/results — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"])
+        if commit.returncode != 0 and "nothing to commit" not in (commit.stdout + commit.stderr):
+            log.warning(f"Alerts repo publish: commit failed — {commit.stderr.strip()}")
+            return False
+
+        push = run(["git", "push", "origin", "main"])
+        if push.returncode != 0:
+            log.warning(f"Alerts repo publish: push failed — {push.stderr.strip()}")
+            return False
+
+        log.info("Pushed alerts_state.json + results.json to PranUltimate-Alerts repo.")
+        return True
+
+    except Exception as e:
+        log.warning(f"Alerts repo publish: skipped — {e}")
         return False
 WATCHLIST_PATH = os.path.join(BASE_DIR, "..", "server", "watchlist.json")
 SYMBOL_FILE    = os.path.join(BASE_DIR, "nse_symbols.txt")
@@ -636,6 +695,12 @@ def detect_signal(df, symbol, timeframe, daily_df=None):
     # First Low must not be DECISIVELY broken (a single recovering dip is OK).
     if first_low_decisively_broken(df, first_low, fl_pos, breakout_pos):
         return None, "First Low decisively broken"
+
+    # ── Range width cap: ceiling must not be more than 50% above first_low ──
+    # A wider range is a trend leg, not a consolidation box.
+    if first_low > 0 and (resistance - first_low) / first_low > 0.50:
+        pct_wide = round((resistance - first_low) / first_low * 100, 1)
+        return None, f"box too wide ({pct_wide}% range — max 50%)"
 
     range_candles = (len(df) - 1) - range_start
     cleanliness   = compute_cleanliness(df, touch_idx, fl_pos, range_start)
@@ -1512,7 +1577,40 @@ def run_scan():
                 if df is None or len(df) < 50:
                     continue
 
+                # ── Graduation guard: if this symbol sustained a prior
+                # breakout on this exact TF, skip it here. Only re-allow
+                # once the TF's candle low touches or crosses 200 EMA.
+                _grad = scanner_state["graduated"].get(symbol, {})
+                if tf in _grad:
+                    df_gi = add_indicators(df)
+                    last_gi = df_gi.iloc[-1]
+                    if float(last_gi["low"]) <= float(last_gi["ema200"]):
+                        log.info(f"  \u21ba {symbol} [{tf}]: 200 EMA touched "
+                                 f"\u2014 graduation reset, re-entering {tf}")
+                        del scanner_state["graduated"][symbol][tf]
+                        if not scanner_state["graduated"][symbol]:
+                            del scanner_state["graduated"][symbol]
+                        # Fall through to fresh detection below
+                    else:
+                        continue  # still graduated on this TF
+
                 category, payload = detect_signal(df, symbol, tf, daily_df=frames.get("1D"))
+
+                # ── Graduation: stale breakout on any TF → mark as sustained ──
+                if category is None and payload == "stale breakout":
+                    persisted_bo = scanner_state["regular"].get(symbol)
+                    if (persisted_bo
+                            and persisted_bo.get("status") == "breakout"
+                            and persisted_bo.get("tf") == tf):
+                        from datetime import datetime as _dt
+                        scanner_state["graduated"].setdefault(symbol, {})[tf] = {
+                            "graduated_date": _dt.now().strftime("%Y-%m-%d"),
+                            "resistance":     persisted_bo.get("resistance"),
+                        }
+                        scanner_state["regular"].pop(symbol, None)
+                        log.info(f"  \U0001f393 {symbol} [{tf}]: graduated "
+                                 f"\u2014 sustained breakout, lower TFs only")
+                        continue
 
                 if category is None:
                     # PERSISTED-ANCHOR RECOVERY (added 2026-06-29): fresh
@@ -1581,6 +1679,15 @@ def run_scan():
                     else:
                         breakout_results[tf].append(payload)
                         log.info(f"  ★ BREAKOUT: {symbol} [{tf}] — {payload['status']}")
+                        # Track breakout so it can be graduated once stale
+                        # (applies to all TFs: 1H, 2H, 3H, 4H, 1D)
+                        scanner_state["regular"][symbol] = {
+                            "tf":            tf,
+                            "anchor_date":   payload.get("anchor_date", ""),
+                            "status":        "breakout",
+                            "breakout_date": str(payload.get("timestamp", "")),
+                            "resistance":    payload.get("resistance"),
+                        }
                 elif category == "near_breakout":
                     near_breakout_results[tf].append(payload)
                     scanner_state["regular"][symbol] = {
@@ -1745,6 +1852,7 @@ def run_scan():
     save_scanner_state(scanner_state)
     publish_to_github()
     sync_alerts()
+    publish_alerts_repo()
 
     wl_path = write_watchlist(deduped_breakouts, near_breakout_results, OUTPUT_PATH)
     log.info(f"Watchlist saved to: {wl_path}")
@@ -1964,6 +2072,7 @@ def run_sp_only():
     log.info("(Timeframe tabs preserved from the last full scan, if any.)")
     publish_to_github()
     sync_alerts()
+    publish_alerts_repo()
     if errors:
         log.warning(f"{len(errors)} errors encountered (see scan.log for details)")
 
