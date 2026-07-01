@@ -1,6 +1,6 @@
 name: PranUltimate Alert Check
 
-# Runs ONLY at 1H/2H candle-close boundaries (NSE candles anchor to 9:15 IST
+# Runs at 1H/2H candle-close boundaries — re-registered 2026-07-01 (NSE candles anchor to 9:15 IST
 # open): 10:15, 11:15, 12:15, 13:15, 14:15, 15:15, 15:30 IST.
 # IST = UTC + 5:30, so each line below is the IST time minus 5:30.
 on:
