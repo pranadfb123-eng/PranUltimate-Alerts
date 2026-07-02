@@ -178,10 +178,11 @@
     "timeframe": "1H",
     "resistance": 4219.9,
     "first_low": 3855.0,
-    "status": "active",
+    "status": "disabled",
     "source": "sp_stocks",
     "added_at": "2026-06-28 18:58:14",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-02 07:28:21"
   },
   "SHAILY_1H": {
     "symbol": "SHAILY",
@@ -535,10 +536,11 @@
     "timeframe": "1H",
     "resistance": 580.0,
     "first_low": 502.85,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:28:48",
+    "trigger_close": 585.3
   },
   "BANDHANBNK_1H": {
     "symbol": "BANDHANBNK",
@@ -598,20 +600,22 @@
     "timeframe": "1H",
     "resistance": 2320.0,
     "first_low": 2251.2,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:28:53",
+    "trigger_close": 2342.9
   },
   "EICHERMOT_1H": {
     "symbol": "EICHERMOT",
     "timeframe": "1H",
     "resistance": 7168.5,
     "first_low": 6942.5,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:28:55",
+    "trigger_close": 7232.0
   },
   "MOHEALTH_1H": {
     "symbol": "MOHEALTH",
@@ -1194,10 +1198,11 @@
     "timeframe": "1H",
     "resistance": 443.4,
     "first_low": 363.95,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:29:59",
+    "trigger_close": 446.0
   },
   "KTKBANK_1H": {
     "symbol": "KTKBANK",
@@ -1255,10 +1260,11 @@
     "timeframe": "1H",
     "resistance": 102.0,
     "first_low": 95.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:30:08",
+    "trigger_close": 102.8
   },
   "GLOBAL_1H": {
     "symbol": "GLOBAL",
@@ -1540,10 +1546,11 @@
     "timeframe": "2H",
     "resistance": 6646.5,
     "first_low": 6535.5,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:30:48",
+    "trigger_close": 6678.5
   },
   "KAPSTON_2H": {
     "symbol": "KAPSTON",
@@ -1624,10 +1631,11 @@
     "timeframe": "2H",
     "resistance": 966.25,
     "first_low": 899.1,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:30:55",
+    "trigger_close": 975.15
   },
   "SMLMAH_2H": {
     "symbol": "SMLMAH",
@@ -1862,10 +1870,11 @@
     "timeframe": "2H",
     "resistance": 216.9,
     "first_low": 172.15,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:31:19",
+    "trigger_close": 219.01
   },
   "GROWWNXT50_2H": {
     "symbol": "GROWWNXT50",
@@ -1963,10 +1972,11 @@
     "timeframe": "2H",
     "resistance": 101.8,
     "first_low": 73.9,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:31:34",
+    "trigger_close": 102.48
   },
   "MTARTECH_2H": {
     "symbol": "MTARTECH",
@@ -2541,10 +2551,11 @@
     "timeframe": "1H",
     "resistance": 71.98,
     "first_low": 69.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:32:50",
+    "trigger_close": 72.39
   },
   "ENGINERSIN_1H": {
     "symbol": "ENGINERSIN",
@@ -2572,20 +2583,22 @@
     "timeframe": "1H",
     "resistance": 510.8,
     "first_low": 486.5,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:32:54",
+    "trigger_close": 515.5
   },
   "AYE_1H": {
     "symbol": "AYE",
     "timeframe": "1H",
     "resistance": 177.5,
     "first_low": 122.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:32:56",
+    "trigger_close": 180.04
   },
   "CNL_1H": {
     "symbol": "CNL",
@@ -2672,10 +2685,11 @@
     "timeframe": "1H",
     "resistance": 134.96,
     "first_low": 123.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:33:11",
+    "trigger_close": 137.59
   },
   "WELINV_1H": {
     "symbol": "WELINV",
@@ -2833,10 +2847,11 @@
     "timeframe": "2H",
     "resistance": 54.23,
     "first_low": 48.55,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:33:34",
+    "trigger_close": 54.28
   },
   "JLHL_2H": {
     "symbol": "JLHL",
@@ -2913,10 +2928,11 @@
     "timeframe": "2H",
     "resistance": 580.0,
     "first_low": 502.85,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:33:47",
+    "trigger_close": 581.1
   },
   "SPLPETRO_2H": {
     "symbol": "SPLPETRO",
@@ -2954,10 +2970,11 @@
     "timeframe": "2H",
     "resistance": 98.9,
     "first_low": 84.99,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:33:52",
+    "trigger_close": 99.32
   },
   "ARSSBL_2H": {
     "symbol": "ARSSBL",
@@ -3034,10 +3051,11 @@
     "timeframe": "2H",
     "resistance": 4640.9,
     "first_low": 3565.6,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 07:34:05",
+    "trigger_close": 4679.9
   },
   "SCHAEFFLER_2H": {
     "symbol": "SCHAEFFLER",
@@ -3275,9 +3293,10 @@
     "timeframe": "2H",
     "resistance": 5144.0,
     "first_low": 4806.9,
-    "status": "active",
+    "status": "disabled",
     "source": "sp_stocks",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-02 07:34:41"
   }
 }
