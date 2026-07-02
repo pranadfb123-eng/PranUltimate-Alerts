@@ -65,10 +65,11 @@
     "timeframe": "2H",
     "resistance": 414.55,
     "first_low": 360.05,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-28 18:58:14",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 12:25:30",
+    "trigger_close": 416.6
   },
   "SPORTKING_2H": {
     "symbol": "SPORTKING",
@@ -431,10 +432,11 @@
     "timeframe": "1H",
     "resistance": 214.23,
     "first_low": 202.6,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 12:26:02",
+    "trigger_close": 214.9
   },
   "SGFIN_1H": {
     "symbol": "SGFIN",
@@ -830,10 +832,11 @@
     "timeframe": "1H",
     "resistance": 39.67,
     "first_low": 37.07,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 12:26:33",
+    "trigger_close": 39.96
   },
   "AMBER_1H": {
     "symbol": "AMBER",
@@ -1139,10 +1142,11 @@
     "timeframe": "1H",
     "resistance": 2082.0,
     "first_low": 1695.2,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 12:27:10",
+    "trigger_close": 2085.0
   },
   "GOODLUCK_1H": {
     "symbol": "GOODLUCK",
@@ -1602,10 +1606,11 @@
     "timeframe": "2H",
     "resistance": 565.0,
     "first_low": 510.15,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 12:28:03",
+    "trigger_close": 567.2
   },
   "HAL_2H": {
     "symbol": "HAL",
@@ -2703,10 +2708,11 @@
     "timeframe": "1H",
     "resistance": 1868.1,
     "first_low": 1715.0,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-02 12:30:07"
   },
   "SINDHUTRAD_1H": {
     "symbol": "SINDHUTRAD",
@@ -2886,10 +2892,11 @@
     "timeframe": "2H",
     "resistance": 2770.0,
     "first_low": 2656.2,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 12:30:32",
+    "trigger_close": 2783.9
   },
   "CANFINHOME_2H": {
     "symbol": "CANFINHOME",
