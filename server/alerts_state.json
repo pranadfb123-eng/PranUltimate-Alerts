@@ -220,10 +220,11 @@
     "timeframe": "1H",
     "resistance": 961.9,
     "first_low": 883.0,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-29 02:10:48",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:51:33",
+    "trigger_close": 971.7
   },
   "INFY_1H": {
     "symbol": "INFY",
@@ -241,10 +242,11 @@
     "timeframe": "1H",
     "resistance": 3290.9,
     "first_low": 2991.4,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-29 02:10:48",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:51:35",
+    "trigger_close": 3301.8
   },
   "OMPOWER_1H": {
     "symbol": "OMPOWER",
@@ -387,10 +389,11 @@
     "timeframe": "1H",
     "resistance": 432.9,
     "first_low": 381.4,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-29 18:08:23",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:51:48",
+    "trigger_close": 438.2
   },
   "MCLEODRUSS_1H": {
     "symbol": "MCLEODRUSS",
@@ -458,10 +461,11 @@
     "timeframe": "1H",
     "resistance": 285.0,
     "first_low": 271.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:51:58",
+    "trigger_close": 286.15
   },
   "INNOVACAP_1H": {
     "symbol": "INNOVACAP",
@@ -541,10 +545,11 @@
     "timeframe": "1H",
     "resistance": 205.3,
     "first_low": 193.51,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:52:06",
+    "trigger_close": 206.32
   },
   "BBOX_1H": {
     "symbol": "BBOX",
@@ -664,10 +669,11 @@
     "timeframe": "1H",
     "resistance": 17.95,
     "first_low": 16.42,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:52:21",
+    "trigger_close": 18.0
   },
   "MARICO_1H": {
     "symbol": "MARICO",
@@ -727,10 +733,11 @@
     "timeframe": "1H",
     "resistance": 275.7,
     "first_low": 232.2,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:52:26",
+    "trigger_close": 280.15
   },
   "GLOTTIS_1H": {
     "symbol": "GLOTTIS",
@@ -808,10 +815,11 @@
     "timeframe": "1H",
     "resistance": 2117.1,
     "first_low": 2020.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:52:37",
+    "trigger_close": 2137.0
   },
   "FCL_1H": {
     "symbol": "FCL",
@@ -890,10 +898,11 @@
     "timeframe": "1H",
     "resistance": 316.95,
     "first_low": 267.3,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:52:47",
+    "trigger_close": 333.85
   },
   "RAJPALAYAM_1H": {
     "symbol": "RAJPALAYAM",
@@ -1215,10 +1224,11 @@
     "timeframe": "1H",
     "resistance": 595.8,
     "first_low": 453.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:53:39",
+    "trigger_close": 616.15
   },
   "FERMENTA_1H": {
     "symbol": "FERMENTA",
@@ -1306,10 +1316,11 @@
     "timeframe": "1H",
     "resistance": 1224.7,
     "first_low": 1137.8,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-02 04:53:55"
   },
   "SBCL_1H": {
     "symbol": "SBCL",
@@ -1497,10 +1508,11 @@
     "timeframe": "2H",
     "resistance": 1160.1,
     "first_low": 967.6,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:54:27",
+    "trigger_close": 1162.0
   },
   "LICHSGFIN_2H": {
     "symbol": "LICHSGFIN",
@@ -1643,10 +1655,11 @@
     "timeframe": "2H",
     "resistance": 344.0,
     "first_low": 333.15,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:54:40",
+    "trigger_close": 346.5
   },
   "JSWCEMENT_2H": {
     "symbol": "JSWCEMENT",
@@ -1715,10 +1728,11 @@
     "timeframe": "2H",
     "resistance": 43.5,
     "first_low": 42.86,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:54:48",
+    "trigger_close": 43.78
   },
   "GROWWRLTY_2H": {
     "symbol": "GROWWRLTY",
@@ -1816,10 +1830,11 @@
     "timeframe": "2H",
     "resistance": 4016.1,
     "first_low": 2941.9,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:55:03",
+    "trigger_close": 4073.8
   },
   "GLFL_2H": {
     "symbol": "GLFL",
@@ -2380,10 +2395,11 @@
     "timeframe": "1H",
     "resistance": 2499.8,
     "first_low": 2469.0,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-02 04:56:25"
   },
   "SIS_1H": {
     "symbol": "SIS",
@@ -2400,10 +2416,11 @@
     "timeframe": "1H",
     "resistance": 268.0,
     "first_low": 220.86,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:56:28",
+    "trigger_close": 272.95
   },
   "MEGASTAR_1H": {
     "symbol": "MEGASTAR",
@@ -2420,10 +2437,11 @@
     "timeframe": "1H",
     "resistance": 451.35,
     "first_low": 435.1,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:56:32",
+    "trigger_close": 454.9
   },
   "OCCLLTD_1H": {
     "symbol": "OCCLLTD",
@@ -2440,10 +2458,11 @@
     "timeframe": "1H",
     "resistance": 157.6,
     "first_low": 150.68,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:56:36",
+    "trigger_close": 160.72
   },
   "HYBRIDFIN_1H": {
     "symbol": "HYBRIDFIN",
@@ -2480,20 +2499,22 @@
     "timeframe": "1H",
     "resistance": 1834.9,
     "first_low": 1654.8,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:56:42",
+    "trigger_close": 1837.9
   },
   "ROSSTECH_1H": {
     "symbol": "ROSSTECH",
     "timeframe": "1H",
     "resistance": 980.85,
     "first_low": 811.3,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:56:44",
+    "trigger_close": 1012.0
   },
   "APCOTEXIND_1H": {
     "symbol": "APCOTEXIND",
@@ -2791,10 +2812,11 @@
     "timeframe": "2H",
     "resistance": 42.1,
     "first_low": 35.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:57:30",
+    "trigger_close": 42.3
   },
   "TINNARUBR_2H": {
     "symbol": "TINNARUBR",
@@ -2911,10 +2933,11 @@
     "timeframe": "2H",
     "resistance": 549.9,
     "first_low": 516.25,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:57:50",
+    "trigger_close": 551.0
   },
   "CARRARO_2H": {
     "symbol": "CARRARO",
@@ -3111,10 +3134,11 @@
     "timeframe": "2H",
     "resistance": 609.0,
     "first_low": 453.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 04:58:22",
+    "trigger_close": 621.25
   },
   "GVT&D_2H": {
     "symbol": "GVT&D",
