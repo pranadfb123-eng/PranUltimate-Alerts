@@ -881,10 +881,11 @@
     "timeframe": "1H",
     "resistance": 218.99,
     "first_low": 188.07,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 08:49:44",
+    "trigger_close": 219.05
   },
   "UMESLTD_1H": {
     "symbol": "UMESLTD",
@@ -1168,10 +1169,11 @@
     "timeframe": "1H",
     "resistance": 194.0,
     "first_low": 189.49,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-02 08:50:16"
   },
   "NIFTY100EW_1H": {
     "symbol": "NIFTY100EW",
@@ -1454,10 +1456,11 @@
     "timeframe": "1H",
     "resistance": 344.85,
     "first_low": 319.5,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 08:50:51",
+    "trigger_close": 345.85
   },
   "NIVABUPA_1H": {
     "symbol": "NIVABUPA",
@@ -1993,10 +1996,11 @@
     "timeframe": "2H",
     "resistance": 190.8,
     "first_low": 170.8,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 08:51:43",
+    "trigger_close": 192.29
   },
   "RSL_2H": {
     "symbol": "RSL",
@@ -2133,10 +2137,11 @@
     "timeframe": "2H",
     "resistance": 1124.0,
     "first_low": 1072.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 08:52:05",
+    "trigger_close": 1125.7
   },
   "KRN_2H": {
     "symbol": "KRN",
@@ -2395,10 +2400,11 @@
     "timeframe": "1H",
     "resistance": 79.81,
     "first_low": 73.3,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 08:52:43",
+    "trigger_close": 79.84
   },
   "ZFCVINDIA_1H": {
     "symbol": "ZFCVINDIA",
@@ -2531,10 +2537,11 @@
     "timeframe": "1H",
     "resistance": 520.0,
     "first_low": 494.6,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 08:52:55",
+    "trigger_close": 520.5
   },
   "ICICIAMC_1H": {
     "symbol": "ICICIAMC",
@@ -2816,10 +2823,11 @@
     "timeframe": "2H",
     "resistance": 432.0,
     "first_low": 353.8,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 08:53:31",
+    "trigger_close": 432.6
   },
   "ONIDA_2H": {
     "symbol": "ONIDA",
@@ -2960,10 +2968,11 @@
     "timeframe": "2H",
     "resistance": 547.75,
     "first_low": 532.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-02 08:53:47",
+    "trigger_close": 548.3
   },
   "TNPETRO_2H": {
     "symbol": "TNPETRO",
