@@ -1346,10 +1346,11 @@
     "timeframe": "1H",
     "resistance": 789.85,
     "first_low": 662.5,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-03 05:57:09",
+    "trigger_close": 791.0
   },
   "SHEMAROO_1H": {
     "symbol": "SHEMAROO",
@@ -2296,10 +2297,11 @@
     "timeframe": "2H",
     "resistance": 628.9,
     "first_low": 485.45,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-03 05:58:48",
+    "trigger_close": 630.5
   },
   "ONEPOINT_2H": {
     "symbol": "ONEPOINT",
