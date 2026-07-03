@@ -96,10 +96,11 @@
     "timeframe": "2H",
     "resistance": 1364.0,
     "first_low": 1115.0,
-    "status": "active",
+    "status": "disabled",
     "source": "sp_stocks",
     "added_at": "2026-06-28 18:58:14",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-03 07:45:41"
   },
   "CMSINFO_2H": {
     "symbol": "CMSINFO",
@@ -2247,10 +2248,11 @@
     "timeframe": "2H",
     "resistance": 75.39,
     "first_low": 61.27,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-03 07:48:54",
+    "trigger_close": 82.14
   },
   "LALPATHLAB_2H": {
     "symbol": "LALPATHLAB",
@@ -2267,10 +2269,11 @@
     "timeframe": "2H",
     "resistance": 659.0,
     "first_low": 570.25,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-03 07:48:58",
+    "trigger_close": 674.0
   },
   "AMANTA_2H": {
     "symbol": "AMANTA",
@@ -2348,10 +2351,11 @@
     "timeframe": "2H",
     "resistance": 34545.0,
     "first_low": 30790.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-03 07:49:11",
+    "trigger_close": 34830.0
   },
   "INOXGREEN_2H": {
     "symbol": "INOXGREEN",
@@ -2932,10 +2936,11 @@
     "timeframe": "2H",
     "resistance": 968.2,
     "first_low": 812.25,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-03 07:50:03",
+    "trigger_close": 971.15
   },
   "ARVINDFASN_2H": {
     "symbol": "ARVINDFASN",
