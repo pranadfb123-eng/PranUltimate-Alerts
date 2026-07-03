@@ -1746,10 +1746,11 @@
     "timeframe": "2H",
     "resistance": 24.65,
     "first_low": 22.94,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-03 12:25:04",
+    "trigger_close": 24.68
   },
   "NSLNISP_2H": {
     "symbol": "NSLNISP",
@@ -2509,10 +2510,11 @@
     "timeframe": "1H",
     "resistance": 20.48,
     "first_low": 18.78,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-03 12:26:35",
+    "trigger_close": 20.89
   },
   "UNIVCABLES_1H": {
     "symbol": "UNIVCABLES",
@@ -2637,10 +2639,11 @@
     "timeframe": "1H",
     "resistance": 769.7,
     "first_low": 600.2,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-03 12:26:43",
+    "trigger_close": 770.0
   },
   "ASTERDM_1H": {
     "symbol": "ASTERDM",
