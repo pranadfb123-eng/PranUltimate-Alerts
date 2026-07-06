@@ -35,10 +35,11 @@
     "timeframe": "2H",
     "resistance": 12650.0,
     "first_low": 10100.0,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-28 18:58:14",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:43:38",
+    "trigger_close": 13307.0
   },
   "PREMIERENE_2H": {
     "symbol": "PREMIERENE",
@@ -149,10 +150,11 @@
     "timeframe": "1H",
     "resistance": 194.2,
     "first_low": 179.65,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-28 18:58:14",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:43:50",
+    "trigger_close": 198.21
   },
   "MEIL_1H": {
     "symbol": "MEIL",
@@ -360,10 +362,11 @@
     "timeframe": "2H",
     "resistance": 307.95,
     "first_low": 295.0,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-29 18:08:23",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:44:05",
+    "trigger_close": 309.75
   },
   "AIAENG_1H": {
     "symbol": "AIAENG",
@@ -650,20 +653,22 @@
     "timeframe": "1H",
     "resistance": 6521.5,
     "first_low": 5500.5,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:44:16",
+    "trigger_close": 6590.0
   },
   "GUJTHEM_1H": {
     "symbol": "GUJTHEM",
     "timeframe": "1H",
     "resistance": 401.0,
     "first_low": 383.5,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-06 16:44:18"
   },
   "MENONBE_1H": {
     "symbol": "MENONBE",
@@ -1016,20 +1021,22 @@
     "timeframe": "1H",
     "resistance": 198.7,
     "first_low": 175.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:44:47",
+    "trigger_close": 201.6
   },
   "WINDMACHIN_1H": {
     "symbol": "WINDMACHIN",
     "timeframe": "1H",
     "resistance": 311.7,
     "first_low": 271.3,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:44:49",
+    "trigger_close": 320.0
   },
   "WALCHANNAG_1H": {
     "symbol": "WALCHANNAG",
@@ -1253,10 +1260,11 @@
     "timeframe": "1H",
     "resistance": 369.0,
     "first_low": 316.45,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:45:14",
+    "trigger_close": 390.25
   },
   "VIDYAWIRES_1H": {
     "symbol": "VIDYAWIRES",
@@ -1295,10 +1303,11 @@
     "timeframe": "1H",
     "resistance": 1957.9,
     "first_low": 1750.6,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:45:17",
+    "trigger_close": 2014.0
   },
   "KENNAMET_1H": {
     "symbol": "KENNAMET",
@@ -1585,10 +1594,11 @@
     "timeframe": "2H",
     "resistance": 410.0,
     "first_low": 333.4,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:45:47",
+    "trigger_close": 419.0
   },
   "VBL_2H": {
     "symbol": "VBL",
@@ -1953,10 +1963,11 @@
     "timeframe": "2H",
     "resistance": 1140.0,
     "first_low": 1035.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:46:14",
+    "trigger_close": 1210.0
   },
   "FINCABLES_2H": {
     "symbol": "FINCABLES",
@@ -2046,10 +2057,11 @@
     "timeframe": "2H",
     "resistance": 838.0,
     "first_low": 713.7,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:46:25",
+    "trigger_close": 849.0
   },
   "HBLENGINE_2H": {
     "symbol": "HBLENGINE",
@@ -2177,10 +2189,11 @@
     "timeframe": "2H",
     "resistance": 3225.1,
     "first_low": 2159.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:46:44",
+    "trigger_close": 3250.0
   },
   "OLECTRA_2H": {
     "symbol": "OLECTRA",
@@ -2217,10 +2230,11 @@
     "timeframe": "2H",
     "resistance": 79.8,
     "first_low": 71.15,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:46:51",
+    "trigger_close": 80.9
   },
   "MBAPL_2H": {
     "symbol": "MBAPL",
@@ -2281,10 +2295,11 @@
     "timeframe": "2H",
     "resistance": 167.9,
     "first_low": 114.05,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:46:55",
+    "trigger_close": 171.24
   },
   "PRECOT_2H": {
     "symbol": "PRECOT",
@@ -2521,10 +2536,11 @@
     "timeframe": "1H",
     "resistance": 1258.7,
     "first_low": 1154.0,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-06 16:47:14"
   },
   "NH_1H": {
     "symbol": "NH",
@@ -2670,10 +2686,11 @@
     "timeframe": "1H",
     "resistance": 1140.0,
     "first_low": 1029.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:47:22",
+    "trigger_close": 1210.0
   },
   "CHENNPETRO_1H": {
     "symbol": "CHENNPETRO",
@@ -2700,10 +2717,11 @@
     "timeframe": "1H",
     "resistance": 263.35,
     "first_low": 254.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:47:27",
+    "trigger_close": 270.2
   },
   "EVIETF_1H": {
     "symbol": "EVIETF",
@@ -2813,10 +2831,11 @@
     "timeframe": "1H",
     "resistance": 251.9,
     "first_low": 213.22,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:47:41",
+    "trigger_close": 259.5
   },
   "FIEMIND_1H": {
     "symbol": "FIEMIND",
@@ -2897,10 +2916,11 @@
     "timeframe": "2H",
     "resistance": 1459.6,
     "first_low": 1227.1,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:47:47",
+    "trigger_close": 1461.0
   },
   "MANAKALUCO_2H": {
     "symbol": "MANAKALUCO",
@@ -2960,10 +2980,11 @@
     "timeframe": "2H",
     "resistance": 194.4,
     "first_low": 175.75,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:47:53",
+    "trigger_close": 199.0
   },
   "ZYDUSWELL_2H": {
     "symbol": "ZYDUSWELL",
@@ -3024,10 +3045,11 @@
     "timeframe": "2H",
     "resistance": 571.0,
     "first_low": 508.0,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-06 16:47:56",
+    "trigger_close": 574.6
   },
   "GROWWCAPM_2H": {
     "symbol": "GROWWCAPM",
@@ -3319,10 +3341,11 @@
     "timeframe": "2H",
     "resistance": 539.95,
     "first_low": 504.6,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-06 16:48:35"
   },
   "MANKIND_2H": {
     "symbol": "MANKIND",
