@@ -15,10 +15,11 @@
     "timeframe": "2H",
     "resistance": 740.0,
     "first_low": 622.45,
-    "status": "active",
+    "status": "triggered",
     "source": "sp_stocks",
     "added_at": "2026-06-28 18:58:14",
-    "triggered_at": null
+    "triggered_at": "2026-07-07 13:26:03",
+    "trigger_close": 746.0
   },
   "OSWALPUMPS_2H": {
     "symbol": "OSWALPUMPS",
@@ -490,10 +491,11 @@
     "timeframe": "1H",
     "resistance": 10008.0,
     "first_low": 9420.5,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:26:38"
   },
   "GAYAPROJ_1H": {
     "symbol": "GAYAPROJ",
@@ -599,10 +601,11 @@
     "timeframe": "1H",
     "resistance": 282.0,
     "first_low": 268.5,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:26:40"
   },
   "STYRENIX_1H": {
     "symbol": "STYRENIX",
@@ -780,10 +783,11 @@
     "timeframe": "1H",
     "resistance": 69.18,
     "first_low": 66.4,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:26:50"
   },
   "ABSLNN50ET_1H": {
     "symbol": "ABSLNN50ET",
@@ -1074,10 +1078,11 @@
     "timeframe": "1H",
     "resistance": 735.8,
     "first_low": 622.45,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-07 13:27:16",
+    "trigger_close": 746.0
   },
   "MGEL_1H": {
     "symbol": "MGEL",
@@ -1239,10 +1244,11 @@
     "timeframe": "1H",
     "resistance": 77.73,
     "first_low": 75.0,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:27:35"
   },
   "RISHABH_1H": {
     "symbol": "RISHABH",
@@ -1671,10 +1677,11 @@
     "timeframe": "2H",
     "resistance": 4134.8,
     "first_low": 3860.0,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:28:08"
   },
   "NESTLEIND_2H": {
     "symbol": "NESTLEIND",
@@ -1923,10 +1930,11 @@
     "timeframe": "2H",
     "resistance": 328.9,
     "first_low": 306.1,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:28:28"
   },
   "GROWWPSUBK_2H": {
     "symbol": "GROWWPSUBK",
@@ -2306,10 +2314,11 @@
     "timeframe": "2H",
     "resistance": 776.95,
     "first_low": 531.55,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-06-30 23:20:12",
-    "triggered_at": null
+    "triggered_at": "2026-07-07 13:29:10",
+    "trigger_close": 781.0
   },
   "BORORENEW_2H": {
     "symbol": "BORORENEW",
@@ -2591,10 +2600,11 @@
     "timeframe": "1H",
     "resistance": 3486.0,
     "first_low": 3230.0,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:29:30"
   },
   "SHAHALLOYS_1H": {
     "symbol": "SHAHALLOYS",
@@ -2697,10 +2707,11 @@
     "timeframe": "1H",
     "resistance": 1172.9,
     "first_low": 1092.1,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:29:37"
   },
   "AIIL_1H": {
     "symbol": "AIIL",
@@ -2791,10 +2802,11 @@
     "timeframe": "1H",
     "resistance": 5485.5,
     "first_low": 5155.0,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:29:45"
   },
   "JAGSNPHARM_1H": {
     "symbol": "JAGSNPHARM",
@@ -2927,10 +2939,11 @@
     "timeframe": "2H",
     "resistance": 36.44,
     "first_low": 34.9,
-    "status": "active",
+    "status": "disabled",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": null,
+    "disabled_at": "2026-07-07 13:29:58"
   },
   "GRSE_2H": {
     "symbol": "GRSE",
@@ -3208,10 +3221,11 @@
     "timeframe": "2H",
     "resistance": 161.66,
     "first_low": 143.55,
-    "status": "active",
+    "status": "triggered",
     "source": "regular",
     "added_at": "2026-07-01 18:01:43",
-    "triggered_at": null
+    "triggered_at": "2026-07-07 13:30:28",
+    "trigger_close": 161.9
   },
   "RISHABH_2H": {
     "symbol": "RISHABH",
