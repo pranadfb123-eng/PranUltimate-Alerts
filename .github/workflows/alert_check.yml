@@ -1,18 +1,29 @@
 name: PranUltimate Alert Check
 
-# Runs at 1H/2H candle-close boundaries — re-registered 2026-07-01 (NSE candles anchor to 9:15 IST
-# open): 10:15, 11:15, 12:15, 13:15, 14:15, 15:15, 15:30 IST.
-# IST = UTC + 5:30, so each line below is the IST time minus 5:30.
+# FULLY DISABLED 2026-07-09: All runs moved to local Windows Task Scheduler (run_alerts.bat).
+# workflow_dispatch was left active after the schedule was commented out on 2026-07-06,
+# which allowed accidental after-hours GitHub Actions triggers that sent spurious
+# "Dhan token expired" Telegram alerts (the committed GH version lacked the local
+# market-hours guard). Disabling workflow_dispatch closes that gap.
+#
+# To restore GitHub Actions runs: uncomment the schedule: block AND workflow_dispatch below,
+# and ensure check_alerts.py (with its _in_market_hours() guard) is committed first.
+#
+# Original schedule (IST candle-close boundaries, IST = UTC + 5:30):
+# 10:15, 11:15, 12:15, 13:15, 14:15, 15:15, 15:30 IST
 on:
-  schedule:
-    - cron: "45 4 * * 1-5"
-    - cron: "45 5 * * 1-5"
-    - cron: "45 6 * * 1-5"
-    - cron: "45 7 * * 1-5"
-    - cron: "45 8 * * 1-5"
-    - cron: "45 9 * * 1-5"
-    - cron: "0 10 * * 1-5"
-  workflow_dispatch: {}
+  # schedule:
+  #   - cron: "45 4 * * 1-5"
+  #   - cron: "45 5 * * 1-5"
+  #   - cron: "45 6 * * 1-5"
+  #   - cron: "45 7 * * 1-5"
+  #   - cron: "45 8 * * 1-5"
+  #   - cron: "45 9 * * 1-5"
+  #   - cron: "0 10 * * 1-5"
+  # workflow_dispatch: {}   # DISABLED 2026-07-09 — see note above
+  push:
+    branches:
+      - __never_trigger__   # dummy trigger: workflow exists for documentation only
 
 jobs:
   check-alerts:
