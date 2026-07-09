@@ -417,13 +417,31 @@ def find_first_200ema_touch(df):
         if len(prior) < 5:
             continue
         above_count = (prior["close"] > prior["ema200"]).sum()
-        if above_count < len(prior) * 0.6:
-            continue
         prior_ema = prior["ema200"].replace(0, float("nan"))
         rel = ((prior["close"] - prior_ema) / prior_ema).median()
-        if not (rel >= ORIGIN_ABOVE_MARGIN):
+
+        if above_count >= len(prior) * 0.6 and rel >= ORIGIN_ABOVE_MARGIN:
+            candidates.append(i)
             continue
-        candidates.append(i)
+
+        # Immediate 20-candle window failed. This can happen legitimately when
+        # a stock made a SHARP correction toward the EMA — the descent itself
+        # contaminates the lookback with closes near/below the EMA, even though
+        # the prior uptrend is unmistakably real. Check the extended window
+        # (20–60 bars before the touch, i.e. the pre-correction zone). If that
+        # window shows a clear uptrend above EMA, the touch is still valid.
+        # Confirmed failure case: SILVERTUC 1H (uptrend to 212, sharp descent
+        # to 177/EMA, last 20 candles before touch all descending toward EMA).
+        ext_start   = max(0, i - 60)
+        ext_end     = max(0, i - 20)
+        extended    = df.iloc[ext_start:ext_end]
+        if len(extended) < 5:
+            continue
+        ext_above   = (extended["close"] > extended["ema200"]).sum()
+        ext_ema_col = extended["ema200"].replace(0, float("nan"))
+        ext_rel     = ((extended["close"] - ext_ema_col) / ext_ema_col).median()
+        if ext_above >= len(extended) * 0.6 and ext_rel >= ORIGIN_ABOVE_MARGIN:
+            candidates.append(i)
 
     if not candidates:
         return None
@@ -585,13 +603,34 @@ def get_swing_low(df, n=15):
     return float(below.min())
 
 
-def is_consolidating(df):
+# Maximum age (in candles) a 200 EMA touch is allowed to be for `is_consolidating`
+# to treat it as anchoring a CURRENT structure. Prevents ancient touches
+# (e.g. a 2021 weekly wick on IPCALAB) from claiming ownership of a modern
+# daily/intraday breakout via has_higher_tf_consolidation.
+#   1W : 104 candles = ~2 years of weekly bars
+#   1D : 500 candles = ~2 years of trading days
+#   4H/3H/2H/1H : history windows are smaller anyway, 250 candles is safe
+_MAX_TOUCH_AGE_CANDLES = {
+    "1W": 104,
+    "1D": 500,
+    "4H": 250,
+    "3H": 250,
+    "2H": 250,
+    "1H": 250,
+}
+
+
+def is_consolidating(df, timeframe=None):
     """
     SCANNER version. Uses the FIRST (oldest) 200-EMA touch of the current
     structure to anchor the box (so a long higher-TF consolidation isn't
     mistaken for a recent-dip box), and the relaxed "decisively broken"
     invalidation. Once a real breakout above the structure's ceiling has
     happened, it's no longer consolidating.
+
+    `timeframe` is used to enforce a recency cap on the 200 EMA touch:
+    a touch from more than _MAX_TOUCH_AGE_CANDLES[tf] bars ago is too
+    old to represent the current structure and is rejected.
     """
     if len(df) < 220:
         return False
@@ -601,6 +640,13 @@ def is_consolidating(df):
     touch_idx = find_first_200ema_touch(df)
     if touch_idx is None:
         return False
+    # Recency gate: reject stale anchors (e.g. a 2021 weekly wick on a
+    # stock whose current consolidation has nothing to do with that touch)
+    if timeframe is not None:
+        max_age = _MAX_TOUCH_AGE_CANDLES.get(timeframe, len(df))
+        touch_age = (len(df) - 1) - touch_idx
+        if touch_age > max_age:
+            return False
     first_low, fl_pos = find_first_low(df, touch_idx)
     box = build_range_box(df, fl_pos)
     if box is None:
@@ -645,7 +691,7 @@ def has_higher_tf_consolidation(frames, current_tf):
         df = frames.get(tf_label)
         if df is None or len(df) < 220:
             continue
-        if is_consolidating(df):
+        if is_consolidating(df, timeframe=tf_label):
             return tf_label
     return None
 
@@ -683,6 +729,12 @@ def detect_signal(df, symbol, timeframe, daily_df=None):
     if touch_idx is None:
         return None, "no 200 EMA touch"
 
+    # Recency gate: same cap used by is_consolidating — an ancient touch
+    # (e.g. IPCALAB's 2021 weekly wick) should not anchor a current signal.
+    _max_age = _MAX_TOUCH_AGE_CANDLES.get(timeframe, len(df))
+    if (len(df) - 1) - touch_idx > _max_age:
+        return None, f"200 EMA touch too old ({(len(df)-1)-touch_idx} candles ago, max {_max_age})"
+
     first_low, fl_pos = find_first_low(df, touch_idx)
     box = build_range_box(df, fl_pos)
     if box is None:
@@ -705,20 +757,30 @@ def detect_signal(df, symbol, timeframe, daily_df=None):
     range_candles = (len(df) - 1) - range_start
     cleanliness   = compute_cleanliness(df, touch_idx, fl_pos, range_start)
 
-    # ── Case 1: still inside the box — check for NEAR BREAKOUT ─────────────
+    # ── Case 1: still inside the box — NEAR BREAKOUT or WATCHING ──────────
     if breakout_pos is None:
         last  = df.iloc[-1]
         close = float(last["close"])
         if close <= 0 or resistance <= close:
             return None, "still consolidating"
         distance_pct = (resistance - close) / close * 100
-        if distance_pct > NEAR_BREAKOUT_PCT:
-            return None, f"still consolidating ({round(distance_pct, 1)}% from ceiling)"
+
+        # "WATCHING" = valid strict-origin setup, still in the box, but more
+        # than NEAR_BREAKOUT_PCT from the ceiling. Track it for alerts so we
+        # fire when it eventually breaks out (even if not yet "close"). This
+        # was the failure case for SILVERTUC 1H: valid uptrend → EMA touch →
+        # consolidation, but too far from ceiling to qualify as NEAR BREAKOUT,
+        # so it was silently dropped and no alert ever fired.
+        status_label = (
+            f"NEAR BREAKOUT ({round(distance_pct, 1)}%)"
+            if distance_pct <= NEAR_BREAKOUT_PCT
+            else f"WATCHING ({round(distance_pct, 1)}%)"
+        )
 
         return "near_breakout", {
             "symbol":        symbol,
             "timeframe":     timeframe,
-            "status":        f"NEAR BREAKOUT ({round(distance_pct, 1)}%)",
+            "status":        status_label,
             "distance_pct":  round(distance_pct, 1),
             "close":         round(close, 2),
             "resistance":    round(resistance, 2),
@@ -1535,8 +1597,9 @@ def run_scan():
     near_breakout_results = {tf: [] for tf in TIMEFRAMES}
     chop_results          = {tf: [] for tf in TIMEFRAMES}
     errors        = []
-    weekly_skipped = 0
-    no_data        = 0
+    weekly_skipped    = 0
+    liquidity_skipped = 0
+    no_data           = 0
     done = 0
     no_data_reason_logged = 0
     scanner_state = load_scanner_state()
@@ -1567,6 +1630,16 @@ def run_scan():
                     if last_w["close"] < last_w["ema200"] and last_w["ema20"] < last_w["ema200"]:
                         weekly_skipped += 1
                         continue
+
+            # ── Liquidity filter: skip stocks with < ₹5cr avg daily turnover ─
+            # df_1d is already in memory (Stage 1), so this costs zero extra
+            # API calls. Uses last 20 trading days of close × volume.
+            # Filters out thin small/mid-caps where breakout signals are noise
+            # and slippage would eat any theoretical edge.
+            _avg_turnover = (df_1d["close"] * df_1d["volume"]).tail(20).mean()
+            if _avg_turnover < 5_00_00_000:  # ₹5 crore
+                liquidity_skipped += 1
+                continue
 
             # ── Stage 2: the other 8 timeframes (3 more API calls) ──────────
             frames.update(dhan.get_remaining_timeframes(symbol))
@@ -1706,7 +1779,9 @@ def run_scan():
             if done % 200 == 0:
                 pct = round(done / total * 100, 1)
                 log.info(f"Progress: {done}/{total} ({pct}%) | "
-                         f"weekly-skipped={weekly_skipped} | no-data={no_data} | errors={len(errors)}")
+                         f"weekly-skipped={weekly_skipped} | "
+                         f"liquidity-skipped={liquidity_skipped} | "
+                         f"no-data={no_data} | errors={len(errors)}")
 
                 # Circuit breaker: if the token expires PARTWAY through a long
                 # run (Dhan tokens are time-limited to ~24h, and a full scan
@@ -1830,7 +1905,9 @@ def run_scan():
     total_near      = sum(len(v) for v in near_breakout_results.values())
     log.info(f"\nScan complete. {total_breakouts} confirmed breakouts, "
              f"{total_near} near-breakout candidates.")
-    log.info(f"weekly-filter excluded: {weekly_skipped} | no data: {no_data} | errors: {len(errors)}")
+    log.info(f"weekly-filter excluded: {weekly_skipped} | "
+             f"liquidity excluded (<₹5cr): {liquidity_skipped} | "
+             f"no data: {no_data} | errors: {len(errors)}")
 
     # ── SP Stocks: scan the manual watchlist across all timeframes ──────────
     sp_results = scan_sp_watchlist(dhan, errors)
@@ -1852,7 +1929,12 @@ def run_scan():
     save_scanner_state(scanner_state)
     publish_to_github()
     sync_alerts()
-    publish_alerts_repo()
+    # publish_alerts_repo() disabled — git pull --rebase was corrupting
+    # alerts_state.json by partially merging the remote (older) version into
+    # the freshly-written local file when the rebase conflicted.
+    # Alerts checking now runs via Windows Task Scheduler on the local file
+    # directly, so pushing to GitHub is not needed for alerts to work.
+    # publish_alerts_repo()
 
     wl_path = write_watchlist(deduped_breakouts, near_breakout_results, OUTPUT_PATH)
     log.info(f"Watchlist saved to: {wl_path}")
