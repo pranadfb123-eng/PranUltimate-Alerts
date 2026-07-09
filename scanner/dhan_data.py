@@ -161,7 +161,7 @@ class DhanData:
         """Full list of NSE equity symbols loaded from the Dhan security master."""
         return list(self._all_symbols)
 
-    def verify_connection(self, test_symbol="RELIANCE"):
+    def verify_connection(self, test_symbol="RELIANCE", retries=3, pause=3.0):
         """
         One quick real fetch to confirm the access token and connection are
         actually working BEFORE looping over the full universe. A bad token
@@ -169,17 +169,33 @@ class DhanData:
         only becomes visible after burning hours scanning thousands of
         symbols that all silently return "no data".
 
+        retries=3, pause=3.0: transient 401s from Dhan (brief API hiccups,
+        not actual token expiry) caused false "token expired" Telegram alerts.
+        We retry up to 3× before declaring a real failure, so a one-off
+        network or API blip doesn't wake the user unnecessarily.
+
         Returns (True, None) on success, or (False, reason_str) on failure.
         """
         sec_id = self.get_security_id(test_symbol)
         if not sec_id:
             return False, f"Could not resolve test symbol '{test_symbol}' in security master"
 
-        self._last_error = None
-        df = self._get_daily(sec_id, days_back=10)
-        if df is not None and len(df) > 0:
-            return True, None
-        return False, self._last_error or "Unknown failure (no data returned, no exception captured)"
+        last_error = None
+        for attempt in range(retries):
+            self._last_error = None
+            df = self._get_daily(sec_id, days_back=10)
+            if df is not None and len(df) > 0:
+                return True, None
+            last_error = self._last_error or "Unknown failure (no data returned)"
+            if attempt < retries - 1:
+                import logging as _log_mod
+                _log_mod.getLogger(__name__).info(
+                    f"verify_connection: attempt {attempt + 1}/{retries} failed "
+                    f"({last_error}) — retrying in {pause:.0f}s"
+                )
+                time.sleep(pause)
+
+        return False, last_error
 
     def get_daily_and_weekly(self, symbol, days_back=1750, retries=2, pause=0.25):
         """
