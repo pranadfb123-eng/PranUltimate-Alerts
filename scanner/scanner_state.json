@@ -20,7 +20,984 @@
       "origin_kind": "strict",
       "status": "consolidating",
       "breakout_date": null
+    },
+    "ACE": {
+      "tf": "1D",
+      "anchor_date": "2026-06-18 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "AIAENG": {
+      "tf": "2H",
+      "anchor_date": "2026-06-25 13:15:00",
+      "origin_kind": "fallback",
+      "status": "breakout",
+      "breakout_date": "2026-06-30 11:15:00"
+    },
+    "AJAXENGG": {
+      "tf": "1D",
+      "anchor_date": "2026-05-13 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "AMBUJACEM": {
+      "tf": "1W",
+      "anchor_date": "2023-01-29 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "ANANDRATHI": {
+      "tf": "2H",
+      "anchor_date": null,
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "ANGELONE": {
+      "tf": "1D",
+      "anchor_date": "2026-04-16 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "APOLLO": {
+      "tf": "1D",
+      "anchor_date": "2026-05-20 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "AVANTEL": {
+      "tf": "1D",
+      "anchor_date": "2026-05-18 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "AXISCADES": {
+      "tf": "1D",
+      "anchor_date": "2025-12-18 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "BANDHANBNK": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "BEL": {
+      "tf": "1D",
+      "anchor_date": "2025-12-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "BSE": {
+      "tf": "1D",
+      "anchor_date": "2026-04-09 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "CAMS": {
+      "tf": "1W",
+      "anchor_date": "2025-03-02 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "CARBORUNIV": {
+      "tf": "1H",
+      "anchor_date": "2026-04-17 10:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "CDSL": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "CERA": {
+      "tf": "1D",
+      "anchor_date": "2026-06-19 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "CMSINFO": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "COCHINSHIP": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "CRAFTSMAN": {
+      "tf": "1D",
+      "anchor_date": "2026-05-18 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "CRISIL": {
+      "tf": "1D",
+      "anchor_date": "2026-04-02 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "CRIZAC": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "DIXON": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "ELECON": {
+      "tf": "1W",
+      "anchor_date": "2026-01-18 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "FINPIPE": {
+      "tf": "1D",
+      "anchor_date": "2023-03-20 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "FORCEMOT": {
+      "tf": "1D",
+      "anchor_date": "2026-06-11 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "FOSECOIND": {
+      "tf": "1D",
+      "anchor_date": "2026-04-07 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "GMRAIRPORT": {
+      "tf": "1D",
+      "anchor_date": "2025-05-09 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "GMRP&UI": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "GRSE": {
+      "tf": "1D",
+      "anchor_date": "2026-04-13 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "HAL": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "HINDCOPPER": {
+      "tf": "1W",
+      "anchor_date": "2025-04-06 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "IDEA": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "IDEAFORGE": {
+      "tf": "1D",
+      "anchor_date": "2026-04-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "IKS": {
+      "tf": "1D",
+      "anchor_date": "2026-05-22 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "INDHOTEL": {
+      "tf": "1D",
+      "anchor_date": "2026-06-16 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "INDIGO": {
+      "tf": "1W",
+      "anchor_date": "2026-03-22 00:00:00",
+      "origin_kind": "strict",
+      "status": "breakout",
+      "breakout_date": "2026-06-14 00:00:00"
+    },
+    "INGERRAND": {
+      "tf": "1D",
+      "anchor_date": "2026-02-01 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "INOXINDIA": {
+      "tf": "1D",
+      "anchor_date": "2026-06-09 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "INOXWIND": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "IVALUE": {
+      "tf": "1H",
+      "anchor_date": "2026-06-16 10:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "JINDALSAW": {
+      "tf": "1D",
+      "anchor_date": "2026-05-22 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "JKIL": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "KIRLOSENG": {
+      "tf": "1H",
+      "anchor_date": "2026-06-30 09:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "KNRCON": {
+      "tf": "1D",
+      "anchor_date": "2026-03-27 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "KRYSTAL": {
+      "tf": "1D",
+      "anchor_date": "2026-01-08 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "LT": {
+      "tf": "1D",
+      "anchor_date": "2026-06-19 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "M&M": {
+      "tf": "1D",
+      "anchor_date": "2026-03-16 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "MAZDOCK": {
+      "tf": "1D",
+      "anchor_date": "2026-05-20 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "MBEL": {
+      "tf": "1H",
+      "anchor_date": "2026-06-25 15:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "MCLEODRUSS": {
+      "tf": "1H",
+      "anchor_date": "2026-04-27 09:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "MEIL": {
+      "tf": "2H",
+      "anchor_date": "2026-06-11 09:15:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "MOTILALOFS": {
+      "tf": "1H",
+      "anchor_date": "2026-06-12 14:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "OMPOWER": {
+      "tf": "1H",
+      "anchor_date": "2026-06-11 14:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "OSWALPUMPS": {
+      "tf": "1D",
+      "anchor_date": "2026-06-19 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "PNGSREVA": {
+      "tf": "2H",
+      "anchor_date": "2026-05-13 09:15:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "POLYCAB": {
+      "tf": "1D",
+      "anchor_date": "2026-06-02 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "PREMIERENE": {
+      "tf": "1D",
+      "anchor_date": "2026-03-23 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "RAIN": {
+      "tf": "1H",
+      "anchor_date": "2026-06-24 09:15:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "RATEGAIN": {
+      "tf": "1D",
+      "anchor_date": "2026-06-16 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "RKFORGE": {
+      "tf": "1D",
+      "anchor_date": "2026-04-09 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "RUBICON": {
+      "tf": "1H",
+      "anchor_date": "2026-06-05 14:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SALZERELEC": {
+      "tf": "1W",
+      "anchor_date": "2026-02-01 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SANDHAR": {
+      "tf": "1D",
+      "anchor_date": "2026-05-22 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SANGHVIMOV": {
+      "tf": "1D",
+      "anchor_date": "2026-06-16 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SHAILY": {
+      "tf": "1D",
+      "anchor_date": "2026-04-15 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SHAKTIPUMP": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SHILCTECH": {
+      "tf": "1H",
+      "anchor_date": "2026-06-17 10:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SHRIRAMFIN": {
+      "tf": "1D",
+      "anchor_date": "2026-06-11 00:00:00",
+      "origin_kind": "strict",
+      "status": "breakout",
+      "breakout_date": "2026-06-24 00:00:00"
+    },
+    "SMLMAH": {
+      "tf": "1W",
+      "anchor_date": "2025-02-23 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SOLARINDS": {
+      "tf": "1D",
+      "anchor_date": "2026-04-15 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SPORTKING": {
+      "tf": "1D",
+      "anchor_date": "2026-05-22 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SUVEN": {
+      "tf": "1D",
+      "anchor_date": "2026-06-08 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SUZLON": {
+      "tf": "1D",
+      "anchor_date": "2026-03-09 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SWANDEF": {
+      "tf": "1H",
+      "anchor_date": "2026-06-08 09:15:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "SWARAJENG": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "TAJGVK": {
+      "tf": "1W",
+      "anchor_date": "2026-03-22 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "TALBROAUTO": {
+      "tf": "1W",
+      "anchor_date": "2025-03-02 00:00:00",
+      "origin_kind": "strict",
+      "status": "breakout",
+      "breakout_date": "2026-06-21 00:00:00"
+    },
+    "TARIL": {
+      "tf": "1W",
+      "anchor_date": "2026-02-01 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "TATAINVEST": {
+      "tf": "1D",
+      "anchor_date": "2026-05-20 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "TDPOWERSYS": {
+      "tf": "1D",
+      "anchor_date": "2026-04-17 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "THANGAMAYL": {
+      "tf": "2H",
+      "anchor_date": "2026-06-02 11:15:00",
+      "origin_kind": "fallback",
+      "status": "breakout",
+      "breakout_date": "2026-06-30 11:15:00"
+    },
+    "TMCV": {
+      "tf": "1H",
+      "anchor_date": "2026-06-12 14:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "TMPV": {
+      "tf": "1D",
+      "anchor_date": "2026-04-09 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "TRANSRAILL": {
+      "tf": "1D",
+      "anchor_date": "2026-01-27 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "TRENT": {
+      "tf": "1H",
+      "anchor_date": "2026-06-17 10:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "UTLSOLAR": {
+      "tf": "1H",
+      "anchor_date": "2026-05-11 09:15:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "VENTIVE": {
+      "tf": "1D",
+      "anchor_date": "2026-03-30 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "VOLTAMP": {
+      "tf": "1W",
+      "anchor_date": "2025-03-02 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "VOLTAS": {
+      "tf": "1W",
+      "anchor_date": "2025-01-26 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "WEBELSOLAR": {
+      "tf": "1D",
+      "anchor_date": "2026-04-21 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "WENDT": {
+      "tf": "1H",
+      "anchor_date": "2026-06-29 15:15:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "WOCKPHARM": {
+      "tf": "1D",
+      "anchor_date": "2026-05-27 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "YESBANK": {
+      "tf": "1W",
+      "anchor_date": "2023-03-12 00:00:00",
+      "origin_kind": "strict",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "ZEEL": {
+      "tf": "1D",
+      "anchor_date": "2026-06-10 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
+    },
+    "ZENTEC": {
+      "tf": "1D",
+      "anchor_date": "2026-01-14 00:00:00",
+      "origin_kind": "fallback",
+      "status": "consolidating",
+      "breakout_date": null
     }
   },
-  "regular": {}
+  "regular": {
+    "AURUM": {
+      "tf": "1W",
+      "anchor_date": "",
+      "status": "breakout",
+      "breakout_date": "2026-06-14 00:00:00",
+      "resistance": 201.76
+    },
+    "TCI": {
+      "tf": "1W",
+      "anchor_date": "2026-05-17 00:00:00"
+    },
+    "GINNIFILA": {
+      "tf": "1W",
+      "anchor_date": "",
+      "status": "breakout",
+      "breakout_date": "2026-06-21 00:00:00",
+      "resistance": 46.45
+    },
+    "TEXINFRA": {
+      "tf": "1W",
+      "anchor_date": "2025-02-16 00:00:00"
+    },
+    "KAUSHALYA": {
+      "tf": "1W",
+      "anchor_date": "2026-03-15 00:00:00"
+    },
+    "UNIVASTU": {
+      "tf": "1W",
+      "anchor_date": "",
+      "status": "breakout",
+      "breakout_date": "2026-06-14 00:00:00",
+      "resistance": 83.9
+    },
+    "ALPL30IETF": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "NIF100BEES": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "THOMASCOTT": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "BHARATGEAR": {
+      "tf": "1W",
+      "anchor_date": "",
+      "status": "breakout",
+      "breakout_date": "2026-06-14 00:00:00",
+      "resistance": 123.36
+    },
+    "DODLA": {
+      "tf": "1W",
+      "anchor_date": "2026-03-15 00:00:00"
+    },
+    "NETF": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "TNIDETF": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "TAJGVK": {
+      "tf": "1W",
+      "anchor_date": "2026-03-22 00:00:00"
+    },
+    "INFOBEAN": {
+      "tf": "1W",
+      "anchor_date": "2026-03-08 00:00:00"
+    },
+    "SIRCA": {
+      "tf": "1W",
+      "anchor_date": "2026-03-22 00:00:00"
+    },
+    "BIOCON": {
+      "tf": "1W",
+      "anchor_date": "2024-10-27 00:00:00"
+    },
+    "CASTROLIND": {
+      "tf": "1W",
+      "anchor_date": "2025-01-26 00:00:00"
+    },
+    "ANANTRAJ": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "HINDPETRO": {
+      "tf": "1W",
+      "anchor_date": "2026-03-22 00:00:00"
+    },
+    "CIEINDIA": {
+      "tf": "1W",
+      "anchor_date": "2025-04-06 00:00:00"
+    },
+    "KSCL": {
+      "tf": "1W",
+      "anchor_date": "2026-03-01 00:00:00"
+    },
+    "INDIANHUME": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "IRB": {
+      "tf": "1W",
+      "anchor_date": "2025-09-21 00:00:00"
+    },
+    "GILLETTE": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "LINDEINDIA": {
+      "tf": "1W",
+      "anchor_date": "2025-03-30 00:00:00"
+    },
+    "APOLLOTYRE": {
+      "tf": "1W",
+      "anchor_date": "2025-03-02 00:00:00"
+    },
+    "IPCALAB": {
+      "tf": "1W",
+      "anchor_date": "",
+      "status": "breakout",
+      "breakout_date": "2026-06-28 00:00:00",
+      "resistance": 1678.3
+    },
+    "BAJAJFINSV": {
+      "tf": "1W",
+      "anchor_date": "2024-12-22 00:00:00"
+    },
+    "ITI": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "JSWENERGY": {
+      "tf": "1W",
+      "anchor_date": "2025-02-16 00:00:00"
+    },
+    "ABBOTINDIA": {
+      "tf": "1W",
+      "anchor_date": "2026-03-22 00:00:00"
+    },
+    "VBL": {
+      "tf": "1W",
+      "anchor_date": "2026-03-22 00:00:00"
+    },
+    "DMART": {
+      "tf": "1W",
+      "anchor_date": "2024-11-17 00:00:00"
+    },
+    "LICHSGFIN": {
+      "tf": "1W",
+      "anchor_date": "2025-03-02 00:00:00"
+    },
+    "OBEROIRLTY": {
+      "tf": "1W",
+      "anchor_date": "",
+      "status": "breakout",
+      "breakout_date": "2026-06-28 00:00:00",
+      "resistance": 1784.0
+    },
+    "GRAVITA": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "PENIND": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "MOIL": {
+      "tf": "1W",
+      "anchor_date": "2026-03-15 00:00:00"
+    },
+    "CDSL": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "CHOLAHLDNG": {
+      "tf": "1W",
+      "anchor_date": "2026-03-22 00:00:00"
+    },
+    "ICICIGI": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "PGEL": {
+      "tf": "1W",
+      "anchor_date": "2026-04-05 00:00:00"
+    },
+    "SHAKTIPUMP": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "APLAPOLLO": {
+      "tf": "1W",
+      "anchor_date": "2025-02-16 00:00:00"
+    },
+    "ABINFRA": {
+      "tf": "1W",
+      "anchor_date": "2026-06-07 00:00:00"
+    },
+    "PRAKASH": {
+      "tf": "1W",
+      "anchor_date": "2026-01-25 00:00:00"
+    },
+    "VMART": {
+      "tf": "1W",
+      "anchor_date": "2026-06-07 00:00:00"
+    },
+    "KALYANKJIL": {
+      "tf": "1W",
+      "anchor_date": "2026-01-25 00:00:00"
+    },
+    "REPCOHOME": {
+      "tf": "1W",
+      "anchor_date": "2025-03-09 00:00:00"
+    },
+    "NAZARA": {
+      "tf": "1W",
+      "anchor_date": "2024-10-20 00:00:00"
+    },
+    "ATULAUTO": {
+      "tf": "1W",
+      "anchor_date": "2025-03-16 00:00:00"
+    },
+    "NBCC": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "CAMS": {
+      "tf": "1W",
+      "anchor_date": "2025-03-02 00:00:00"
+    },
+    "TATACONSUM": {
+      "tf": "1W",
+      "anchor_date": "2024-12-15 00:00:00"
+    },
+    "JUBLPHARMA": {
+      "tf": "1W",
+      "anchor_date": "2026-03-08 00:00:00"
+    },
+    "VOLTAS": {
+      "tf": "1W",
+      "anchor_date": "2025-01-26 00:00:00"
+    },
+    "WSTCSTPAPR": {
+      "tf": "1W",
+      "anchor_date": "2025-03-02 00:00:00"
+    },
+    "FDC": {
+      "tf": "1W",
+      "anchor_date": "2026-05-17 00:00:00"
+    },
+    "KPIGREEN": {
+      "tf": "1W",
+      "anchor_date": "2026-03-08 00:00:00"
+    },
+    "BRITANNIA": {
+      "tf": "1W",
+      "anchor_date": "2025-03-02 00:00:00"
+    },
+    "POLICYBZR": {
+      "tf": "1W",
+      "anchor_date": "2026-03-08 00:00:00"
+    },
+    "METROBRAND": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "MEDPLUS": {
+      "tf": "1W",
+      "anchor_date": "2025-09-28 00:00:00"
+    },
+    "SETFNIFBK": {
+      "tf": "1W",
+      "anchor_date": "2025-10-12 00:00:00"
+    },
+    "ALPHA": {
+      "tf": "1W",
+      "anchor_date": "2025-04-06 00:00:00"
+    },
+    "COSMOFIRST": {
+      "tf": "1W",
+      "anchor_date": "2026-05-03 00:00:00"
+    },
+    "DCMSHRIRAM": {
+      "tf": "1W",
+      "anchor_date": "2024-10-06 00:00:00"
+    },
+    "CHALET": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "DRREDDY": {
+      "tf": "1W",
+      "anchor_date": "2025-04-06 00:00:00"
+    },
+    "EIHOTEL": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "ESCORTS": {
+      "tf": "1W",
+      "anchor_date": "2026-03-29 00:00:00"
+    },
+    "EPL": {
+      "tf": "1W",
+      "anchor_date": "2025-03-09 00:00:00"
+    }
+  },
+  "graduated": {}
 }

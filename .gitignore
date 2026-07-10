@@ -1,5 +1,8 @@
-public/ 
-intraday_config.json 
-__pycache__/ 
-*.pyc 
-node_modules/ 
+public/
+intraday_config.json
+alert_secrets.env
+report_secrets.env
+__pycache__/
+*.pyc
+node_modules/
+logs/

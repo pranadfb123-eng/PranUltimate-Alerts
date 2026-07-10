@@ -167,4 +167,8 @@ def check_alerts():
 
     _save_state(state)
     log.info(f"Check complete. {triggered_count} triggered, {disabled_count} disabled, "
-              f"{error_count} errors, {le
+              f"{error_count} errors, {len(active) - triggered_count - disabled_count - error_count} still holding.")
+
+
+if __name__ == "__main__":
+    check_alerts()

@@ -13,7 +13,7 @@ import requests
 import pandas as pd
 import time
 import difflib
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 BASE_URL = "https://api.dhan.co/v2"
 SCRIP_MASTER_URL = "https://images.dhan.co/api-data/api-scrip-master.csv"
@@ -45,9 +45,14 @@ RESAMPLE_RULE = {
     "4H":    "4h",
 }
 # How many days of history to pull per timeframe (need 200+ candles for EMA200)
+# 5min raised from 12 → 20: sparse/circuit-filter stocks (AAVAS, ROSSTECH, etc.)
+# had only 8-9 active trading days in 12 calendar days, giving as few as 130-150
+# 5min candles after the resample dropna removes empty buckets.  20 calendar days
+# (~14 trading days × 75 candles = ~1050) gives comfortable headroom even for
+# stocks with frequent circuit halts.
 DAYS_BACK = {
-    "5min": 12, "15min": 30, "30min": 30,
-    "45min": 45, "1H": 60, "2H": 90, "3H": 90, "4H": 90,
+    "5min": 20, "15min": 30, "30min": 40,
+    "45min": 55, "1H": 70, "2H": 90, "3H": 90, "4H": 90,
 }
 
 
@@ -327,7 +332,31 @@ class DhanData:
         except Exception as e:
             self._last_error = self._describe_error(e)
             return None
-        return self._parse(data)
+
+        df = self._parse(data)
+        if df is None:
+            return None
+
+        # Strip the currently-forming candle.
+        # Dhan always includes the live candle as the last row. Its timestamp is
+        # the candle's open time; it's "closed" only when now >= open + duration.
+        # Using a mid-candle close for entry/exit checks causes false signals
+        # (Butterfly: intrabar tick above resistance at 11:43 triggered a buy;
+        # the candle never actually closed above resistance).
+        if len(df) > 0:
+            _interval_min = int(interval)  # interval is the string "5", "15", or "60"
+            _IST = timezone(timedelta(hours=5, minutes=30))
+            _now = datetime.now(_IST)
+            _last_open = df.index[-1]
+            # df.index is already in IST (see _parse — timestamp offset +5:30 is applied)
+            # Make it timezone-aware for comparison
+            if _last_open.tzinfo is None:
+                _last_open = _last_open.tz_localize(_IST)
+            _candle_close_time = _last_open + timedelta(minutes=_interval_min)
+            if _now < _candle_close_time:
+                df = df.iloc[:-1]
+
+        return df
 
     def _get_daily(self, sec_id, days_back=500):
         to_date   = datetime.now()
