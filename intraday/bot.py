@@ -391,6 +391,23 @@ def find_200ema_touch(df, search_window=400, symbol="", tf=""):
         if above_count < len(prior) * 0.6:   # at least 60% of prior candles above
             continue
 
+        # Direction check: price must be rising (or flat) into the EMA touch, not
+        # falling sharply (crash). Compare close 15 candles before touch vs 5 candles
+        # before — if price dropped >3% in those 10 candles, it's a downtrend crash.
+        _pre_close  = float(df.iloc[max(0, i - 15)]["close"])
+        _near_close = float(df.iloc[max(0, i - 5)]["close"])
+        if _near_close < _pre_close * 0.97:  # price dropped >3% in the 10 candles before touch
+            continue
+
+        # Median comfort check: median close in the pre-touch window must be
+        # meaningfully above median EMA. If price was merely scraping along the EMA
+        # (within 1.5%), this was not a real uptrend pullback.
+        _prior_window = df.iloc[max(0, i - 20):i]
+        _median_close = float(_prior_window["close"].median())
+        _median_ema   = float(_prior_window["ema200"].median())
+        if _median_ema > 0 and _median_close < _median_ema * 1.015:  # within 1.5% of EMA = not a real uptrend
+            continue
+
         if symbol:
             _log_action(symbol, tf, "EMA_TOUCH_FOUND", {
                 "touch_idx": int(i),
@@ -424,11 +441,13 @@ def find_first_low(df, touch_idx):
     return fl_price, fl_pos
 
 
-def build_range_box(df, fl_pos):
+def build_range_box(df, touch_idx, fl_pos):
     """
     Build the consolidation BOX:
       Floor   = First Low (at fl_pos)
-      Ceiling = highest high reached AFTER the First Low, BEFORE any breakout
+      Ceiling = highest high from the EMA touch through the end of the box,
+                BEFORE any breakout.  This captures the true resistance formed
+                by the bounce peak / pre-dip highs, not just the post-FL segment.
 
     Then find the breakout point: the FIRST candle after the First Low that
     CLOSES above the running ceiling.
@@ -450,14 +469,14 @@ def build_range_box(df, fl_pos):
     if range_start >= n - 1:
         return None
 
-    # Walk forward from just after the First Low, tracking the running ceiling.
-    # The box ceiling = highest high seen so far in the range.
-    # Breakout = first candle whose CLOSE exceeds the ceiling established by
-    # the candles before it.
-    ceiling = float(df.iloc[range_start]["high"])
+    # Ceiling = max high across the FULL range from EMA touch to First Low.
+    # This captures the true resistance (bounce peak / pre-dip highs) not just
+    # the post-FL segment.  The forward walk then extends it only if later
+    # candles inside the box push to a new high (rare in a proper consolidation).
+    ceiling = float(df.iloc[touch_idx : fl_pos + 1]["high"].max())
     breakout_pos = None
 
-    for i in range(range_start + 1, n):
+    for i in range(range_start, n):
         row = df.iloc[i]
         # Did this candle CLOSE above the ceiling built from prior candles?
         if row["close"] > ceiling:
@@ -543,7 +562,7 @@ def detect_signal(df, symbol, timeframe):
     first_low, fl_pos = find_first_low(df, touch_idx)
 
     # ── STAGE 3: Build the box and locate the breakout point ────────────────
-    box = build_range_box(df, fl_pos)
+    box = build_range_box(df, touch_idx, fl_pos)
     if box is None:
         return None, "consolidation too brief (<3 candles)"
     resistance   = box["ceiling"]
@@ -1257,67 +1276,70 @@ def startup_gap_check(tv, watchlist_state):
                 # Re-run this check every startup so stale lower-TF tags are fixed
                 # before the live session begins.  Floor/ceiling/box_confirmed are
                 # left intact — only the TF label is updated.
-                _STARTUP_UPGRADEABLE = {"5min", "15min", "30min"}
+                # Climbs the full TF_LADDER until no touch is found at the next
+                # level — single-step check missed cases like KIMS (15→30→1H) and
+                # Travelfood (30→45→1H).
+                _STARTUP_UPGRADEABLE = {"5min", "15min", "30min", "45min"}
                 if tf in _STARTUP_UPGRADEABLE:
-                    _cur_tf_idx = TF_LADDER.index(tf)
-                    _next_tf = (
-                        TF_LADDER[_cur_tf_idx + 1]
-                        if _cur_tf_idx + 1 < len(TF_LADDER)
-                        else None
-                    )
-                    if _next_tf:
-                        _htf_lb_map = {
-                            "15min": 40,   # 5min  → 15min: ~40 candles (≈2 trading days)
-                            "30min": 16,   # 15min → 30min: ~16 candles (≈2 trading days)
-                            "45min": 12,   # 30min → 45min: ~12 candles (≈2 trading days)
-                        }
-                        _htf_lb = _htf_lb_map.get(_next_tf, 16)
-                        try:
+                    _htf_lb_map = {
+                        "15min": 40,   # 5min  → 15min: ~40 candles (≈2 trading days)
+                        "30min": 16,   # 15min → 30min: ~16 candles (≈2 trading days)
+                        "45min": 12,   # 30min → 45min: ~12 candles (≈2 trading days)
+                        "1H":     8,   # 45min → 1H:   ~8 candles  (≈2 trading days)
+                    }
+                    _cur_upgrade_tf = tf
+                    try:
+                        while True:
+                            _cur_idx = TF_LADDER.index(_cur_upgrade_tf)
+                            if _cur_idx >= len(TF_LADDER) - 1:
+                                break  # already at highest TF
+                            _next_tf = TF_LADDER[_cur_idx + 1]
+                            _htf_lb = _htf_lb_map.get(_next_tf, 16)
                             _df_htf_raw = fetch_hist(tv, symbol, _next_tf)
-                            if _df_htf_raw is not None and len(_df_htf_raw) >= 50:
-                                _df_htf_ind = add_indicators(_df_htf_raw)
-                                if len(_df_htf_ind) >= _htf_lb:
-                                    _touch_found = False
-                                    _n_htf = len(_df_htf_ind)
-                                    _window_start = _n_htf - _htf_lb
-                                    for _ci in range(_window_start, _n_htf):
-                                        _row = _df_htf_ind.iloc[_ci]
-                                        _ema = _row["ema200"]
-                                        if _ema == 0:
-                                            continue
-                                        if not (_row["low"] <= _ema <= _row["high"]):
-                                            continue
-                                        # Consolidation filter: skip if EMA was already
-                                        # inside range for 3+ of the 5 preceding candles
-                                        _consol_count = 0
-                                        for _j in range(max(0, _ci - 5), _ci):
-                                            _prow = _df_htf_ind.iloc[_j]
-                                            if _prow["low"] <= _prow["ema200"] <= _prow["high"]:
-                                                _consol_count += 1
-                                        if _consol_count >= 3:
-                                            continue
-                                        _touch_found = True
-                                        break
-                                    if _touch_found:
-                                        log.info(
-                                            f"  {symbol} [{tf}]: startup EMA-touch upgrade — "
-                                            f"{_next_tf} 200 EMA touch in last {_htf_lb} candles "
-                                            f"→ upgrading to [{_next_tf}] "
-                                            f"(floor/ceil/confirmed preserved)"
-                                        )
-                                        watchlist_state[symbol]["tf"] = _next_tf
-                                        _log_action(symbol, tf, "TF_UPGRADE_STARTUP",
-                                                    {"new_tf": _next_tf})
-                                        _send_bot_alert(
-                                            f"\U0001f53c <b>{symbol}</b>: startup TF upgrade "
-                                            f"[{tf}] → [{_next_tf}]\n"
-                                            f"Reason: {_next_tf} 200 EMA touched recently "
-                                            f"(startup re-check)"
-                                        )
-                        except Exception as _ema_e:
-                            log.warning(
-                                f"  {symbol}: startup EMA-upgrade check failed — {_ema_e}"
-                            )
+                            if _df_htf_raw is None or len(_df_htf_raw) < 50:
+                                break
+                            _df_htf_ind = add_indicators(_df_htf_raw)
+                            if len(_df_htf_ind) < _htf_lb:
+                                break
+                            _touch_found = False
+                            _n_htf = len(_df_htf_ind)
+                            _window_start = _n_htf - _htf_lb
+                            for _ci in range(_window_start, _n_htf):
+                                _row = _df_htf_ind.iloc[_ci]
+                                _ema = _row["ema200"]
+                                if _ema == 0:
+                                    continue
+                                if not (_row["low"] <= _ema <= _row["high"]):
+                                    continue
+                                # Consolidation filter: skip if EMA was already
+                                # inside range for 3+ of the 5 preceding candles
+                                _consol_count = 0
+                                for _j in range(max(0, _ci - 5), _ci):
+                                    _prow = _df_htf_ind.iloc[_j]
+                                    if _prow["low"] <= _prow["ema200"] <= _prow["high"]:
+                                        _consol_count += 1
+                                if _consol_count >= 3:
+                                    continue
+                                _touch_found = True
+                                break
+                            if _touch_found:
+                                log.info(
+                                    f"  {symbol} [{_cur_upgrade_tf}]: startup EMA-touch upgrade — "
+                                    f"{_next_tf} 200 EMA touch in last {_htf_lb} candles "
+                                    f"→ upgrading to [{_next_tf}] "
+                                    f"(floor/ceil/confirmed preserved)"
+                                )
+                                _log_action(symbol, _cur_upgrade_tf, "TF_UPGRADE_STARTUP",
+                                            {"new_tf": _next_tf})
+                                _cur_upgrade_tf = _next_tf  # upgrade and keep checking
+                            else:
+                                break  # no touch at next level, stop here
+                        if _cur_upgrade_tf != tf:
+                            watchlist_state[symbol]["tf"] = _cur_upgrade_tf
+                    except Exception as _ema_e:
+                        log.warning(
+                            f"  {symbol}: startup EMA-upgrade check failed — {_ema_e}"
+                        )
         except Exception as e:
             log.error(f"  {symbol}: gap-check error — {e}")
         time.sleep(0.3)
@@ -1493,7 +1515,6 @@ def run():
                     log.info(f"    ↑ {sym}: upgrading [{_cur_tf}] → [{tf}] "
                              f"(Chartink hit on higher TF)")
                     _log_action(sym, _cur_tf, "TF_UPGRADE_CHARTINK", {"new_tf": tf})
-                    _send_bot_alert(f"🔼 <b>{sym}</b>: upgraded [{_cur_tf}] → [{tf}]\nReason: Chartink hit on higher TF")
                     watchlist_state[sym] = {
                         "tf":                 tf,
                         "floor":              None,
@@ -1726,7 +1747,6 @@ def run():
                                                      "ema200_old_tf": float(last["ema200"]),
                                                      "new_tf": _htf,
                                                      "ema200_new_tf": _ema200_h})
-                                        _send_bot_alert(f"🔼 <b>{symbol}</b>: ceiling ₹{ceiling:.2f} valid on [{_htf}]\nUpgraded from [{tf}]")
                                         _upgraded = True
                                         break
                                 if not _upgraded:
@@ -1993,7 +2013,7 @@ def run():
                             touch_idx = find_200ema_touch(df_ind, symbol=symbol, tf=tf)
                             if touch_idx is not None:
                                 first_low, fl_pos = find_first_low(df_ind, touch_idx)
-                                box = build_range_box(df_ind, fl_pos)
+                                box = build_range_box(df_ind, touch_idx, fl_pos)
                                 if box is not None and box["breakout_pos"] is None:
                                     # Higher-TF consolidation guard: block box confirmation
                                     # if a higher TF is already consolidating — that TF
@@ -2014,57 +2034,63 @@ def run():
                                     # This catches cases where the higher-TF Chartink
                                     # screener didn't fire (candle-containment criteria
                                     # not met) but the EMA touch is visible in price data.
-                                    _cur_tf_idx = TF_LADDER.index(tf) if tf in TF_LADDER else -1
-                                    _next_tf = (
-                                        TF_LADDER[_cur_tf_idx + 1]
-                                        if 0 <= _cur_tf_idx < len(TF_LADDER) - 1
-                                        else None
-                                    )
-                                    if _next_tf:
-                                        # Lookback in higher-TF candles ≈ 2 trading days
-                                        _htf_lb_map = {
-                                            "15min": 40,   # 5min → 15min: ~40 candles
-                                            "30min": 16,   # 15min → 30min: ~16 candles
-                                            "45min": 12,   # 30min → 45min: ~12 candles
-                                            "1H":     8,   # 45min → 1H:   ~8 candles
-                                        }
+                                    # Climb the full TF_LADDER until no touch is found at
+                                    # the next level — single-step check missed cases like
+                                    # KIMS (15→30→1H) and Travelfood (30→45→1H).
+                                    _htf_lb_map = {
+                                        "15min": 40,   # 5min → 15min: ~40 candles
+                                        "30min": 16,   # 15min → 30min: ~16 candles
+                                        "45min": 12,   # 30min → 45min: ~12 candles
+                                        "1H":     8,   # 45min → 1H:   ~8 candles
+                                    }
+                                    _cur_upgrade_tf = tf
+                                    while True:
+                                        _cur_idx = TF_LADDER.index(_cur_upgrade_tf) if _cur_upgrade_tf in TF_LADDER else -1
+                                        if _cur_idx < 0 or _cur_idx >= len(TF_LADDER) - 1:
+                                            break  # unknown TF or already at highest
+                                        _next_tf = TF_LADDER[_cur_idx + 1]
                                         _htf_lb = _htf_lb_map.get(_next_tf, 16)
                                         _df_htf_raw = fetch_hist(tv, symbol, _next_tf)
-                                        if _df_htf_raw is not None and len(_df_htf_raw) >= 50:
-                                            _df_htf_ind = add_indicators(_df_htf_raw)
-                                            if len(_df_htf_ind) >= _htf_lb:
-                                                _recent_htf = _df_htf_ind.iloc[-_htf_lb:]
-                                                # Primary: candle range contains the 200 EMA
-                                                _ema_wick = (
-                                                    (_recent_htf["low"] <= _recent_htf["ema200"]) &
-                                                    (_recent_htf["ema200"] <= _recent_htf["high"])
-                                                ).any()
-                                                # Secondary: price crossed through the 200 EMA
-                                                # (close went from one side to the other)
-                                                _above_ema  = _recent_htf["close"] > _recent_htf["ema200"]
-                                                _ema_cross  = (_above_ema != _above_ema.shift(1)).any()
-                                                if _ema_wick or _ema_cross:
-                                                    _touch_type = "wick" if _ema_wick else "close-cross"
-                                                    log.info(
-                                                        f"  {symbol} [{tf}]: recent {_next_tf} 200 EMA "
-                                                        f"touch detected ({_touch_type}, last {_htf_lb} "
-                                                        f"candles) — upgrading to [{_next_tf}] "
-                                                        f"before box confirm"
-                                                    )
-                                                    _log_action(symbol, tf, "TF_UPGRADE_EMA_TOUCH",
-                                                                {"new_tf":           _next_tf,
-                                                                 "touch_type":       _touch_type,
-                                                                 "lookback_candles": _htf_lb})
-                                                    _send_bot_alert(f"\U0001f53c <b>{symbol}</b>: upgraded [{tf}] → [{_next_tf}]\nReason: {_next_tf} 200 EMA touched recently")
-                                                    watchlist_state[symbol].update({
-                                                        "tf":                 _next_tf,
-                                                        "floor":              None,
-                                                        "ceiling":            None,
-                                                        "box_confirmed":      False,
-                                                        "box_confirmed_date": None,
-                                                    })
-                                                    time.sleep(1.0)
-                                                    return
+                                        if _df_htf_raw is None or len(_df_htf_raw) < 50:
+                                            break
+                                        _df_htf_ind = add_indicators(_df_htf_raw)
+                                        if len(_df_htf_ind) < _htf_lb:
+                                            break
+                                        _recent_htf = _df_htf_ind.iloc[-_htf_lb:]
+                                        # Primary: candle range contains the 200 EMA
+                                        _ema_wick = (
+                                            (_recent_htf["low"] <= _recent_htf["ema200"]) &
+                                            (_recent_htf["ema200"] <= _recent_htf["high"])
+                                        ).any()
+                                        # Secondary: price crossed through the 200 EMA
+                                        # (close went from one side to the other)
+                                        _above_ema  = _recent_htf["close"] > _recent_htf["ema200"]
+                                        _ema_cross  = (_above_ema != _above_ema.shift(1)).any()
+                                        if _ema_wick or _ema_cross:
+                                            _touch_type = "wick" if _ema_wick else "close-cross"
+                                            log.info(
+                                                f"  {symbol} [{_cur_upgrade_tf}]: recent {_next_tf} 200 EMA "
+                                                f"touch detected ({_touch_type}, last {_htf_lb} "
+                                                f"candles) — upgrading to [{_next_tf}] "
+                                                f"before box confirm"
+                                            )
+                                            _log_action(symbol, _cur_upgrade_tf, "TF_UPGRADE_EMA_TOUCH",
+                                                        {"new_tf":           _next_tf,
+                                                         "touch_type":       _touch_type,
+                                                         "lookback_candles": _htf_lb})
+                                            _cur_upgrade_tf = _next_tf  # upgrade and keep checking
+                                        else:
+                                            break  # no touch at next level, stop here
+                                    if _cur_upgrade_tf != tf:
+                                        watchlist_state[symbol].update({
+                                            "tf":                 _cur_upgrade_tf,
+                                            "floor":              None,
+                                            "ceiling":            None,
+                                            "box_confirmed":      False,
+                                            "box_confirmed_date": None,
+                                        })
+                                        time.sleep(1.0)
+                                        return
 
                                     watchlist_state[symbol].update({
                                         "floor":              first_low,
@@ -2130,40 +2156,3 @@ def run():
                 df   = add_indicators(df)
                 if len(df) == 0:
                     continue
-                last = df.iloc[-1]
-                _exit_ema8 = last.get("ema8")
-                if _exit_ema8 is None or pd.isna(_exit_ema8):
-                    continue
-
-                # Exit: last closed candle below 8 EMA
-                if last["close"] < last["ema8"]:
-                    log.info(f"\n  \U0001f4c9 EXIT: {symbol} | "
-                             f"close ₹{round(float(last['close']),2)} < "
-                             f"8EMA ₹{round(float(last['ema8']),2)}")
-                    # Cancel existing SL order before placing market sell
-                    sl_oid = pos.get("sl_order_id")
-                    if sl_oid and not cfg["paper_trading"]:
-                        dhan.cancel_order(sl_oid)
-                    dhan.place_order(symbol, pos["quantity"], "SELL")
-                    pm.close(symbol, float(last["close"]), "8_EMA_EXIT")
-
-            except Exception as e:
-                log.error(f"  Exit monitor error {symbol}: {e}")
-
-        time.sleep(30)   # main loop: check every 30 seconds
-
-    # ── End of session summary ───────────────────────────────────────────────
-    total_pnl   = round(sum(t["pnl"] for t in pm.trades), 2)
-    win_trades  = [t for t in pm.trades if t["pnl"] > 0]
-    lose_trades = [t for t in pm.trades if t["pnl"] <= 0]
-    log.info("\n" + "=" * 60)
-    log.info(f"SESSION COMPLETE")
-    log.info(f"Total trades : {len(pm.trades)}")
-    log.info(f"Winners      : {len(win_trades)}")
-    log.info(f"Losers       : {len(lose_trades)}")
-    log.info(f"Total P&L    : ₹{total_pnl}")
-    log.info("=" * 60)
-    pm._save()
-
-if __name__ == "__main__":
-    run()

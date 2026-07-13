@@ -44,10 +44,13 @@ RESAMPLE_RULE = {
     "3H":    "3h",
     "4H":    "4h",
 }
-# How many days of history to pull per timeframe (need 200+ candles for EMA200)
+# How many days of history to pull per timeframe (need 200+ candles for EMA200).
+# 2H/3H/4H require 180 days: 90 days only yields ~186 3H and ~139 4H candles
+# (both below the 220-candle minimum), causing 3H/4H signals to never fire.
+# 180 days gives ~372 3H and ~279 4H candles — safely above the gate.
 DAYS_BACK = {
     "5min": 12, "15min": 30, "30min": 30,
-    "45min": 45, "1H": 60, "2H": 90, "3H": 90, "4H": 90,
+    "45min": 45, "1H": 60, "2H": 180, "3H": 180, "4H": 180,
 }
 
 
@@ -273,8 +276,11 @@ class DhanData:
             frames["15min"] = df15
             frames["45min"] = self._resample(df15, "45min")
 
-        # Native 60-min (90 days satisfies 1H/2H/3H/4H)
-        df60 = _fetch("60", 90)
+        # Native 60-min — 180 days required so 3H/4H resample clears the
+        # 220-candle minimum. 90 days only yielded ~186 3H and ~139 4H
+        # candles, both below 220, so 3H/4H signals never fired.
+        # 180 days gives ~372 3H and ~279 4H candles — safely above the gate.
+        df60 = _fetch("60", 180)
         if df60 is not None:
             frames["1H"] = df60
             frames["2H"] = self._resample(df60, "2h")
