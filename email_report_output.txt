@@ -1,0 +1,6 @@
+2026-07-08 23:26:00,073  Generating report for 2026-07-08
+2026-07-08 23:26:00,074  Reading log: C:\Users\prana\PranUltimate\intraday\bot_2026-07-08.log
+2026-07-08 23:26:00,645  Parsed: 21 trades (4W/16L), 2785 skips, P&L \u20b9-15,341.34
+2026-07-08 23:26:00,653  Sending to pranadfb123@gmail.com via Gmail SMTP...
+2026-07-08 23:26:04,496  \u2713 Email sent: PranUltimate 08 Jul | 21 trades | 4W/16L | P&L \u20b9-15,341
+Exit code: 0 

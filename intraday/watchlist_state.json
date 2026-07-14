@@ -1,0 +1,7010 @@
+{
+  "KIRLOSIND": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "BANARISUG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "SANDUMA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "MSUMI": {
+    "tf": "1H",
+    "floor": 39.47,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "SCANSTL": {
+    "tf": "5min",
+    "floor": 38.4,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "TRACXN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "SELMC": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "ABINFRA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "TIJARIA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "FILATFASH": {
+    "tf": "5min",
+    "floor": 0.18,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "IFBAGRO": {
+    "tf": "15min",
+    "floor": 902.1,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "RPTECH": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "HCG": {
+    "tf": "15min",
+    "floor": 615.15,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "HMVL": {
+    "tf": "15min",
+    "floor": 88.15,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "TPLPLASTEH": {
+    "tf": "15min",
+    "floor": 70.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SIL": {
+    "tf": "15min",
+    "floor": 15.36,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "GROWWPOWER": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "LAL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "GOYALALUM": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "ANTGRAPHIC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "TPHQ": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "MOIPO": {
+    "tf": "5min",
+    "floor": 44.8,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "INDOWIND": {
+    "tf": "1H",
+    "floor": 9.03,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "BALAJITELE": {
+    "tf": "15min",
+    "floor": 86.85,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "UCOBANK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "SML100CASE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "HDFCLOWVOL": {
+    "tf": "15min",
+    "floor": 20.15,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "AIIL": {
+    "tf": "1H",
+    "floor": 499.0,
+    "ceiling": 521.9,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "WALCHANNAG": {
+    "tf": "1H",
+    "floor": 236.8,
+    "ceiling": 268.7,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "LICNMID100": {
+    "tf": "30min",
+    "floor": 61.61,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "TEXMOPIPES": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "LANCORHOL": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "MID150": {
+    "tf": "1H",
+    "floor": 22.56,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "LOWVOL1": {
+    "tf": "30min",
+    "floor": 20.53,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "VAISHALI": {
+    "tf": "1H",
+    "floor": 7.16,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "INFOMEDIA": {
+    "tf": "1H",
+    "floor": 5.41,
+    "ceiling": null,
+    "box_confirmed": true,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": "2026-06-30"
+  },
+  "SVPGLOB": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "VERTOZ": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-06-30",
+    "box_confirmed_date": null
+  },
+  "STLTECH": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "APCL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "PLAZACABLE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "LEMERITE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RPPL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ASHOKAMET": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SIMBHALS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NDL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "KANANIIND": {
+    "tf": "30min",
+    "floor": 1.52,
+    "ceiling": 1.6,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-02"
+  },
+  "NIFTYFMCG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ITDC": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GOKUL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "MSPL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RADIANTCMS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "BIRLAPREC": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "HPAL": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "INDBANK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "DAMODARIND": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GROWWRAIL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "KOHINOOR": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ECAPINSURE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "USK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "MFML": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYQLITY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ASHIMASYN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "HCL-INSYS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "HATHWAY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GREENPOWER": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "BCG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "CELEBRITY": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "COMFINTE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "EMPOWER": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYMEDIA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ISGEC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ASIANHOTNR": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "WELSPUNLIV": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ELIN": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SINCLAIR": {
+    "tf": "1H",
+    "floor": 74.51,
+    "ceiling": 78.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "PROZONER": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GFLLIMITED": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "UGARSUGAR": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NETWORK18": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "UNITEDPOLY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GEEKAYWIRE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GOLDENTOBC": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ATL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RKDL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "JPPOWER": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "LEXUS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "PATINTLOG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GTL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "VARDMNPOLY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "LAKPRE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "OSIAHYPER": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SNOWMAN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "AGROPHOS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GAYAPROJ": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ACCURACY": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "PRAKASHSTL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SUNDARAM": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GATECHDVR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTY200QUALITY30": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYGROWSECT15": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTY50VALUE30": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYGS10YR": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "BHARATCOAL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "DEN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "IRB": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "AKG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ASMS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "BTML": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "TRU": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "MKPL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "JBCHEPHARM": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "VEDPOWER": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SAMPANN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RAJTV": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "HLVLTD": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SALASAR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYMIDLIQ15": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "DBCORP": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RENUKA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ARCHIES": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RADIOCITY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ASTRON": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYM150QLTY50": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GRANDOAK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "AMJLAND": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "IOB": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "HEALTHADD": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "VASCONEQ": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "KMSUGAR": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "HEALTHY": {
+    "tf": "15min",
+    "floor": 16.52,
+    "ceiling": 16.72,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-02"
+  },
+  "NIFTYHEALTHCARE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NETWEB": {
+    "tf": "1H",
+    "floor": 4386.0,
+    "ceiling": 4940.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HINDWAREAP": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "BVCL": {
+    "tf": "1H",
+    "floor": 41.0,
+    "ceiling": 41.56,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-02"
+  },
+  "SPENCERS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "VINEETLAB": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "BANK10ADD": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RANASUG": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "EASEMYTRIP": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RAJSREESUG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NECCLTD": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "MUKANDLTD": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "DHANBANK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RHETAN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ENERGYDEV": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GENUSPAPER": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "DHRUV": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SHARDUL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "HYBRIDFIN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "MIRZAINT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "MORARJEE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SPLIL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "EQUIPPP": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "DNAMEDIA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "AERONEU": {
+    "tf": "1H",
+    "floor": 86.32,
+    "ceiling": 93.7,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "AMDIND": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "RAMASTEEL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "PRUDMOULI": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "FIBERWEB": {
+    "tf": "30min",
+    "floor": 30.04,
+    "ceiling": 30.9,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-02"
+  },
+  "CAPTRUST": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYGS10YRCLN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "CHEMCON": {
+    "tf": "30min",
+    "floor": 181.7,
+    "ceiling": 198.59,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "TFL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GATECH": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "HEALTHCARE": {
+    "tf": "15min",
+    "floor": 20.81,
+    "ceiling": 21.1,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-02"
+  },
+  "WILLAMAGOR": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYOILANDGAS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "MANGALAM": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "KSR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "BAGFILMS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "MEDICO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ATLANTAA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "CENTEXT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SABEVENTS": {
+    "tf": "30min",
+    "floor": 7.98,
+    "ceiling": 8.49,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-02"
+  },
+  "SHRADHA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "CENTRUM": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "COFFEEDAY": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "PATELENG": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "COMPUSOFT": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "IBULLSLTD": {
+    "tf": "5min",
+    "floor": 27.45,
+    "ceiling": 28.2,
+    "box_confirmed": true,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": "2026-07-02"
+  },
+  "MTEDUCARE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "KIRIINDUS": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "ESSENTIA": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "TECILCHEM": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "GAYAHWS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYGS813YR": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYGS48YR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYGSCOMPSITE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "TNTELE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "SJS": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NSLNISP": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "LTGILTCASE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "FLEXIADD": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NEXT30ADD": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "JYOTISTRUC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-01",
+    "box_confirmed_date": null
+  },
+  "NIFTYSML250MQ100": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTYCONSURDURBL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTYPVTBANK": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY100": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY50TR2XLEV": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY50PR2XLEV": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTYPSUBANK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "LUMAXIND": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "PFIZER": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "PRIVISCL": {
+    "tf": "45min",
+    "floor": 3505.5,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "FACT": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "DMCC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "ONGC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY50PR1XINV": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY50TR1XINV": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "KITEX": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "AEROENTER": {
+    "tf": "1H",
+    "floor": 115.4,
+    "ceiling": 127.29,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "BSL": {
+    "tf": "1H",
+    "floor": 125.61,
+    "ceiling": 130.95,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-08"
+  },
+  "ARKADE": {
+    "tf": "15min",
+    "floor": 124.85,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "RUCHIRA": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "ANDHRAPAP": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "BIGBLOC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTYMIDSMLHLTH": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTYMULTIINFRA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "CNXPSE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "TATACAP": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "MIDQ50ADD": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "BALMLAWRIE": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "IITL": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "RHFL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY200MOMENTM30": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTYTOP10EW": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "GPIL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "ORTEL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "TIMKEN": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "MANGLMCEM": {
+    "tf": "15min",
+    "floor": 896.4,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "CNXENERGY": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "HDIL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "VENTIVE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIMBSPROJ": {
+    "tf": "1H",
+    "floor": 201.0,
+    "ceiling": 216.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "LICMFGOLD": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY500MOMENTM50": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTYMS400MQ100": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "KMEW": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "RELCHEMQ": {
+    "tf": "1H",
+    "floor": 127.4,
+    "ceiling": 134.95,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-09"
+  },
+  "SETUINFRA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "BANKNIFTY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "IL&FSENGG": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "SHRENIK": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "CNXINFRA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "SITINET": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "SYNGENE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "HERANBA": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY50VALUE20": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "BLUEDART": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "LINCOLN": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "NIFTY200ALPHA30": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "RKSWAMY": {
+    "tf": "45min",
+    "floor": 100.01,
+    "ceiling": 114.9,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-03"
+  },
+  "NIFTYMETAL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "ALIVUS": {
+    "tf": "30min",
+    "floor": 1116.1,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ICEMAKE": {
+    "tf": "1H",
+    "floor": 762.0,
+    "ceiling": 790.95,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "EMSLIMITED": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "PROSTARM": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "COCKERILL": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "LIQUIDSBI": {
+    "tf": "1H",
+    "floor": 999.99,
+    "ceiling": 1000.01,
+    "box_confirmed": true,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": "2026-07-06"
+  },
+  "BANKNIFTY1": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-02",
+    "box_confirmed_date": null
+  },
+  "OFSS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "NIFTYCAPITALMKT": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "POLICYBZR": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "FRACTAL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "BAJAJST": {
+    "tf": "1H",
+    "floor": 390.0,
+    "ceiling": 422.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": "2026-07-08"
+  },
+  "NTPC": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "AURUM": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "GICHSGFIN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "FEL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "WCIL": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "BFINVEST": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "WELENT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "GNFC": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "EQUITASBNK": {
+    "tf": "15min",
+    "floor": 75.57,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "FLFL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "ARSHIYA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "SANWARIA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "LIBERTSHOE": {
+    "tf": "45min",
+    "floor": 262.1,
+    "ceiling": 266.65,
+    "box_confirmed": true,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "PINELABS": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "NIFTYCPSE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "ABSLLIQUID": {
+    "tf": "1H",
+    "floor": 999.99,
+    "ceiling": 1000.01,
+    "box_confirmed": true,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": "2026-07-03"
+  },
+  "HSBCGOLD": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "RAJESHEXPO": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "MRPL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "BHARATGEAR": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "DHARAN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "NIFTYMIDSELECT": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "KICL": {
+    "tf": "15min",
+    "floor": 5321.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SHRIPISTON": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "BBOX": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "GUJALKALI": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "FEDERALBNK": {
+    "tf": "30min",
+    "floor": 323.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NIFTYCOMMODITIES": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "LINDEINDIA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "WELINV": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "NIFTYMICROCAP250": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "VOLTAS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "GLOBUSSPR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "CNXNIFTYJUNIOR": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "CNXMIDCAP": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "NIFTYMIDCAP150": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "KRYSTAL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "ICICIB22": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "MANAKSIA": {
+    "tf": "1H",
+    "floor": 57.64,
+    "ceiling": 60.99,
+    "box_confirmed": true,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "CNXIT": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "MAHASTEEL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "BATLIBOI": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "NATCOPHARM": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "BLS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "NIFTYFINSERVICE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "SKMEGGPROD": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "CNXMNC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "NIFTYINDIAMFG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "MAKEINDIA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-03",
+    "box_confirmed_date": null
+  },
+  "NIFTYMIDCAP50": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "UTLSOLAR": {
+    "tf": "5min",
+    "floor": 338.5,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "KANSAINER": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "NIITLTD": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "FCONSUMER": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "NIFTYALPHA50": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "GILLETTE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "PGEL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "VAML": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "EDUCOMP": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "PGHL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "BANDHANBNK": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "TATASTEEL": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "HMT": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "BGLOBAL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "TEXRAIL": {
+    "tf": "30min",
+    "floor": 110.03,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "BAJAJHFL": {
+    "tf": "1H",
+    "floor": 86.8,
+    "ceiling": 89.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-13"
+  },
+  "KSHINTL": {
+    "tf": "30min",
+    "floor": 848.0,
+    "ceiling": 896.7,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "MARICO": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "RITES": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "COMPINFO": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "ANKITMETAL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "TANLA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "SWIGGY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "ELECON": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "GUFICBIO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "NIFTYDIVOPPS50": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "GOODLUCK": {
+    "tf": "15min",
+    "floor": 1440.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "TARSONS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "ARVIND": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "MARKOLINES": {
+    "tf": "1H",
+    "floor": 162.55,
+    "ceiling": 176.33,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "BERGEPAINT": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "TMPV": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "DEEPAKFERT": {
+    "tf": "1H",
+    "floor": 1510.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "TRENT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "UJJIVANSFB": {
+    "tf": "15min",
+    "floor": 59.22,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NIFTYINDDIGITAL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "NAVINFLUOR": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "SFL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "COCHINSHIP": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "TIPSMUSIC": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "EMAMILTD": {
+    "tf": "30min",
+    "floor": 405.05,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "DIL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "REFEX": {
+    "tf": "1H",
+    "floor": 332.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SBISILVER": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "SILVERBETA": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "SILVERADD": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "HDFCSILVER": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "NIFTYINDDEFENCE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "QUADFUTURE": {
+    "tf": "45min",
+    "floor": 409.05,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "MODEFENCE": {
+    "tf": "1H",
+    "floor": 100.26,
+    "ceiling": 105.37,
+    "box_confirmed": true,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "IGIL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "SAIL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "NIFTYTATA25CAP": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "PIXTRANS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "NIFTYGS15YRPLUS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "MEDANTA": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "IOC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "SIGMAADV": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "KIRLPNU": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "KPRMILL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "GAIL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-06",
+    "box_confirmed_date": null
+  },
+  "NIFTYMIDSMALLCAP400": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "CPPLUS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "ADANIENT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "BEL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "GOLD1": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTYCHEMICALS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "SHRINGARMS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "RML": {
+    "tf": "15min",
+    "floor": 1227.1,
+    "ceiling": 1253.4,
+    "box_confirmed": true,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HINDZINC": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "OPTIEMUS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "ABFRL": {
+    "tf": "1H",
+    "floor": 58.31,
+    "ceiling": 62.55,
+    "box_confirmed": true,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "KTKBANK": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "CNXSMALLCAP": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "ANTELOPUS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "GANDHAR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "TBOTEK": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "ACMESOLAR": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTY100LIQ15": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "JSWINFRA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTY100EQLWGT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "BORORENEW": {
+    "tf": "30min",
+    "floor": 587.5,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "FELDVR": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "MAZDOCK": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "PHOENIXLTD": {
+    "tf": "15min",
+    "floor": 2013.4,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "POLYMED": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "GARUDA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "PACEDIGITK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "HEXAGON": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "UNIPARTS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTY500MULTICAP": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "ICICIBANK": {
+    "tf": "30min",
+    "floor": 1375.9,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "JNKINDIA": {
+    "tf": "15min",
+    "floor": 472.35,
+    "ceiling": 530.95,
+    "box_confirmed": true,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NIFTYMULTIMFG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTYSMALLCAP50": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTY500": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTYLARGEMID250": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTYTOTALMKT": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "JYOTHYLAB": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "CNXPHARMA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "SUNPHARMA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "PIIND": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTYSMALLCAP250": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "HERITGFOOD": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "BHARATBOND-APR30": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "NIFTY50EQLWGT": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": null
+  },
+  "CAPLIPOINT": {
+    "tf": "30min",
+    "floor": 2501.6,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-07",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NESCO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "CNXREALTY": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "JSWCEMENT": {
+    "tf": "30min",
+    "floor": 133.8,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "LICI": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "TVSSCS": {
+    "tf": "30min",
+    "floor": 134.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "IL&FSTRANS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "GRASIM": {
+    "tf": "1H",
+    "floor": 3093.1,
+    "ceiling": 3153.5,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "AMRUTANJAN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "BAJAJFINSV": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "NIFTY200": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "DCAL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "CEREBRAINT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "EUROPRATIK": {
+    "tf": "15min",
+    "floor": 305.55,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NIFTYALPHALOWVOL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "INDHOTEL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "NIFTYGS1115YR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "BLSE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "NIFTYSERVSECTOR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "NIFTYAUTO": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "NIFTY100LOWVOL30": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "CHOICEIN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "KALYANKJIL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "YATRA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "GOLDBETA": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "CIEINDIA": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "SHILPAMED": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "NESTLEIND": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "ABLBL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "AARTIIND": {
+    "tf": "15min",
+    "floor": 477.05,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HDFCBANK": {
+    "tf": "15min",
+    "floor": 806.95,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NIFTYFINSRV2550": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "CDSL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "ABREL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "GHCLTEXTIL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "SOTL": {
+    "tf": "15min",
+    "floor": 541.1,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "WABAG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "LEMONTREE": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "BHARATBOND-APR31": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "NIFTYINDTOURISM": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "LUPIN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "UNITDSPR": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "DELHIVERY": {
+    "tf": "15min",
+    "floor": 498.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "DYNAMATECH": {
+    "tf": "1H",
+    "floor": 10181.0,
+    "ceiling": 10735.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HCLTECH": {
+    "tf": "15min",
+    "floor": 1121.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "TAJGVK": {
+    "tf": "15min",
+    "floor": 344.85,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "GREENPLY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "QUESS": {
+    "tf": "30min",
+    "floor": 240.59,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "PAYTM": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "IIFL": {
+    "tf": "15min",
+    "floor": 513.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "REDINGTON": {
+    "tf": "15min",
+    "floor": 275.1,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "PRESTIGE": {
+    "tf": "15min",
+    "floor": 1617.8,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "KAJARIACER": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "GALAPREC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "GULFOILLUB": {
+    "tf": "30min",
+    "floor": 1025.8,
+    "ceiling": 1054.8,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-09"
+  },
+  "RATEGAIN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "APLLTD": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "VMART": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "PRICOLLTD": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "ARSSBL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "SANGHVIMOV": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "LTF": {
+    "tf": "30min",
+    "floor": 309.4,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ITCHOTELS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "NIFTYCONSUMPTION": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "AUBANK": {
+    "tf": "30min",
+    "floor": 1033.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "DLF": {
+    "tf": "30min",
+    "floor": 630.75,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "MAYURUNIQ": {
+    "tf": "45min",
+    "floor": 805.6,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SPANDANA": {
+    "tf": "15min",
+    "floor": 287.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "IKIO": {
+    "tf": "15min",
+    "floor": 178.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "CMPDI": {
+    "tf": "30min",
+    "floor": 255.25,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "TORNTPHARM": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "NYKAA": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "ABBOTINDIA": {
+    "tf": "15min",
+    "floor": 26125.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "UFBL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "BAJAJCON": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "LTFOODS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "MOREALTY": {
+    "tf": "15min",
+    "floor": 86.81,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "MOREPENLAB": {
+    "tf": "15min",
+    "floor": 58.42,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "APOLLOHOSP": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "XPROINDIA": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": null
+  },
+  "RAYMONDREL": {
+    "tf": "15min",
+    "floor": 654.2,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-08",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "INDSWFTLAB": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "J&KBANK": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "BHARTIHEXA": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "PWL": {
+    "tf": "15min",
+    "floor": 119.68,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "LLOYDSME": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "NIFTYM150MOMNTM50": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "GIPCL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "SCHNEIDER": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "HDFCSML250": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "SHK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "AUROPHARMA": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "NATIONALUM": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "NIFTY100ESG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "ADANIENSOL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "TATACONSUM": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "AJANTPHARM": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "PIDILITIND": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "JSFB": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "SUNDARMFIN": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "TRIVENI": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "NIITMTS": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "INDIAVIX": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "IDBI": {
+    "tf": "1H",
+    "floor": 80.17,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ARFIN": {
+    "tf": "1H",
+    "floor": 84.11,
+    "ceiling": 92.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": "2026-07-13"
+  },
+  "STOVEKRAFT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "SKIPPER": {
+    "tf": "1H",
+    "floor": 537.95,
+    "ceiling": 564.95,
+    "box_confirmed": true,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": "2026-07-13"
+  },
+  "RELIGARE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "POCL": {
+    "tf": "15min",
+    "floor": 1394.0,
+    "ceiling": 1445.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "TVSMOTOR": {
+    "tf": "30min",
+    "floor": 3589.7,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "KFINTECH": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-09",
+    "box_confirmed_date": null
+  },
+  "LT": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "TIRUMALCHM": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "SBIN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "EXPLEOSOL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "STYL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "AEGISLOG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "IVZINGOLD": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "NUCLEUS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "HDFCGOLD": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "CARTRADE": {
+    "tf": "15min",
+    "floor": 2692.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "BOSCHLTD": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "NIFTY1": {
+    "tf": "1H",
+    "floor": 264.12,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "GRSE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "MINDACORP": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "OBEROIRLTY": {
+    "tf": "15min",
+    "floor": 1820.7,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "COLPAL": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "AFFLE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "SIKA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "AURIONPRO": {
+    "tf": "30min",
+    "floor": 860.0,
+    "ceiling": 883.35,
+    "box_confirmed": true,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NMDC": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "DEEPINDS": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "ASTRAMICRO": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "SHRIRAMFIN": {
+    "tf": "1H",
+    "floor": 1007.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "AXISCADES": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "INDIAGLYCO": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "STYLEBAAZA": {
+    "tf": "45min",
+    "floor": 326.4,
+    "ceiling": 346.95,
+    "box_confirmed": true,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HINDALCO": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "JAINREC": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "NAZARA": {
+    "tf": "15min",
+    "floor": 302.75,
+    "ceiling": 306.15,
+    "box_confirmed": true,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "BFUTILITIE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "CREDITACC": {
+    "tf": "45min",
+    "floor": 1464.7,
+    "ceiling": 1497.9,
+    "box_confirmed": true,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "TITAN": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "DATAPATTNS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "HDFCPSUBK": {
+    "tf": "1H",
+    "floor": 83.3,
+    "ceiling": 86.66,
+    "box_confirmed": true,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": "2026-07-13"
+  },
+  "IRCON": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "MSTCLTD": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "NTPCGREEN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "TORNTPOWER": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "SIGNPOST": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "RAILTEL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "NCC": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "ENTERO": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "TEGA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "ASHAPURMIN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "IRCTC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-10",
+    "box_confirmed_date": null
+  },
+  "HONAUT": {
+    "tf": "30min",
+    "floor": 37875.0,
+    "ceiling": 38650.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "VADILALIND": {
+    "tf": "30min",
+    "floor": 6195.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "INGERRAND": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "NEOGEN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "KIRLOSBROS": {
+    "tf": "30min",
+    "floor": 1885.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ICICIGI": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "ACC": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "POKARNA": {
+    "tf": "30min",
+    "floor": 990.5,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SHARDACROP": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "EIDPARRY": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "SYMPHONY": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "JSL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "BLACKBUCK": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "BLUESTONE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "E2E": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "RELAXO": {
+    "tf": "30min",
+    "floor": 387.2,
+    "ceiling": 391.5,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "KARURVYSYA": {
+    "tf": "15min",
+    "floor": 291.5,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "DDEVPLSTIK": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "BHARATSE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "RSYSTEMS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "PENIND": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "PTC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "RUPA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "AARVI": {
+    "tf": "15min",
+    "floor": 143.1,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "DAMCAPITAL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "IMPEXFERRO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "SANDHAR": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "NPBET": {
+    "tf": "30min",
+    "floor": 280.04,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "JBMA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "AMBUJACEM": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "AVALON": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "HLEGLAS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "MOIL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "NIFTY100ESGSECLDR": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "LGEINDIA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "BSE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "HINDCOPPER": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "RELIANCE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "KPIGREEN": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "SKIL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "IRFC": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "CRIZAC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "ANANTRAJ": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "TEJASNET": {
+    "tf": "1H",
+    "floor": 541.45,
+    "ceiling": 575.85,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "WAAREEENER": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "IOLCP": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "NHPC": {
+    "tf": "30min",
+    "floor": 77.96,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NAUKRI": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "TECHNOE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "PAISALO": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "AMAGI": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "AIAENG": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "GEMAROMA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "SKFINDUS": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "SKYGOLD": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "JSWHL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "GICRE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "M&MFIN": {
+    "tf": "30min",
+    "floor": 321.25,
+    "ceiling": 325.9,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "COHANCE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "CSBBANK": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "VAIBHAVGBL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "UNIMECH": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "SMSPHARMA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "ORIENTHOT": {
+    "tf": "30min",
+    "floor": 131.35,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "MAHLIFE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "JSLL": {
+    "tf": "30min",
+    "floor": 578.2,
+    "ceiling": 587.15,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SETL": {
+    "tf": "15min",
+    "floor": 263.7,
+    "ceiling": 280.05,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SPAL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "HINDPETRO": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "CMRGREEN": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "CELLO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "KAYNES": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "CHAMBLFERT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "NAVNETEDUL": {
+    "tf": "15min",
+    "floor": 145.38,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "KIRLOSENG": {
+    "tf": "15min",
+    "floor": 2330.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "GODIGIT": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "DIGITIDE": {
+    "tf": "15min",
+    "floor": 98.15,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "DOMS": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "MPSLTD": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "CLEANMAX": {
+    "tf": "1H",
+    "floor": 1266.1,
+    "ceiling": 1322.6,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "KEC": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "MASTERTR": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "AEQUS": {
+    "tf": "30min",
+    "floor": 235.8,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "INNOVISION": {
+    "tf": "30min",
+    "floor": 288.2,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "JINDALPOLY": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "GLAND": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "GLAXO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "WOCKPHARMA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "GMMPFAUDLR": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "BPCL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "BOMDYEING": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "ONEPOINT": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-13",
+    "box_confirmed_date": null
+  },
+  "MAHSCOOTER": {
+    "tf": "15min",
+    "floor": 13038.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "CENTUM": {
+    "tf": "1H",
+    "floor": 3447.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ICICIAMC": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SEDEMAC": {
+    "tf": "30min",
+    "floor": 2715.0,
+    "ceiling": 2828.9,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HINDUNILVR": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "COROMANDEL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "BHARTIARTL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "QPOWER": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "CEINSYS": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "DATAMATICS": {
+    "tf": "15min",
+    "floor": 852.6,
+    "ceiling": 868.95,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "GRANULES": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "CHALET": {
+    "tf": "5min",
+    "floor": 834.5,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "BIKAJI": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GMDCLTD": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "FIVESTAR": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "RHIM": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SUVEN": {
+    "tf": "5min",
+    "floor": 345.0,
+    "ceiling": 352.35,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "INDOSTAR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "JWL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "EFCIL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "AMIRCHAND": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "INDOFARM": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "CANHLIFE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "HEMIPROP": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "JAICORPLTD": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SANSERA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SYRMA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "HDFCLIQUID": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TATACHEM": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "HGINFRA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "FLAIR": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "BAJAJ-AUTO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "IDEAFORGE": {
+    "tf": "15min",
+    "floor": 870.15,
+    "ceiling": 918.0,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SIGNATURE": {
+    "tf": "15min",
+    "floor": 766.5,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "RISHABH": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "RBLBANK": {
+    "tf": "5min",
+    "floor": 366.35,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HIKAL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "DIACABS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "AYE": {
+    "tf": "30min",
+    "floor": 162.1,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "PARADEEP": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "LLOYDSENGG": {
+    "tf": "5min",
+    "floor": 87.73,
+    "ceiling": 89.75,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "EMBDL": {
+    "tf": "15min",
+    "floor": 62.31,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "RADHIKAJWE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "HAPPYFORGE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TDPOWERSYS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ROSSTECH": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "IONEXCHANG": {
+    "tf": "5min",
+    "floor": 438.05,
+    "ceiling": 447.95,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ZAGGLE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "NUVAMA": {
+    "tf": "15min",
+    "floor": 1885.2,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ZYDUSLIFE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "PNBHOUSING": {
+    "tf": "15min",
+    "floor": 1079.2,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NELCO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "WEWORK": {
+    "tf": "15min",
+    "floor": 715.3,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HITECH": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SUDEEPPHRM": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "KPITTECH": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "JKIL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "KOTAKBANK": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "FUSION": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ALKYLAMINE": {
+    "tf": "15min",
+    "floor": 1855.4,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "PRUDENT": {
+    "tf": "30min",
+    "floor": 2955.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "JSWENERGY": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "AADHARHFC": {
+    "tf": "30min",
+    "floor": 518.45,
+    "ceiling": 531.75,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SPARC": {
+    "tf": "45min",
+    "floor": 220.05,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "EPL": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "HFCL": {
+    "tf": "30min",
+    "floor": 206.1,
+    "ceiling": 214.14,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ZEEL": {
+    "tf": "1H",
+    "floor": 100.3,
+    "ceiling": 105.79,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SMLMAH": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "HYUNDAI": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "INDGN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "DALMIASUG": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "WAKEFIT": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "NIVABUPA": {
+    "tf": "15min",
+    "floor": 85.39,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "INDIAMART": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "NITTAGELA": {
+    "tf": "15min",
+    "floor": 1820.2,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "APLAPOLLO": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ATGL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "PNB": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "RADICO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GODREJPROP": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "KSL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "63MOONS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GHCL": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "EPACKPEB": {
+    "tf": "5min",
+    "floor": 266.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HOMEFIRST": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "AGARWALEYE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "STALLION": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "HAL": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SCHAEFFLER": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "FLUOROCHEM": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "MEESHO": {
+    "tf": "30min",
+    "floor": 187.55,
+    "ceiling": 189.89,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SAMHI": {
+    "tf": "30min",
+    "floor": 172.52,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "EXICOM": {
+    "tf": "30min",
+    "floor": 163.02,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "EMIL": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SAFARI": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "JUBLINGREA": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SOLARA": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "DENTA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SBILIFE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TASTYBITE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ASTRAZEN": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "DIXON": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SILVER": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GROWWHOSPI": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "NBCC": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "RAINBOW": {
+    "tf": "15min",
+    "floor": 1455.1,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "HDBFS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ONESOURCE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ETERNAL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "POWERINDIA": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "PGIL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ABSLAMC": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "APTUS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ELLEN": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "BLUSPRING": {
+    "tf": "15min",
+    "floor": 112.04,
+    "ceiling": 113.97,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "STYLAMIND": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "HONASA": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "KNACK": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GENESYS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "CHOLAFIN": {
+    "tf": "30min",
+    "floor": 1742.7,
+    "ceiling": 1792.4,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "TURTLEMINT": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TATAELXSI": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TEAMLEASE": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "NACLIND": {
+    "tf": "45min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "MBEL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TIINDIA": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GRWRHITECH": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "VARROC": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "THELEELA": {
+    "tf": "15min",
+    "floor": 488.05,
+    "ceiling": 496.1,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ULTRACEMCO": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ENDURANCE": {
+    "tf": "1H",
+    "floor": 2621.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "BHARATFORG": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "KSB": {
+    "tf": "30min",
+    "floor": 921.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "GRAPHITE": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "NRBBEARING": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SAKSOFT": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ICICIPRULI": {
+    "tf": "15min",
+    "floor": 500.05,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "CEMPRO": {
+    "tf": "5min",
+    "floor": 1564.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "CONCORDBIO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "BRIGADE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TVSELECT": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SAREGAMA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "STARHEALTH": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "LUMAXTECH": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "INA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "VIMTALABS": {
+    "tf": "1H",
+    "floor": 547.15,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "KDDL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GESHIP": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "PNCINFRA": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SCI": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "CYIENT": {
+    "tf": "1H",
+    "floor": 892.65,
+    "ceiling": 912.8,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "GANECOS": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "BBL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GLENMARK": {
+    "tf": "5min",
+    "floor": 2243.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ROSSARI": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ZOTA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "NAM-INDIA": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "WIPRO": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "RBZJEWEL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SANOFI": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "NOVARTIND": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TRITURBINE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "CANTABIL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TIMETECHNO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "CEATLTD": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "BIRLACORPN": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GENUSPOWER": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GOKEX": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "AVL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "PIRAMALFIN": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "APOLLO": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "BANKINDIA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TECHM": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "SURYODAY": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "HESTERBIO": {
+    "tf": "5min",
+    "floor": 2341.0,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "NILKAMAL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GODREJIND": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GALLANTT": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "RPEL": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "INDUSINDBK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "MOLDTKPAC": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "MFSL": {
+    "tf": "1H",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "DCBBANK": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "LTM": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GRINDWELL": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "IFBIND": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "IZMO": {
+    "tf": "5min",
+    "floor": 1051.3,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "BUTTERFLY": {
+    "tf": "5min",
+    "floor": 753.05,
+    "ceiling": 759.2,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "SWSOLAR": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "STYRENIX": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "CARERATING": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "UTIAMC": {
+    "tf": "30min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "TIMEX": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GOKULAGRO": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GAUDIUMIVF": {
+    "tf": "15min",
+    "floor": 114.4,
+    "ceiling": NaN,
+    "box_confirmed": true,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": "2026-07-14"
+  },
+  "ROUTE": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "AJMERA": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "GMRAIRPORT": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "AVANTIFEED": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "PURVA": {
+    "tf": "5min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "ACUTAAS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "JUBLPHARMA": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "PARKHOSPS": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  },
+  "CUB": {
+    "tf": "15min",
+    "floor": null,
+    "ceiling": null,
+    "box_confirmed": false,
+    "added_date": "2026-07-14",
+    "box_confirmed_date": null
+  }
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

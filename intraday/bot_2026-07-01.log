@@ -1,0 +1,1390 @@
+2026-07-01 09:02:48,551  INFO  ============================================================
+2026-07-01 09:02:48,552  INFO  PranUltimate Intraday Bot — PAPER TRADING
+2026-07-01 09:02:48,552  INFO  Capital/trade: ₹1000 | Max positions: 5 | Leverage: 5x
+2026-07-01 09:02:48,552  INFO  Square off: 15:20 IST
+2026-07-01 09:02:48,552  INFO  ============================================================
+2026-07-01 09:02:51,614  INFO  Dhan data API: connected
+2026-07-01 09:02:51,659  INFO  Loaded watchlist state: 1668 symbols (157 confirmed boxes) | 15min=277, 30min=240, 5min=1151
+2026-07-01 09:02:51,660  INFO  Startup gap-check: verifying 157 confirmed boxes...
+2026-07-01 09:02:52,223  INFO    KIRLOSIND [5min]: gap-check OK (low ₹3901.00 >= floor ₹3859.80)
+2026-07-01 09:02:53,013  INFO    BANARISUG [5min]: gap-check OK (low ₹3425.00 >= floor ₹3425.00)
+2026-07-01 09:02:53,815  INFO    JSWDULUX [5min]: gap-check OK (low ₹3222.40 >= floor ₹3198.50)
+2026-07-01 09:02:54,611  INFO    SANSERA [5min]: gap-check OK (low ₹3180.00 >= floor ₹3130.00)
+2026-07-01 09:02:55,406  INFO    SEDEMAC [5min]: gap-check OK (low ₹2860.00 >= floor ₹2839.50)
+2026-07-01 09:02:56,195  INFO    ASIANPAINT: gap-check — floor breached offline (low ₹2633.00 < floor ₹2660.80) — escalating to [15min]
+2026-07-01 09:02:56,999  INFO    ETHOSLTD [5min]: gap-check OK (low ₹2435.40 >= floor ₹2410.00)
+2026-07-01 09:02:59,742  INFO    HESTERBIO: gap-check — floor breached offline (low ₹2151.50 < floor ₹2177.30) — escalating to [15min]
+2026-07-01 09:03:00,751  INFO    AXISCADES: gap-check — floor breached offline (low ₹1696.50 < floor ₹1875.20) — escalating to [30min]
+2026-07-01 09:03:01,837  INFO    PIDILITIND [5min]: gap-check OK (low ₹1589.50 >= floor ₹1587.40)
+2026-07-01 09:03:02,878  INFO    AAVAS [5min]: gap-check OK (low ₹1516.00 >= floor ₹1483.10)
+2026-07-01 09:03:03,897  INFO    VENKEYS [5min]: gap-check OK (low ₹1426.40 >= floor ₹1415.00)
+2026-07-01 09:03:04,931  INFO    JLHL [5min]: gap-check OK (low ₹1420.00 >= floor ₹1387.20)
+2026-07-01 09:03:06,053  INFO    TATVA [5min]: gap-check OK (low ₹1185.50 >= floor ₹1180.00)
+2026-07-01 09:03:07,123  INFO    ABSLAMC [5min]: gap-check OK (low ₹1146.20 >= floor ₹1125.20)
+2026-07-01 09:03:08,956  INFO    PSPPROJECT [5min]: gap-check OK (low ₹995.25 >= floor ₹974.40)
+2026-07-01 09:03:10,237  INFO    ROSSTECH [15min]: gap-check OK (low ₹964.00 >= floor ₹945.00)
+2026-07-01 09:03:11,150  INFO    TCI: gap-check — floor breached offline (low ₹921.00 < floor ₹935.80) — escalating to [15min]
+2026-07-01 09:03:12,055  INFO    GANECOS [5min]: gap-check OK (low ₹900.00 >= floor ₹869.35)
+2026-07-01 09:03:13,029  INFO    YATHARTH [5min]: gap-check OK (low ₹856.50 >= floor ₹845.00)
+2026-07-01 09:03:13,939  INFO    GANESHHOU [5min]: gap-check OK (low ₹760.45 >= floor ₹757.65)
+2026-07-01 09:03:14,856  INFO    CNL [5min]: gap-check OK (low ₹727.75 >= floor ₹725.20)
+2026-07-01 09:03:15,756  INFO    LINCOLN [5min]: gap-check OK (low ₹620.90 >= floor ₹616.05)
+2026-07-01 09:03:18,014  INFO    AMRUTANJAN [5min]: gap-check OK (low ₹545.00 >= floor ₹537.00)
+2026-07-01 09:03:19,034  INFO    SRM [5min]: gap-check OK (low ₹511.85 >= floor ₹505.20)
+2026-07-01 09:03:19,959  INFO    TIMEX [5min]: gap-check OK (low ₹525.10 >= floor ₹508.95)
+2026-07-01 09:03:20,893  INFO    AGIIL [5min]: gap-check OK (low ₹364.20 >= floor ₹364.00)
+2026-07-01 09:03:21,804  INFO    RAMCOIND [5min]: gap-check OK (low ₹337.25 >= floor ₹328.10)
+2026-07-01 09:03:22,781  INFO    HERITGFOOD: gap-check — floor breached offline (low ₹326.40 < floor ₹329.05) — escalating to [15min]
+2026-07-01 09:03:23,720  INFO    SENCO: gap-check — floor breached offline (low ₹329.70 < floor ₹336.00) — escalating to [30min]
+2026-07-01 09:03:26,003  INFO    SUNTECK: gap-check — floor breached offline (low ₹309.20 < floor ₹314.10) — escalating to [30min]
+2026-07-01 09:03:26,961  INFO    MBEL [5min]: gap-check OK (low ₹310.00 >= floor ₹307.30)
+2026-07-01 09:03:27,888  INFO    WINDMACHIN: gap-check — floor breached offline (low ₹303.00 < floor ₹305.05) — escalating to [15min]
+2026-07-01 09:03:28,790  INFO    PRINCEPIPE [5min]: gap-check OK (low ₹286.50 >= floor ₹284.35)
+2026-07-01 09:03:29,684  INFO    SATIN [5min]: gap-check OK (low ₹245.30 >= floor ₹234.16)
+2026-07-01 09:03:30,575  INFO    AEGISVOPAK [5min]: gap-check OK (low ₹234.00 >= floor ₹231.60)
+2026-07-01 09:03:31,493  INFO    SANDUMA [5min]: gap-check OK (low ₹202.20 >= floor ₹201.75)
+2026-07-01 09:03:33,684  INFO    SAMMAANCAP: gap-check — floor breached offline (low ₹172.25 < floor ₹174.80) — escalating to [30min]
+2026-07-01 09:03:34,601  INFO    GLOBALVECT [5min]: gap-check OK (low ₹163.50 >= floor ₹163.00)
+2026-07-01 09:03:35,527  INFO    COMSYN: gap-check — floor breached offline (low ₹161.00 < floor ₹161.50) — escalating to [15min]
+2026-07-01 09:03:36,428  INFO    J&KBANK: gap-check — floor breached offline (low ₹154.00 < floor ₹158.36) — escalating to [15min]
+2026-07-01 09:03:37,343  INFO    MOLDTECH [5min]: gap-check OK (low ₹134.50 >= floor ₹132.25)
+2026-07-01 09:03:38,264  INFO    DJML: gap-check — floor breached offline (low ₹114.15 < floor ₹116.00) — escalating to [15min]
+2026-07-01 09:03:39,163  INFO    FOCUS: gap-check — floor breached offline (low ₹88.10 < floor ₹88.59) — escalating to [15min]
+2026-07-01 09:03:40,068  INFO    CONFIPET [5min]: gap-check OK (low ₹73.40 >= floor ₹70.55)
+2026-07-01 09:03:41,547  INFO    ISHANCH: gap-check — floor breached offline (low ₹56.15 < floor ₹57.00) — escalating to [15min]
+2026-07-01 09:03:42,488  INFO    SOUTHBANK: gap-check — floor breached offline (low ₹45.50 < floor ₹46.92) — escalating to [30min]
+2026-07-01 09:03:43,370  INFO    MSUMI [5min]: gap-check OK (low ₹40.10 >= floor ₹39.47)
+2026-07-01 09:03:44,316  INFO    SRTL [5min]: gap-check OK (low ₹39.70 >= floor ₹39.32)
+2026-07-01 09:03:45,234  INFO    SCANSTL [5min]: gap-check OK (low ₹39.03 >= floor ₹38.40)
+2026-07-01 09:03:46,260  INFO    SIGMA [5min]: gap-check OK (low ₹38.65 >= floor ₹37.90)
+2026-07-01 09:03:47,227  INFO    AMBALALSA: gap-check — floor breached offline (low ₹32.00 < floor ₹32.66) — escalating to [30min]
+2026-07-01 09:03:48,161  INFO    TRACXN [5min]: gap-check OK (low ₹30.30 >= floor ₹29.38)
+2026-07-01 09:03:50,393  INFO    SELMC [5min]: gap-check OK (low ₹29.00 >= floor ₹28.50)
+2026-07-01 09:03:51,426  INFO    ABINFRA [5min]: gap-check OK (low ₹11.43 >= floor ₹11.40)
+2026-07-01 09:03:52,445  INFO    VAKRANGEE: gap-check — floor breached offline (low ₹6.08 < floor ₹6.29) — escalating to [15min]
+2026-07-01 09:03:53,369  INFO    TIJARIA [5min]: gap-check OK (low ₹4.48 >= floor ₹4.38)
+2026-07-01 09:03:54,298  INFO    FILATFASH [5min]: gap-check OK (low ₹0.18 >= floor ₹0.18)
+2026-07-01 09:03:55,214  INFO    CERA [5min]: gap-check OK (low ₹6450.00 >= floor ₹6335.00)
+2026-07-01 09:03:56,112  INFO    EMCURE: gap-check — floor breached offline (low ₹1831.50 < floor ₹1833.00) — escalating to [15min]
+2026-07-01 09:03:58,398  INFO    DSSL: gap-check — floor breached offline (low ₹1357.60 < floor ₹1375.10) — escalating to [30min]
+2026-07-01 09:03:59,359  INFO    POKARNA: gap-check — floor breached offline (low ₹1030.35 < floor ₹1053.15) — escalating to [15min]
+2026-07-01 09:04:00,324  INFO    LIQUIDBEES [5min]: gap-check OK (low ₹999.99 >= floor ₹999.99)
+2026-07-01 09:04:01,320  INFO    LIQUID [5min]: gap-check OK (low ₹999.99 >= floor ₹999.99)
+2026-07-01 09:04:02,264  INFO    RAMCOCEM [5min]: gap-check OK (low ₹927.50 >= floor ₹915.95)
+2026-07-01 09:04:03,161  INFO    IFBAGRO [5min]: gap-check OK (low ₹913.00 >= floor ₹902.10)
+2026-07-01 09:04:04,131  INFO    GANDHITUBE [5min]: gap-check OK (low ₹857.10 >= floor ₹852.00)
+2026-07-01 09:04:06,411  INFO    RPTECH [15min]: gap-check OK (low ₹766.50 >= floor ₹721.50)
+2026-07-01 09:04:07,317  INFO    HCG [15min]: gap-check OK (low ₹620.85 >= floor ₹615.15)
+2026-07-01 09:04:08,250  INFO    EXIDEIND: gap-check — floor breached offline (low ₹386.35 < floor ₹390.30) — escalating to [15min]
+2026-07-01 09:04:09,189  INFO    KIOCL: gap-check — floor breached offline (low ₹387.60 < floor ₹396.30) — escalating to [30min]
+2026-07-01 09:04:10,089  INFO    EIHAHOTELS [5min]: gap-check OK (low ₹322.00 >= floor ₹321.00)
+2026-07-01 09:04:10,994  INFO    SEIL [5min]: gap-check OK (low ₹214.50 >= floor ₹210.05)
+2026-07-01 09:04:11,912  INFO    STARPAPER [5min]: gap-check OK (low ₹140.50 >= floor ₹138.01)
+2026-07-01 09:04:14,032  INFO    URAVIDEF [5min]: gap-check OK (low ₹122.00 >= floor ₹113.29)
+2026-07-01 09:04:14,953  INFO    DBOL [5min]: gap-check OK (low ₹111.36 >= floor ₹111.10)
+2026-07-01 09:04:15,855  INFO    BANARBEADS [5min]: gap-check OK (low ₹100.79 >= floor ₹100.15)
+2026-07-01 09:04:16,864  INFO    GRMOVER [5min]: gap-check OK (low ₹90.00 >= floor ₹89.75)
+2026-07-01 09:04:17,834  INFO    HMVL [5min]: gap-check OK (low ₹85.99 >= floor ₹85.05)
+2026-07-01 09:04:18,787  INFO    BSLSENETFG: gap-check — floor breached offline (low ₹76.86 < floor ₹76.91) — escalating to [30min]
+2026-07-01 09:04:19,692  INFO    TPLPLASTEH [15min]: gap-check OK (low ₹72.55 >= floor ₹70.38)
+2026-07-01 09:04:20,582  INFO    ATAM: gap-check — floor breached offline (low ₹68.02 < floor ₹69.00) — escalating to [15min]
+2026-07-01 09:04:22,404  INFO    GILT5YBEES [5min]: gap-check OK (low ₹65.97 >= floor ₹65.61)
+2026-07-01 09:04:23,345  INFO    MOENERGY: gap-check — floor breached offline (low ₹39.80 < floor ₹40.00) — escalating to [30min]
+2026-07-01 09:04:24,254  INFO    PVP: gap-check — floor breached offline (low ₹29.02 < floor ₹30.25) — escalating to [30min]
+2026-07-01 09:04:25,167  INFO    TREL: gap-check — floor breached offline (low ₹26.11 < floor ₹26.26) — escalating to [15min]
+2026-07-01 09:04:26,079  INFO    BRNL: gap-check — floor breached offline (low ₹18.40 < floor ₹18.41) — escalating to [15min]
+2026-07-01 09:04:27,076  INFO    SBISMLETF [15min]: gap-check OK (low ₹17.76 >= floor ₹17.61)
+2026-07-01 09:04:27,985  INFO    SIL [5min]: gap-check OK (low ₹15.50 >= floor ₹15.36)
+2026-07-01 09:04:28,972  INFO    GROWWPOWER [5min]: gap-check OK (low ₹12.17 >= floor ₹12.15)
+2026-07-01 09:04:30,967  INFO    LAL [5min]: gap-check OK (low ₹8.59 >= floor ₹8.56)
+2026-07-01 09:04:31,893  INFO    GOYALALUM [5min]: gap-check OK (low ₹6.87 >= floor ₹6.75)
+2026-07-01 09:04:32,851  INFO    SAMBHAAV: gap-check — floor breached offline (low ₹6.29 < floor ₹6.36) — escalating to [15min]
+2026-07-01 09:04:33,807  INFO    ANTGRAPHIC [5min]: gap-check OK (low ₹0.81 >= floor ₹0.80)
+2026-07-01 09:04:34,688  INFO    TPHQ [5min]: gap-check OK (low ₹0.48 >= floor ₹0.48)
+2026-07-01 09:04:35,648  INFO    CRISIL: gap-check — floor breached offline (low ₹4075.00 < floor ₹4090.00) — escalating to [15min]
+2026-07-01 09:04:36,519  INFO    BHARTIARTL: gap-check — floor breached offline (low ₹1850.30 < floor ₹1858.60) — escalating to [30min]
+2026-07-01 09:04:38,927  INFO    WONDERLA [5min]: gap-check OK (low ₹494.00 >= floor ₹493.75)
+2026-07-01 09:04:39,872  INFO    QUADFUTURE: gap-check — floor breached offline (low ₹431.20 < floor ₹433.80) — escalating to [15min]
+2026-07-01 09:04:40,811  INFO    CANTABIL [5min]: gap-check OK (low ₹237.71 >= floor ₹235.41)
+2026-07-01 09:04:41,735  INFO    RUPA [5min]: gap-check OK (low ₹168.70 >= floor ₹168.00)
+2026-07-01 09:04:42,631  INFO    ATLASCYCLE [5min]: gap-check OK (low ₹98.11 >= floor ₹98.02)
+2026-07-01 09:04:43,605  INFO    UMIYA-MRO [5min]: gap-check OK (low ₹91.50 >= floor ₹90.02)
+2026-07-01 09:04:44,519  INFO    OMAXE: gap-check — floor breached offline (low ₹78.55 < floor ₹80.01) — escalating to [15min]
+2026-07-01 09:04:45,935  INFO    BMWVENTLTD [5min]: gap-check OK (low ₹57.04 >= floor ₹56.70)
+2026-07-01 09:04:47,472  INFO    ASIANTILES: gap-check — floor breached offline (low ₹53.92 < floor ₹54.50) — escalating to [15min]
+2026-07-01 09:04:48,418  INFO    MOIPO [5min]: gap-check OK (low ₹45.07 >= floor ₹44.80)
+2026-07-01 09:04:49,299  INFO    INDOWIND [15min]: gap-check OK (low ₹9.45 >= floor ₹9.03)
+2026-07-01 09:04:50,286  INFO    BETA [5min]: gap-check OK (low ₹2160.00 >= floor ₹2134.40)
+2026-07-01 09:04:51,179  INFO    LIQUIDIETF [5min]: gap-check OK (low ₹999.99 >= floor ₹999.99)
+2026-07-01 09:04:52,145  INFO    JYOTICNC: gap-check — floor breached offline (low ₹770.00 < floor ₹770.50) — escalating to [15min]
+2026-07-01 09:04:53,059  INFO    LGHL [5min]: gap-check OK (low ₹226.50 >= floor ₹222.41)
+2026-07-01 09:04:55,538  INFO    BALAJITELE [5min]: gap-check OK (low ₹88.25 >= floor ₹86.85)
+2026-07-01 09:04:56,459  INFO    PAISALO: gap-check — floor breached offline (low ₹58.11 < floor ₹59.75) — escalating to [15min]
+2026-07-01 09:04:57,374  INFO    3PLAND: gap-check — floor breached offline (low ₹32.23 < floor ₹32.25) — escalating to [15min]
+2026-07-01 09:04:58,321  INFO    JAIPURKURT: gap-check — floor breached offline (low ₹27.30 < floor ₹27.52) — escalating to [15min]
+2026-07-01 09:04:59,253  INFO    UCOBANK [5min]: gap-check OK (low ₹26.97 >= floor ₹26.94)
+2026-07-01 09:05:00,195  INFO    SML100CASE [5min]: gap-check OK (low ₹10.71 >= floor ₹10.64)
+2026-07-01 09:05:01,149  INFO    IVC: gap-check — floor breached offline (low ₹8.20 < floor ₹8.28) — escalating to [15min]
+2026-07-01 09:05:02,931  INFO    BOSCHLTD: gap-check — floor breached offline (low ₹39750.00 < floor ₹39990.00) — escalating to [30min]
+2026-07-01 09:05:04,210  INFO    M&M: gap-check — floor breached offline (low ₹3067.20 < floor ₹3078.00) — escalating to [30min]
+2026-07-01 09:05:05,136  INFO    CROWN: gap-check — floor breached offline (low ₹111.04 < floor ₹111.82) — escalating to [30min]
+2026-07-01 09:05:06,109  INFO    HDFCLOWVOL [15min]: gap-check OK (low ₹20.22 >= floor ₹20.15)
+2026-07-01 09:05:07,094  INFO    NDRAUTO [30min]: gap-check OK (low ₹815.50 >= floor ₹815.10)
+2026-07-01 09:05:08,050  INFO    AIIL [30min]: gap-check OK (low ₹523.10 >= floor ₹515.00)
+2026-07-01 09:05:09,031  INFO    BFINVEST: gap-check — floor breached offline (low ₹445.60 < floor ₹446.00) — escalating to [45min]
+2026-07-01 09:05:09,996  INFO    ROHLTD [30min]: gap-check OK (low ₹331.25 >= floor ₹330.10)
+2026-07-01 09:05:12,418  INFO    WALCHANNAG [30min]: gap-check OK (low ₹271.35 >= floor ₹267.15)
+2026-07-01 09:05:13,442  INFO    TRF [30min]: gap-check OK (low ₹239.67 >= floor ₹236.10)
+2026-07-01 09:05:14,411  INFO    HEXATRADEX: gap-check — floor breached offline (low ₹158.16 < floor ₹160.00) — escalating to [45min]
+2026-07-01 09:05:15,365  INFO    IPL [30min]: gap-check OK (low ₹161.62 >= floor ₹160.81)
+2026-07-01 09:05:16,376  INFO    AJMERA [30min]: gap-check OK (low ₹129.25 >= floor ₹127.61)
+2026-07-01 09:05:17,384  INFO    NAHARINDUS [30min]: gap-check OK (low ₹116.51 >= floor ₹116.00)
+2026-07-01 09:05:18,343  INFO    AAATECH [30min]: gap-check OK (low ₹96.60 >= floor ₹95.01)
+2026-07-01 09:05:20,758  INFO    LICNMID100 [30min]: gap-check OK (low ₹62.00 >= floor ₹61.61)
+2026-07-01 09:05:21,715  INFO    SBIBPB: gap-check — floor breached offline (low ₹49.15 < floor ₹49.40) — escalating to [45min]
+2026-07-01 09:05:22,695  INFO    TEXMOPIPES [30min]: gap-check OK (low ₹45.15 >= floor ₹45.10)
+2026-07-01 09:05:23,640  INFO    21STCENMGM: gap-check — floor breached offline (low ₹32.08 < floor ₹32.70) — escalating to [45min]
+2026-07-01 09:05:24,599  INFO    LANCORHOL [30min]: gap-check OK (low ₹24.57 >= floor ₹24.26)
+2026-07-01 09:05:25,641  INFO    MID150 [30min]: gap-check OK (low ₹22.96 >= floor ₹22.56)
+2026-07-01 09:05:26,676  INFO    LOWVOLIETF [30min]: gap-check OK (low ₹21.64 >= floor ₹21.59)
+2026-07-01 09:05:29,053  INFO    LOWVOL1 [30min]: gap-check OK (low ₹20.60 >= floor ₹20.53)
+2026-07-01 09:05:30,047  INFO    VAISHALI [30min]: gap-check OK (low ₹7.19 >= floor ₹7.16)
+2026-07-01 09:05:31,013  INFO    INFOMEDIA [30min]: gap-check OK (low ₹5.66 >= floor ₹5.41)
+2026-07-01 09:05:31,991  INFO    SVPGLOB [30min]: gap-check OK (low ₹3.82 >= floor ₹3.82)
+2026-07-01 09:05:32,931  INFO    DYNAMATECH: gap-check — floor breached offline (low ₹10414.00 < floor ₹10824.00) — escalating to [15min]
+2026-07-01 09:05:33,882  INFO    VADILALIND: gap-check — floor breached offline (low ₹6264.30 < floor ₹6332.60) — escalating to [15min]
+2026-07-01 09:05:34,842  INFO    SCHAEFFLER: gap-check — floor breached offline (low ₹4179.90 < floor ₹4229.00) — escalating to [15min]
+2026-07-01 09:05:37,168  INFO    SCHNEIDER: gap-check — floor breached offline (low ₹1357.10 < floor ₹1383.10) — escalating to [15min]
+2026-07-01 09:05:38,071  INFO    PARAGMILK [5min]: gap-check OK (low ₹233.66 >= floor ₹231.00)
+2026-07-01 09:05:38,993  INFO    TAMBOLIIN [5min]: gap-check OK (low ₹222.00 >= floor ₹218.00)
+2026-07-01 09:05:39,936  INFO    SOLARWORLD: gap-check — floor breached offline (low ₹182.06 < floor ₹186.34) — escalating to [15min]
+2026-07-01 09:05:40,851  INFO    VMM [5min]: gap-check OK (low ₹117.73 >= floor ₹117.60)
+2026-07-01 09:05:41,781  INFO    VERTOZ [5min]: gap-check OK (low ₹39.30 >= floor ₹39.10)
+2026-07-01 09:05:42,702  INFO    CORALFINAC: gap-check — floor breached offline (low ₹31.27 < floor ₹31.75) — escalating to [15min]
+2026-07-01 09:05:45,216  INFO    PRIMO: gap-check — floor breached offline (low ₹24.26 < floor ₹24.36) — escalating to [15min]
+2026-07-01 09:05:46,191  INFO    GTLINFRA: gap-check — floor breached offline (low ₹1.38 < floor ₹1.51) — escalating to [15min]
+2026-07-01 09:20:08,285  INFO      + JSWHL: added to [5min] watchlist
+2026-07-01 09:20:08,285  INFO      + NSIL: added to [5min] watchlist
+2026-07-01 09:20:08,285  INFO      + CHOLAHLDNG: added to [5min] watchlist
+2026-07-01 09:20:08,286  INFO      + HAPPYFORGE: added to [5min] watchlist
+2026-07-01 09:20:08,286  INFO      + ENTERO: added to [5min] watchlist
+2026-07-01 09:20:08,286  INFO      + JPOLYINVST: added to [5min] watchlist
+2026-07-01 09:20:08,286  INFO      + NESCO: added to [5min] watchlist
+2026-07-01 09:20:08,287  INFO      + HDBFS: added to [5min] watchlist
+2026-07-01 09:20:08,287  INFO      + TRITURBINE: added to [5min] watchlist
+2026-07-01 09:20:08,287  INFO      + STLTECH: added to [5min] watchlist
+2026-07-01 09:20:08,287  INFO      + GODREJAGRO: added to [5min] watchlist
+2026-07-01 09:20:08,287  INFO      + ICICIPRULI: added to [5min] watchlist
+2026-07-01 09:20:08,287  INFO      + IGARASHI: added to [5min] watchlist
+2026-07-01 09:20:08,288  INFO      + AARTIIND: added to [5min] watchlist
+2026-07-01 09:20:08,288  INFO      + IGPL: added to [5min] watchlist
+2026-07-01 09:20:08,288  INFO      + MAXESTATES: added to [5min] watchlist
+2026-07-01 09:20:08,288  INFO      + REPCOHOME: added to [5min] watchlist
+2026-07-01 09:20:08,288  INFO      + IONEXCHANG: added to [5min] watchlist
+2026-07-01 09:20:08,288  INFO      + RUSTOMJEE: added to [5min] watchlist
+2026-07-01 09:20:08,289  INFO      + RELAXO: added to [5min] watchlist
+2026-07-01 09:20:08,289  INFO      + DENTA: added to [5min] watchlist
+2026-07-01 09:20:08,289  INFO      + NAZARA: added to [5min] watchlist
+2026-07-01 09:20:08,289  INFO      + NUVOCO: added to [5min] watchlist
+2026-07-01 09:20:08,289  INFO      + DCXINDIA: added to [5min] watchlist
+2026-07-01 09:20:08,290  INFO      + HUHTAMAKI: added to [5min] watchlist
+2026-07-01 09:20:08,290  INFO      + SAMHI: added to [5min] watchlist
+2026-07-01 09:20:08,290  INFO      + JAYBARMARU: added to [5min] watchlist
+2026-07-01 09:20:08,290  INFO      + SCHAND: added to [5min] watchlist
+2026-07-01 09:20:08,290  INFO      + APCL: added to [5min] watchlist
+2026-07-01 09:20:08,291  INFO      + GNRL: added to [5min] watchlist
+2026-07-01 09:20:08,291  INFO      + SHRIRAMPPS: added to [5min] watchlist
+2026-07-01 09:20:08,291  INFO      + BCPL: added to [5min] watchlist
+2026-07-01 09:20:08,291  INFO      + EXCELSOFT: added to [5min] watchlist
+2026-07-01 09:20:08,291  INFO      + DOLATALGO: added to [5min] watchlist
+2026-07-01 09:20:08,291  INFO      + PASUPTAC: added to [5min] watchlist
+2026-07-01 09:20:08,292  INFO      + ALGOQUANT: added to [5min] watchlist
+2026-07-01 09:20:08,292  INFO      + PLAZACABLE: added to [5min] watchlist
+2026-07-01 09:20:08,292  INFO      + LEMERITE: added to [5min] watchlist
+2026-07-01 09:20:08,292  INFO      + RPPL: added to [5min] watchlist
+2026-07-01 09:20:08,292  INFO      + ORIENTPPR: added to [5min] watchlist
+2026-07-01 09:20:08,293  INFO      + ASHOKAMET: added to [5min] watchlist
+2026-07-01 09:20:08,293  INFO      + SIMBHALS: added to [5min] watchlist
+2026-07-01 09:20:08,293  INFO      + NDL: added to [5min] watchlist
+2026-07-01 09:20:08,293  INFO      + KANANIIND: added to [5min] watchlist
+2026-07-01 09:20:08,294  INFO  
+── 5min candle closed | Chartink: 317 candidates, 44 new | tracking 1160 on this TF ──
+2026-07-01 09:20:09,300  INFO    NIFTYALPHA50: no data — keeping in watchlist
+2026-07-01 09:20:11,069  INFO    HONAUT [5min]: stale breakout — broke out 93 candle(s) ago, already ran
+2026-07-01 09:20:12,814  INFO    3MINDIA [5min]: box CONFIRMED — floor ₹33070.00 / ceil ₹33710.00
+2026-07-01 09:20:14,918  INFO    CNXPHARMA: no data — keeping in watchlist
+2026-07-01 09:20:16,684  INFO    TVSHLTD [5min]: stale breakout — broke out 10 candle(s) ago, already ran
+2026-07-01 09:20:18,697  INFO    NIFTYMETAL: no data — keeping in watchlist
+2026-07-01 09:20:20,558  INFO    VOLTAMP [5min]: stale breakout — broke out 231 candle(s) ago, already ran
+2026-07-01 09:20:22,565  INFO    NIFTYINDDEFENCE: no data — keeping in watchlist
+2026-07-01 09:20:25,411  INFO    ABB [5min]: forming box — too brief yet
+2026-07-01 09:20:27,424  INFO    NIFTYCPSE: no data — keeping in watchlist
+2026-07-01 09:20:29,123  INFO    PGHL [5min]: forming box — too brief yet
+2026-07-01 09:20:30,884  INFO    ESABINDIA [5min]: stale breakout — broke out 108 candle(s) ago, already ran
+2026-07-01 09:20:34,204  INFO    SUNDARMFIN [5min]: forming box — too brief yet
+2026-07-01 09:20:35,957  INFO    KIRLOSIND [5min]: watching floor ₹3859.80 / ceil ₹3949.80 | last ₹3941.90
+2026-07-01 09:20:37,702  INFO    PRIVISCL [5min]: forming box — too brief yet
+2026-07-01 09:20:39,477  INFO    BANARISUG: ceiling breached, confirmations failed: 20 EMA below 50 EMA — removing
+2026-07-01 09:20:42,960  INFO    TRENT [5min]: forming box — too brief yet
+2026-07-01 09:20:44,764  INFO    JSWDULUX [5min]: watching floor ₹3198.50 / ceil ₹3306.30 | last ₹3266.30
+2026-07-01 09:20:46,525  INFO    SANSERA [5min]: watching floor ₹3130.00 / ceil ₹3207.90 | last ₹3189.20
+2026-07-01 09:20:48,282  INFO    SEDEMAC: ceiling breached, confirmations failed: vol 0.7x below avg — removing
+2026-07-01 09:20:49,977  INFO    ETHOSLTD: ceiling breached, confirmations failed: RSI 70.2 out of 45–70, vol 0.1x below avg — removing
+2026-07-01 09:20:52,940  INFO    ANUP [5min]: forming box — too brief yet
+2026-07-01 09:20:54,682  INFO    GLENMARK [5min]: forming box — too brief yet
+2026-07-01 09:20:56,447  INFO    TCS [5min]: stale breakout — broke out 82 candle(s) ago, already ran
+2026-07-01 09:20:58,195  INFO    PGIL [5min]: forming box — too brief yet
+2026-07-01 09:21:00,657  INFO    INTERARCH [5min]: box CONFIRMED — floor ₹1911.10 / ceil ₹1936.80
+2026-07-01 09:21:02,597  INFO    GODREJPROP [5min]: stale breakout — broke out 76 candle(s) ago, already ran
+2026-07-01 09:21:04,358  INFO    ATLANTAELE [5min]: box CONFIRMED — floor ₹1802.40 / ceil ₹1843.00
+2026-07-01 09:21:06,128  INFO    AUTOAXLES [5min]: forming box — too brief yet
+2026-07-01 09:21:07,909  INFO    BAJAJFINSV [5min]: forming box — too brief yet
+2026-07-01 09:21:11,376  INFO    AMBIKCO [5min]: forming box — too brief yet
+2026-07-01 09:21:13,148  INFO    SKFINDIA [5min]: forming box — too brief yet
+2026-07-01 09:21:14,887  INFO    POLYMED [5min]: forming box — too brief yet
+2026-07-01 09:21:16,608  INFO    BLUESTARCO [5min]: forming box — too brief yet
+2026-07-01 09:21:18,344  INFO    POLICYBZR [5min]: forming box — too brief yet
+2026-07-01 09:21:20,647  INFO    PIDILITIND: floor ₹1587.40 breached (low ₹1585.00) — escalating to [15min]
+2026-07-01 09:21:22,424  INFO    MFSL [5min]: stale breakout — broke out 311 candle(s) ago, already ran
+2026-07-01 09:21:24,133  INFO    MANORAMA [5min]: forming box — too brief yet
+2026-07-01 09:21:25,897  INFO    NPST [5min]: stale breakout — broke out 46 candle(s) ago, already ran
+2026-07-01 09:21:27,611  INFO    PRESTIGE [5min]: forming box — too brief yet
+2026-07-01 09:21:29,228  INFO    COFORGE [5min]: forming box — too brief yet
+2026-07-01 09:21:32,623  INFO    AAVAS: ceiling breached, confirmations failed: vol 0.4x below avg — removing
+2026-07-01 09:21:34,430  INFO  
+  ★ SIGNAL: VENKEYS [5min] — breakout — locked ceil ₹1418.90, RSI 60.6, vol 1.3x avg
+2026-07-01 09:21:34,431  INFO      close=₹1440.3 | resistance=₹1418.9
+2026-07-01 09:21:34,431  INFO      first_low=₹1415.0 | RSI=60.6 | vol=1.3x avg
+2026-07-01 09:21:34,431  INFO      SL=₹1425.0
+2026-07-01 09:21:34,431  INFO      [PAPER] BUY 3×VENKEYS | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 09:21:34,432  INFO    ✓ OPENED  VENKEYS [5min] | qty=3 | entry=₹1440.3 | SL=₹1425.0
+2026-07-01 09:21:34,432  INFO              position value=₹4320.9 | margin used=₹864.18 | leverage=5x
+2026-07-01 09:21:34,432  INFO      [PAPER] SELL 3×VENKEYS | type=SL-M price=₹0.0 trigger=₹1425.0
+2026-07-01 09:21:36,148  INFO    JLHL: ceiling breached, confirmations failed: vol 0.1x below avg — removing
+2026-07-01 09:21:37,886  INFO    ABREL [5min]: forming box — too brief yet
+2026-07-01 09:21:39,888  INFO    JINDALPHOT [5min]: stale breakout — broke out 97 candle(s) ago, already ran
+2026-07-01 09:21:41,986  INFO    KAJARIACER [5min]: stale breakout — broke out 17 candle(s) ago, already ran
+2026-07-01 09:21:43,686  INFO    TATVA: ceiling breached, confirmations failed: RSI 71.3 out of 45–70, vol 0.9x below avg — removing
+2026-07-01 09:21:45,374  INFO    ABSLAMC [5min]: watching floor ₹1125.20 / ceil ₹1156.40 | last ₹1153.20
+2026-07-01 09:21:47,188  INFO    ALIVUS [5min]: stale breakout — broke out 76 candle(s) ago, already ran
+2026-07-01 09:21:49,145  INFO    DIAMONDYD [5min]: forming box — too brief yet
+2026-07-01 09:21:51,669  INFO    EPIGRAL [5min]: forming box — too brief yet
+2026-07-01 09:21:53,381  INFO    IMPAL [5min]: forming box — too brief yet
+2026-07-01 09:21:55,116  INFO    SOLEX [5min]: forming box — too brief yet
+2026-07-01 09:21:56,889  INFO    HCLTECH [5min]: forming box — too brief yet
+2026-07-01 09:22:00,234  INFO    TECHNOE [5min]: forming box — too brief yet
+2026-07-01 09:22:02,011  INFO    SPAL [5min]: stale breakout — broke out 90 candle(s) ago, already ran
+2026-07-01 09:22:03,799  INFO    SBIN [5min]: stale breakout — broke out 77 candle(s) ago, already ran
+2026-07-01 09:22:05,523  INFO    SHRIRAMFIN [5min]: forming box — too brief yet
+2026-07-01 09:22:07,233  INFO    INDIGOPNTS [5min]: forming box — too brief yet
+2026-07-01 09:22:09,951  INFO    BAJFINANCE [5min]: stale breakout — broke out 70 candle(s) ago, already ran
+2026-07-01 09:22:11,778  INFO    PSPPROJECT: ceiling breached, confirmations failed: vol 0.5x below avg — removing
+2026-07-01 09:22:13,466  INFO    SHYAMMETL [5min]: forming box — too brief yet
+2026-07-01 09:22:15,158  INFO    MOTILALOFS [5min]: forming box — too brief yet
+2026-07-01 09:22:17,704  INFO    TINNARUBR [5min]: forming box — too brief yet
+2026-07-01 09:22:19,717  INFO    CEINSYS [5min]: forming box — too brief yet
+2026-07-01 09:22:21,511  INFO    MANGLMCEM [5min]: forming box — too brief yet
+2026-07-01 09:22:23,269  INFO    GANECOS: ceiling breached, confirmations failed: vol 0.6x below avg — removing
+2026-07-01 09:22:25,096  INFO    SHARDACROP [5min]: no 200 EMA touch — not in a correction phase
+2026-07-01 09:22:27,284  INFO    YATHARTH [5min]: watching floor ₹845.00 / ceil ₹859.00 | last ₹857.85
+2026-07-01 09:22:29,402  INFO    EXPLEOSOL [5min]: box CONFIRMED — floor ₹815.00 / ceil ₹826.45
+2026-07-01 09:22:31,247  INFO    WHIRLPOOL [5min]: stale breakout — broke out 138 candle(s) ago, already ran
+2026-07-01 09:22:33,042  INFO    GANESHHOU [5min]: watching floor ₹757.65 / ceil ₹772.00 | last ₹765.00
+2026-07-01 09:22:34,769  INFO    CNL [5min]: watching floor ₹725.20 / ceil ₹738.15 | last ₹730.05
+2026-07-01 09:22:38,306  INFO    GLOSTERLTD [5min]: forming box — too brief yet
+2026-07-01 09:22:40,073  INFO    UNIPARTS [5min]: forming box — too brief yet
+2026-07-01 09:22:41,839  INFO    BIKAJI [5min]: stale breakout — broke out 302 candle(s) ago, already ran
+2026-07-01 09:22:43,603  INFO    VTL [5min]: box CONFIRMED — floor ₹636.95 / ceil ₹640.00
+2026-07-01 09:22:45,284  INFO  
+  ★ SIGNAL: LINCOLN [5min] — breakout — locked ceil ₹619.70, RSI 67.1, vol 1.7x avg
+2026-07-01 09:22:45,285  INFO      close=₹630.0 | resistance=₹619.7
+2026-07-01 09:22:45,285  INFO      first_low=₹616.05 | RSI=67.1 | vol=1.7x avg
+2026-07-01 09:22:45,285  INFO      SL=₹619.75
+2026-07-01 09:22:45,285  INFO      [PAPER] BUY 7×LINCOLN | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 09:22:45,286  INFO    ✓ OPENED  LINCOLN [5min] | qty=7 | entry=₹630.0 | SL=₹619.75
+2026-07-01 09:22:45,286  INFO              position value=₹4410.0 | margin used=₹882.0 | leverage=5x
+2026-07-01 09:22:45,286  INFO      [PAPER] SELL 7×LINCOLN | type=SL-M price=₹0.0 trigger=₹619.75
+2026-07-01 09:22:48,649  INFO    SONACOMS [5min]: forming box — too brief yet
+2026-07-01 09:22:50,510  INFO    GRAPHITE [5min]: no 200 EMA touch — not in a correction phase
+2026-07-01 09:22:52,253  INFO    PRICOLLTD [5min]: forming box — too brief yet
+2026-07-01 09:22:53,994  INFO    TENNIND [5min]: stale breakout — broke out 211 candle(s) ago, already ran
+2026-07-01 09:22:57,088  INFO    SGMART [5min]: stale breakout — broke out 102 candle(s) ago, already ran
+2026-07-01 09:22:58,820  INFO    SHILPAMED [5min]: stale breakout — broke out 107 candle(s) ago, already ran
+2026-07-01 09:23:00,547  INFO    SOLARA [5min]: stale breakout — broke out 97 candle(s) ago, already ran
+2026-07-01 09:23:02,327  INFO    TEMBO [5min]: forming box — too brief yet
+2026-07-01 09:23:04,137  INFO    AJAXENGG [5min]: stale breakout — broke out 338 candle(s) ago, already ran
+2026-07-01 09:23:07,389  INFO    AMRUTANJAN: ceiling breached, confirmations failed: vol 0.3x below avg — removing
+2026-07-01 09:23:09,141  INFO    SRM [5min]: watching floor ₹505.20 / ceil ₹535.00 | last ₹518.00
+2026-07-01 09:23:10,827  INFO    DLINKINDIA [5min]: stale breakout — broke out 1 candle(s) ago, already ran
+2026-07-01 09:23:12,631  INFO    TIMEX [5min]: watching floor ₹508.95 / ceil ₹540.90 | last ₹528.60
+2026-07-01 09:23:15,160  INFO    SOMANYCERA [5min]: forming box — too brief yet
+2026-07-01 09:23:17,511  INFO    AADHARHFC [5min]: box CONFIRMED — floor ₹514.05 / ceil ₹517.85
+2026-07-01 09:23:19,248  INFO    WPIL [5min]: stale breakout — broke out 13 candle(s) ago, already ran
+2026-07-01 09:23:21,017  INFO    JNKINDIA [5min]: forming box — too brief yet
+2026-07-01 09:23:22,762  INFO    THELEELA [5min]: forming box — too brief yet
+2026-07-01 09:23:26,293  INFO    ASKAUTOLTD [5min]: stale breakout — broke out 157 candle(s) ago, already ran
+2026-07-01 09:23:28,080  INFO    MMFL [5min]: forming box — too brief yet
+2026-07-01 09:23:29,802  INFO    LANDMARK [5min]: forming box — too brief yet
+2026-07-01 09:23:31,638  INFO    AMBUJACEM [5min]: forming box — too brief yet
+2026-07-01 09:23:34,273  INFO    HINDCOMPOS [5min]: forming box — too brief yet
+2026-07-01 09:23:36,058  INFO    BEL [5min]: forming box — too brief yet
+2026-07-01 09:23:37,867  INFO    PATANJALI [5min]: no 200 EMA touch — not in a correction phase
+2026-07-01 09:23:39,603  INFO    BAJAJST [5min]: forming box — too brief yet
+2026-07-01 09:23:41,308  INFO    MATRIMONY [5min]: forming box — too brief yet
+2026-07-01 09:23:44,684  INFO    PNGSREVA [5min]: forming box — too brief yet
+2026-07-01 09:23:46,464  INFO    INDOBORAX [5min]: forming box — too brief yet
+2026-07-01 09:23:48,225  INFO    HLEGLAS [5min]: forming box — too brief yet
+2026-07-01 09:23:49,980  INFO    AARTIDRUGS [5min]: forming box — too brief yet
+2026-07-01 09:23:51,738  INFO    RHIM [5min]: forming box — too brief yet
+2026-07-01 09:23:54,763  INFO    AGIIL [5min]: watching floor ₹364.00 / ceil ₹371.30 | last ₹368.65
+2026-07-01 09:23:56,457  INFO    RECLTD [5min]: stale breakout — broke out 15 candle(s) ago, already ran
+2026-07-01 09:23:58,167  INFO    KAPSTON [5min]: stale breakout — broke out 136 candle(s) ago, already ran
+2026-07-01 09:23:59,934  INFO    JKPAPER [5min]: forming box — too brief yet
+2026-07-01 09:24:03,199  INFO    SUNFLAG [5min]: box CONFIRMED — floor ₹339.05 / ceil ₹340.85
+2026-07-01 09:24:04,906  INFO    RAMCOIND [5min]: watching floor ₹328.10 / ceil ₹344.00 | last ₹337.00
+2026-07-01 09:24:06,642  INFO    DALMIASUG [5min]: no 200 EMA touch — not in a correction phase
+2026-07-01 09:24:08,368  INFO    FEDERALBNK [5min]: forming box — too brief yet
+2026-07-01 09:24:10,156  INFO    HITECHCORP [5min]: stale breakout — broke out 4 candle(s) ago, already ran
+2026-07-01 09:24:13,095  INFO    MBEL: ceiling breached, confirmations failed: RSI 89.5 out of 45–70 — removing
+2026-07-01 09:24:14,848  INFO    ADFFOODS [5min]: stale breakout — broke out 60 candle(s) ago, already ran
+2026-07-01 09:24:16,590  INFO    NYKAA [5min]: stale breakout — broke out 77 candle(s) ago, already ran
+2026-07-01 09:24:18,305  INFO    GREENPLY [5min]: forming box — too brief yet
+2026-07-01 09:24:21,777  INFO    ITC [5min]: stale breakout — broke out 82 candle(s) ago, already ran
+2026-07-01 09:24:23,511  INFO    PRINCEPIPE: floor ₹284.35 breached (low ₹283.60) — escalating to [15min]
+2026-07-01 09:24:25,283  INFO    WANBURY [5min]: forming box — too brief yet
+2026-07-01 09:24:27,047  INFO    CAPITALSFB [5min]: forming box — too brief yet
+2026-07-01 09:24:28,775  INFO    GOPAL [5min]: forming box — too brief yet
+2026-07-01 09:24:30,404  INFO    MARINE [5min]: stale breakout — broke out 77 candle(s) ago, already ran
+2026-07-01 09:24:33,070  INFO    CROMPTON [5min]: forming box — too brief yet
+2026-07-01 09:24:34,921  INFO    IVALUE [5min]: stale breakout — broke out 138 candle(s) ago, already ran
+2026-07-01 09:24:36,731  INFO    RELIGARE [5min]: forming box — too brief yet
+2026-07-01 09:24:38,505  INFO    APTUS [5min]: forming box — too brief yet
+2026-07-01 09:24:40,240  INFO    SPANDANA [5min]: forming box — too brief yet
+2026-07-01 09:24:43,485  INFO    VSTIND [5min]: forming box — too brief yet
+2026-07-01 09:24:45,178  INFO    ARTEMISMED [5min]: forming box — too brief yet
+2026-07-01 09:24:46,955  INFO    GREENLAM [5min]: forming box — too brief yet
+2026-07-01 09:24:48,656  INFO    SIMPLEXINF [5min]: forming box — too brief yet
+2026-07-01 09:24:50,825  INFO    ORIENTTECH [5min]: stale breakout — broke out 311 candle(s) ago, already ran
+2026-07-01 09:24:53,150  INFO  
+  ★ SIGNAL: SATIN [5min] — breakout — locked ceil ₹240.17, RSI 68.7, vol 1.4x avg
+2026-07-01 09:24:53,150  INFO      close=₹250.2 | resistance=₹240.17
+2026-07-01 09:24:53,150  INFO      first_low=₹234.16 | RSI=68.7 | vol=1.4x avg
+2026-07-01 09:24:53,151  INFO      SL=₹244.2
+2026-07-01 09:24:53,151  INFO      [PAPER] BUY 19×SATIN | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 09:24:53,151  INFO    ✓ OPENED  SATIN [5min] | qty=19 | entry=₹250.2 | SL=₹244.2
+2026-07-01 09:24:53,151  INFO              position value=₹4753.8 | margin used=₹950.76 | leverage=5x
+2026-07-01 09:24:53,151  INFO      [PAPER] SELL 19×SATIN | type=SL-M price=₹0.0 trigger=₹244.2
+2026-07-01 09:24:54,841  INFO    BOROLTD [5min]: stale breakout — broke out 77 candle(s) ago, already ran
+2026-07-01 09:24:56,552  INFO    INDOCO [5min]: forming box — too brief yet
+2026-07-01 09:24:58,264  INFO  
+  ★ SIGNAL: AEGISVOPAK [5min] — breakout — locked ceil ₹235.64, RSI 63.2, vol 8.0x avg
+2026-07-01 09:24:58,264  INFO      close=₹237.56 | resistance=₹235.64
+2026-07-01 09:24:58,265  INFO      first_low=₹231.6 | RSI=63.2 | vol=8.0x avg
+2026-07-01 09:24:58,265  INFO      SL=₹234.0
+2026-07-01 09:24:58,265  INFO      [PAPER] BUY 21×AEGISVOPAK | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 09:24:58,265  INFO    ✓ OPENED  AEGISVOPAK [5min] | qty=21 | entry=₹237.56 | SL=₹234.0
+2026-07-01 09:24:58,266  INFO              position value=₹4988.76 | margin used=₹997.75 | leverage=5x
+2026-07-01 09:24:58,266  INFO      [PAPER] SELL 21×AEGISVOPAK | type=SL-M price=₹0.0 trigger=₹234.0
+2026-07-01 09:25:00,547  INFO    UTTAMSUGAR [5min]: no 200 EMA touch — not in a correction phase
+2026-07-01 09:25:02,517  INFO    NIITMTS [5min]: forming box — too brief yet
+2026-07-01 09:25:04,252  INFO    FIRSTCRY [5min]: stale breakout — broke out 4 candle(s) ago, already ran
+2026-07-01 09:25:06,091  INFO    AYMSYNTEX [5min]: stale breakout — broke out 115 candle(s) ago, already ran
+2026-07-01 09:25:07,809  INFO    BBTCL [5min]: forming box — too brief yet
+2026-07-01 09:25:11,370  INFO    CGCL [5min]: forming box — too brief yet
+2026-07-01 09:25:13,125  INFO    CPEDU [5min]: forming box — too brief yet
+2026-07-01 09:25:14,866  INFO    MUTHOOTMF [5min]: stale breakout — broke out 107 candle(s) ago, already ran
+2026-07-01 09:25:16,638  INFO    HUDCO [5min]: stale breakout — broke out 157 candle(s) ago, already ran
+2026-07-01 09:25:18,762  INFO    SANDUMA [5min]: watching floor ₹201.75 / ceil ₹203.50 | last ₹203.25
+2026-07-01 09:25:21,103  INFO    HUBTOWN [5min]: forming box — too brief yet
+2026-07-01 09:25:22,869  INFO    PACEDIGITK [5min]: forming box — too brief yet
+2026-07-01 09:25:24,665  INFO    CUB [5min]: forming box — too brief yet
+2026-07-01 09:25:26,433  INFO    JUNIPER [5min]: forming box — too brief yet
+2026-07-01 09:25:28,848  INFO    KANPRPLA [5min]: forming box — too brief yet
+2026-07-01 09:25:30,776  INFO    VIKRAMSOLR [5min]: no 200 EMA touch — not in a correction phase
+2026-07-01 09:25:32,522  INFO    BHARATSE [5min]: stale breakout — broke out 65 candle(s) ago, already ran
+2026-07-01 09:25:34,360  INFO    EFCIL [5min]: forming box — too brief yet
+2026-07-01 09:25:36,117  INFO    PTC [5min]: forming box — too brief yet
+2026-07-01 09:25:39,752  INFO    TIMETECHNO [5min]: forming box — too brief yet
+2026-07-01 09:25:41,597  INFO    KAMATHOTEL [5min]: forming box — too brief yet
+2026-07-01 09:25:43,311  INFO    ORIENTELEC [5min]: forming box — too brief yet
+2026-07-01 09:25:45,039  INFO    SAGCEM [5min]: forming box — too brief yet
+2026-07-01 09:25:46,834  INFO    UNIONBANK [5min]: stale breakout — broke out 90 candle(s) ago, already ran
+2026-07-01 09:25:49,690  INFO    ELPROINTL [5min]: stale breakout — broke out 6 candle(s) ago, already ran
+2026-07-01 09:25:51,387  INFO    SURYODAY [5min]: forming box — too brief yet
+2026-07-01 09:25:53,170  INFO    AVANTEL [5min]: forming box — too brief yet
+2026-07-01 09:25:54,935  INFO    SHALBY [5min]: stale breakout — broke out 73 candle(s) ago, already ran
+2026-07-01 09:25:57,669  INFO    GLOBALVECT: ceiling breached, confirmations failed: vol 0.0x below avg, 20 EMA below 50 EMA — removing
+2026-07-01 09:25:59,487  INFO    MAXIND [5min]: forming box — too brief yet
+2026-07-01 09:26:01,230  INFO    GAEL [5min]: forming box — too brief yet
+2026-07-01 09:26:02,999  INFO    HINDOILEXP [5min]: stale breakout — broke out 31 candle(s) ago, already ran
+2026-07-01 09:26:04,699  INFO    ASHOKLEY [5min]: forming box — too brief yet
+2026-07-01 09:26:08,306  INFO    HEIDELBERG [5min]: forming box — too brief yet
+2026-07-01 09:26:10,111  INFO    MOTHERSON [5min]: forming box — too brief yet
+2026-07-01 09:26:11,851  INFO    ROLEXRINGS [5min]: forming box — too brief yet
+2026-07-01 09:26:13,579  INFO    NAVNETEDUL [5min]: forming box — too brief yet
+2026-07-01 09:26:16,996  INFO    HEMIPROP [5min]: forming box — too brief yet
+2026-07-01 09:26:18,792  INFO    DHAMPURSUG [5min]: no 200 EMA touch — not in a correction phase
+2026-07-01 09:26:20,521  INFO    NELCAST [5min]: forming box — too brief yet
+2026-07-01 09:26:22,264  INFO    SHAREINDIA [5min]: stale breakout — broke out 356 candle(s) ago, already ran
+2026-07-01 09:26:24,023  INFO    JSWCEMENT [5min]: forming box — too brief yet
+2026-07-01 09:26:27,009  INFO    MOLDTECH: ceiling breached, confirmations failed: vol 0.2x below avg — removing
+2026-07-01 09:26:28,781  INFO    IREDA [5min]: forming box — too brief yet
+2026-07-01 09:26:30,546  INFO    IEX [5min]: forming box — too brief yet
+2026-07-01 09:26:32,250  INFO    PWL [5min]: forming box — too brief yet
+2026-07-01 09:26:35,931  INFO    PIGL [5min]: stale breakout — broke out 196 candle(s) ago, already ran
+2026-07-01 09:26:37,698  INFO    BLUSPRING [5min]: forming box — too brief yet
+2026-07-01 09:26:39,466  INFO    SAMBHV [5min]: box CONFIRMED — floor ₹110.70 / ceil ₹111.09
+2026-07-01 09:26:41,201  INFO    GHCLTEXTIL [5min]: forming box — too brief yet
+2026-07-01 09:26:44,012  INFO    TNPETRO [5min]: forming box — too brief yet
+2026-07-01 09:26:45,761  INFO    PNBGILTS [5min]: forming box — too brief yet
+2026-07-01 09:26:47,554  INFO    AUTOIND [5min]: forming box — too brief yet
+2026-07-01 09:26:49,311  INFO    PAKKA [5min]: stale breakout — broke out 12 candle(s) ago, already ran
+2026-07-01 09:26:51,097  INFO    NDTV [5min]: stale breakout — broke out 157 candle(s) ago, already ran
+2026-07-01 09:26:54,652  INFO    REMSONSIND [5min]: stale breakout — broke out 232 candle(s) ago, already ran
+2026-07-01 09:26:56,395  INFO    JTLIND [5min]: stale breakout — broke out 7 candle(s) ago, already ran
+2026-07-01 09:26:58,150  INFO    CONFIPET: ceiling breached, confirmations failed: vol 0.5x below avg — removing
+2026-07-01 09:26:59,904  INFO    VGL [5min]: stale breakout — broke out 340 candle(s) ago, already ran
+2026-07-01 09:27:02,105  INFO    IGCL [5min]: no 200 EMA touch — not in a correction phase
+2026-07-01 09:27:04,530  INFO    WELSPLSOL [5min]: forming box — too brief yet
+2026-07-01 09:27:06,296  INFO    VASWANI [5min]: forming box — too brief yet
+2026-07-01 09:27:08,019  INFO    ROML [5min]: stale breakout — broke out 99 candle(s) ago, already ran
+2026-07-01 09:27:09,785  INFO    INDORAMA [5min]: stale breakout — broke out 200 candle(s) ago, already ran
+2026-07-01 09:27:11,986  INFO    PTL [5min]: forming box — too brief yet
+2026-07-01 09:27:13,883  INFO    FEDDERSHOL [5min]: stale breakout — broke out 123 candle(s) ago, already ran
+2026-07-01 09:27:15,620  INFO    SRD [5min]: stale breakout — broke out 114 candle(s) ago, already ran
+2026-07-01 09:27:17,464  INFO    MSUMI: ceiling breached, confirmations failed: vol 0.6x below avg — removing
+2026-07-01 09:27:19,224  INFO    SRTL: ceiling breached, confirmations failed: vol 0.0x below avg — removing
+2026-07-01 09:27:21,380  INFO    SCANSTL [5min]: watching floor ₹38.40 / ceil ₹39.89 | last ₹39.89
+2026-07-01 09:27:23,353  INFO    SUTLEJTEX [5min]: forming box — too brief yet
+2026-07-01 09:27:25,116  INFO  
+  ★ SIGNAL: SIGMA [5min] — breakout — locked ceil ₹38.63, RSI 54.0, vol 1.3x avg
+2026-07-01 09:27:25,117  INFO      close=₹38.78 | resistance=₹38.63
+2026-07-01 09:27:25,117  INFO      first_low=₹37.9 | RSI=54.0 | vol=1.3x avg
+2026-07-01 09:27:25,117  INFO      SL=₹38.31
+2026-07-01 09:27:25,117  INFO      [PAPER] BUY 128×SIGMA | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 09:27:25,118  INFO    ✓ OPENED  SIGMA [5min] | qty=128 | entry=₹38.78 | SL=₹38.31
+2026-07-01 09:27:25,118  INFO              position value=₹4963.84 | margin used=₹992.77 | leverage=5x
+2026-07-01 09:27:25,118  INFO      [PAPER] SELL 128×SIGMA | type=SL-M price=₹0.0 trigger=₹38.31
+2026-07-01 09:27:26,119  INFO    Max positions reached — pausing scan
+2026-07-01 09:30:27,280  INFO      + NIFTYFMCG: added to [5min] watchlist
+2026-07-01 09:30:27,281  INFO      + AIAENG: added to [5min] watchlist
+2026-07-01 09:30:27,281  INFO      + HEROMOTOCO: added to [5min] watchlist
+2026-07-01 09:30:27,281  INFO      + SANOFICONR: added to [5min] watchlist
+2026-07-01 09:30:27,281  INFO      + KAYNES: added to [5min] watchlist
+2026-07-01 09:30:27,282  INFO      + SASKEN: added to [5min] watchlist
+2026-07-01 09:30:27,282  INFO      + KIRLOSBROS: added to [5min] watchlist
+2026-07-01 09:30:27,282  INFO      + VIJAYA: added to [5min] watchlist
+2026-07-01 09:30:27,282  INFO      + GODREJCP: added to [5min] watchlist
+2026-07-01 09:30:27,282  INFO      + TITAGARH: added to [5min] watchlist
+2026-07-01 09:30:27,284  INFO      + SAKAR: added to [5min] watchlist
+2026-07-01 09:30:27,284  INFO      + VIVIANA: added to [5min] watchlist
+2026-07-01 09:30:27,284  INFO      + INTELLECT: added to [5min] watchlist
+2026-07-01 09:30:27,284  INFO      + TMB: added to [5min] watchlist
+2026-07-01 09:30:27,285  INFO      + HSCL: added to [5min] watchlist
+2026-07-01 09:30:27,285  INFO      + BUTTERFLY: added to [5min] watchlist
+2026-07-01 09:30:27,285  INFO      + SUNDROP: added to [5min] watchlist
+2026-07-01 09:30:27,285  INFO      + ITDC: added to [5min] watchlist
+2026-07-01 09:30:27,285  INFO      + LICHSGFIN: added to [5min] watchlist
+2026-07-01 09:30:27,285  INFO      + JUSTDIAL: added to [5min] watchlist
+2026-07-01 09:30:27,286  INFO      + SRHHYPOLTD: added to [5min] watchlist
+2026-07-01 09:30:27,286  INFO      + SUMICHEM: added to [5min] watchlist
+2026-07-01 09:30:27,286  INFO      + BHAGYANGR: added to [5min] watchlist
+2026-07-01 09:30:27,287  INFO      + ABCAPITAL: added to [5min] watchlist
+2026-07-01 09:30:27,287  INFO      + INDIACEM: added to [5min] watchlist
+2026-07-01 09:30:27,287  INFO      + REFEX: added to [5min] watchlist
+2026-07-01 09:30:27,287  INFO      + BAJAJHCARE: added to [5min] watchlist
+2026-07-01 09:30:27,288  INFO      + IIFLCAPS: added to [5min] watchlist
+2026-07-01 09:30:27,288  INFO      + GENUSPOWER: added to [5min] watchlist
+2026-07-01 09:30:27,288  INFO      + VGUARD: added to [5min] watchlist
+2026-07-01 09:30:27,288  INFO      + ITI: added to [5min] watchlist
+2026-07-01 09:30:27,288  INFO      + NPBET: added to [5min] watchlist
+2026-07-01 09:30:27,289  INFO      + SAHYADRI: added to [5min] watchlist
+2026-07-01 09:30:27,289  INFO      + PETRONET: added to [5min] watchlist
+2026-07-01 09:30:27,289  INFO      + REDINGTON: added to [5min] watchlist
+2026-07-01 09:30:27,289  INFO      + SETF10GILT: added to [5min] watchlist
+2026-07-01 09:30:27,289  INFO      + BELRISE: added to [5min] watchlist
+2026-07-01 09:30:27,290  INFO      + SILVERBND: added to [5min] watchlist
+2026-07-01 09:30:27,290  INFO      + KANSAINER: added to [5min] watchlist
+2026-07-01 09:30:27,290  INFO      + IFGLEXPOR: added to [5min] watchlist
+2026-07-01 09:30:27,290  INFO      + SPORTKING: added to [5min] watchlist
+2026-07-01 09:30:27,290  INFO      + NATHBIOGEN: added to [5min] watchlist
+2026-07-01 09:30:27,290  INFO      + GSFC: added to [5min] watchlist
+2026-07-01 09:30:27,291  INFO      + RELTD: added to [5min] watchlist
+2026-07-01 09:30:27,291  INFO      + IKIO: added to [5min] watchlist
+2026-07-01 09:30:27,291  INFO      + GPPL: added to [5min] watchlist
+2026-07-01 09:30:27,291  INFO      + NCC: added to [5min] watchlist
+2026-07-01 09:30:27,291  INFO      + ECOSMOBLTY: added to [5min] watchlist
+2026-07-01 09:30:27,292  INFO      + IRCON: added to [5min] watchlist
+2026-07-01 09:30:27,292  INFO      + MHLXMIRU: added to [5min] watchlist
+2026-07-01 09:30:27,292  INFO      + JMFINANCIL: added to [5min] watchlist
+2026-07-01 09:30:27,292  INFO      + THEMISMED: added to [5min] watchlist
+2026-07-01 09:30:27,292  INFO      + LAXMIINDIA: added to [5min] watchlist
+2026-07-01 09:30:27,293  INFO      + PIONRINV: added to [5min] watchlist
+2026-07-01 09:30:27,293  INFO      + NHPC: added to [5min] watchlist
+2026-07-01 09:30:27,293  INFO      + MASTERTR: added to [5min] watchlist
+2026-07-01 09:30:27,293  INFO      + ARIHANTCAP: added to [5min] watchlist
+2026-07-01 09:30:27,293  INFO      + MADRASFERT: added to [5min] watchlist
+2026-07-01 09:30:27,294  INFO      + SPIC: added to [5min] watchlist
+2026-07-01 09:30:27,294  INFO      + XCHANGING: added to [5min] watchlist
+2026-07-01 09:30:27,294  INFO      + HEXAGON: added to [5min] watchlist
+2026-07-01 09:30:27,294  INFO      + FMCGIETF: added to [5min] watchlist
+2026-07-01 09:30:27,294  INFO      + DCW: added to [5min] watchlist
+2026-07-01 09:30:27,295  INFO      + GOKUL: added to [5min] watchlist
+2026-07-01 09:30:27,295  INFO      + MSPL: added to [5min] watchlist
+2026-07-01 09:30:27,295  INFO      + SRTL: added to [5min] watchlist
+2026-07-01 09:30:27,295  INFO      + RADIANTCMS: added to [5min] watchlist
+2026-07-01 09:30:27,295  INFO      + BIRLAPREC: added to [5min] watchlist
+2026-07-01 09:30:27,295  INFO      + HPAL: added to [5min] watchlist
+2026-07-01 09:30:27,296  INFO      + INDBANK: added to [5min] watchlist
+2026-07-01 09:30:27,296  INFO      + DAMODARIND: added to [5min] watchlist
+2026-07-01 09:30:27,296  INFO      + GROWWRAIL: added to [5min] watchlist
+2026-07-01 09:30:27,296  INFO      + KOHINOOR: added to [5min] watchlist
+2026-07-01 09:30:27,296  INFO      + ECAPINSURE: added to [5min] watchlist
+2026-07-01 09:30:27,296  INFO      + USK: added to [5min] watchlist
+2026-07-01 09:30:27,296  INFO      + MFML: added to [5min] watchlist
+2026-07-01 09:30:27,297  INFO      + NIFTYQLITY: added to [5min] watchlist
+2026-07-01 09:30:27,297  INFO      + ASHIMASYN: added to [5min] watchlist
+2026-07-01 09:30:27,297  INFO      + GSS: added to [5min] watchlist
+2026-07-01 09:30:27,297  INFO      + HCL-INSYS: added to [5min] watchlist
+2026-07-01 09:30:27,298  INFO      + HATHWAY: added to [5min] watchlist
+2026-07-01 09:30:27,298  INFO      + ANMOL: added to [5min] watchlist
+2026-07-01 09:30:27,298  INFO      + GREENPOWER: added to [5min] watchlist
+2026-07-01 09:30:27,298  INFO      + BCG: added to [5min] watchlist
+2026-07-01 09:30:27,298  INFO      + AAKASH: added to [5min] watchlist
+2026-07-01 09:30:27,299  INFO      + CELEBRITY: added to [5min] watchlist
+2026-07-01 09:30:27,299  INFO      + TTL: added to [5min] watchlist
+2026-07-01 09:30:27,299  INFO      + COMFINTE: added to [5min] watchlist
+2026-07-01 09:30:27,300  INFO      + ZENITHSTL: added to [5min] watchlist
+2026-07-01 09:30:27,300  INFO      + EMPOWER: added to [5min] watchlist
+2026-07-01 09:30:27,301  INFO  
+── 5min candle closed | Chartink: 392 candidates, 90 new | tracking 1228 on this TF ──
+2026-07-01 09:30:27,301  INFO    Max positions reached — pausing scan
+2026-07-01 09:30:29,112  INFO      + ATUL: added to [15min] watchlist
+2026-07-01 09:30:29,122  INFO      + KIRLOSENG: added to [15min] watchlist
+2026-07-01 09:30:29,127  INFO      + WOCKPHARMA: added to [15min] watchlist
+2026-07-01 09:30:29,132  INFO      + NIFTYMEDIA: added to [15min] watchlist
+2026-07-01 09:30:29,143  INFO      + TATVA: added to [15min] watchlist
+2026-07-01 09:30:29,148  INFO      + HAVELLS: added to [15min] watchlist
+2026-07-01 09:30:29,149  INFO      + DCMSHRIRAM: added to [15min] watchlist
+2026-07-01 09:30:29,150  INFO      + BIRLACORPN: added to [15min] watchlist
+2026-07-01 09:30:29,151  INFO      + ISGEC: added to [15min] watchlist
+2026-07-01 09:30:29,151  INFO      + GANECOS: added to [15min] watchlist
+2026-07-01 09:30:29,152  INFO      + TATAINVEST: added to [15min] watchlist
+2026-07-01 09:30:29,152  INFO      + JUBLINGREA: added to [15min] watchlist
+2026-07-01 09:30:29,152  INFO      + ROUTE: added to [15min] watchlist
+2026-07-01 09:30:29,153  INFO      + HGS: added to [15min] watchlist
+2026-07-01 09:30:29,154  INFO      + RAILTEL: added to [15min] watchlist
+2026-07-01 09:30:29,156  INFO      + SBIETFIT: added to [15min] watchlist
+2026-07-01 09:30:29,161  INFO      + ASIANHOTNR: added to [15min] watchlist
+2026-07-01 09:30:29,166  INFO      + VAIBHAVGBL: added to [15min] watchlist
+2026-07-01 09:30:29,174  INFO      + V2RETAIL: added to [15min] watchlist
+2026-07-01 09:30:29,183  INFO      + CONSOFINVT: added to [15min] watchlist
+2026-07-01 09:30:29,193  INFO      + RITES: added to [15min] watchlist
+2026-07-01 09:30:29,205  INFO      + CHEMPLASTS: added to [15min] watchlist
+2026-07-01 09:30:29,209  INFO      + SPMLINFRA: added to [15min] watchlist
+2026-07-01 09:30:29,215  INFO      + BECTORFOOD: added to [15min] watchlist
+2026-07-01 09:30:29,223  INFO      + GLOBALVECT: added to [15min] watchlist
+2026-07-01 09:30:29,227  INFO      + WELSPUNLIV: added to [15min] watchlist
+2026-07-01 09:30:29,240  INFO      + ICICIB22: added to [15min] watchlist
+2026-07-01 09:30:29,246  INFO      + TOLINS: added to [15min] watchlist
+2026-07-01 09:30:29,254  INFO      + ELIN: added to [15min] watchlist
+2026-07-01 09:30:29,260  INFO      + WEBELSOLAR: added to [15min] watchlist
+2026-07-01 09:30:29,261  INFO      + ABLBL: added to [15min] watchlist
+2026-07-01 09:30:29,261  INFO      + INDOUS: added to [15min] watchlist
+2026-07-01 09:30:29,261  INFO      + BATLIBOI: added to [15min] watchlist
+2026-07-01 09:30:29,261  INFO      + GEOJITFSL: added to [15min] watchlist
+2026-07-01 09:30:29,262  INFO      + SINCLAIR: added to [15min] watchlist
+2026-07-01 09:30:29,262  INFO      + JAIBALAJI: added to [15min] watchlist
+2026-07-01 09:30:29,262  INFO      + ALPA: added to [15min] watchlist
+2026-07-01 09:30:29,262  INFO      + MONEYBOXX: added to [15min] watchlist
+2026-07-01 09:30:29,262  INFO      + WSI: added to [15min] watchlist
+2026-07-01 09:30:29,263  INFO      + PROZONER: added to [15min] watchlist
+2026-07-01 09:30:29,263  INFO      + GFLLIMITED: added to [15min] watchlist
+2026-07-01 09:30:29,263  INFO      + UGARSUGAR: added to [15min] watchlist
+2026-07-01 09:30:29,263  INFO      + SIGMA: added to [15min] watchlist
+2026-07-01 09:30:29,264  INFO      + NETWORK18: added to [15min] watchlist
+2026-07-01 09:30:29,264  INFO      + UNITEDPOLY: added to [15min] watchlist
+2026-07-01 09:30:29,264  INFO      + GEEKAYWIRE: added to [15min] watchlist
+2026-07-01 09:30:29,265  INFO      + GOLDENTOBC: added to [15min] watchlist
+2026-07-01 09:30:29,265  INFO      + ATL: added to [15min] watchlist
+2026-07-01 09:30:29,265  INFO      + RKDL: added to [15min] watchlist
+2026-07-01 09:30:29,265  INFO      + JPPOWER: added to [15min] watchlist
+2026-07-01 09:30:29,266  INFO      + LEXUS: added to [15min] watchlist
+2026-07-01 09:30:29,266  INFO      + PATINTLOG: added to [15min] watchlist
+2026-07-01 09:30:29,266  INFO      + NV20IETF: added to [15min] watchlist
+2026-07-01 09:30:29,266  INFO      + GTL: added to [15min] watchlist
+2026-07-01 09:30:29,266  INFO      + VARDMNPOLY: added to [15min] watchlist
+2026-07-01 09:30:29,267  INFO      + LAKPRE: added to [15min] watchlist
+2026-07-01 09:30:29,267  INFO      + OSIAHYPER: added to [15min] watchlist
+2026-07-01 09:30:29,267  INFO  
+── 15min candle closed | Chartink: 622 candidates, 57 new | tracking 356 on this TF ──
+2026-07-01 09:30:29,268  INFO    Max positions reached — pausing scan
+2026-07-01 09:35:30,524  INFO      + FINEORG: added to [5min] watchlist
+2026-07-01 09:35:30,524  INFO      + HINDUNILVR: added to [5min] watchlist
+2026-07-01 09:35:30,524  INFO      + TEGA: added to [5min] watchlist
+2026-07-01 09:35:30,525  INFO      + AUROPHARMA: added to [5min] watchlist
+2026-07-01 09:35:30,526  INFO      + SENORES: added to [5min] watchlist
+2026-07-01 09:35:30,526  INFO      + CHENNPETRO: added to [5min] watchlist
+2026-07-01 09:35:30,526  INFO      + METROBRAND: added to [5min] watchlist
+2026-07-01 09:35:30,527  INFO      + CLEAN: added to [5min] watchlist
+2026-07-01 09:35:30,527  INFO      + 63MOONS: added to [5min] watchlist
+2026-07-01 09:35:30,527  INFO      + SIGMAADV: added to [5min] watchlist
+2026-07-01 09:35:30,527  INFO      + JINDRILL: added to [5min] watchlist
+2026-07-01 09:35:30,527  INFO      + JARO: added to [5min] watchlist
+2026-07-01 09:35:30,527  INFO      + PRECWIRE: added to [5min] watchlist
+2026-07-01 09:35:30,528  INFO      + RAMKY: added to [5min] watchlist
+2026-07-01 09:35:30,528  INFO      + KPEL: added to [5min] watchlist
+2026-07-01 09:35:30,528  INFO      + MODIS: added to [5min] watchlist
+2026-07-01 09:35:30,528  INFO      + GODIGIT: added to [5min] watchlist
+2026-07-01 09:35:30,528  INFO      + IRMENERGY: added to [5min] watchlist
+2026-07-01 09:35:30,528  INFO      + STARCEMENT: added to [5min] watchlist
+2026-07-01 09:35:30,529  INFO      + BLAL: added to [5min] watchlist
+2026-07-01 09:35:30,529  INFO      + AYE: added to [5min] watchlist
+2026-07-01 09:35:30,529  INFO      + DAMCAPITAL: added to [5min] watchlist
+2026-07-01 09:35:30,529  INFO      + JAICORPLTD: added to [5min] watchlist
+2026-07-01 09:35:30,529  INFO      + DBREALTY: added to [5min] watchlist
+2026-07-01 09:35:30,529  INFO      + INTENTECH: added to [5min] watchlist
+2026-07-01 09:35:30,530  INFO      + EMAMIPAP: added to [5min] watchlist
+2026-07-01 09:35:30,530  INFO      + ANDHRSUGAR: added to [5min] watchlist
+2026-07-01 09:35:30,530  INFO      + MCLEODRUSS: added to [5min] watchlist
+2026-07-01 09:35:30,530  INFO      + OILCOUNTUB: added to [5min] watchlist
+2026-07-01 09:35:30,530  INFO      + SNOWMAN: added to [5min] watchlist
+2026-07-01 09:35:30,531  INFO      + AXISVALUE: added to [5min] watchlist
+2026-07-01 09:35:30,531  INFO      + AGROPHOS: added to [5min] watchlist
+2026-07-01 09:35:30,531  INFO      + GAYAPROJ: added to [5min] watchlist
+2026-07-01 09:35:30,531  INFO      + QUAL30IETF: added to [5min] watchlist
+2026-07-01 09:35:30,531  INFO      + ACCURACY: added to [5min] watchlist
+2026-07-01 09:35:30,532  INFO      + PRAKASHSTL: added to [5min] watchlist
+2026-07-01 09:35:30,532  INFO      + SUNDARAM: added to [5min] watchlist
+2026-07-01 09:35:30,532  INFO      + GATECHDVR: added to [5min] watchlist
+2026-07-01 09:35:30,533  INFO  
+── 5min candle closed | Chartink: 331 candidates, 38 new | tracking 1266 on this TF ──
+2026-07-01 09:35:30,533  INFO    Max positions reached — pausing scan
+2026-07-01 09:40:01,812  INFO      + NIFTY200QUALITY30: added to [5min] watchlist
+2026-07-01 09:40:01,812  INFO      + NIFTYGROWSECT15: added to [5min] watchlist
+2026-07-01 09:40:01,813  INFO      + NIFTY50VALUE30: added to [5min] watchlist
+2026-07-01 09:40:01,813  INFO      + NIFTYGS10YR: added to [5min] watchlist
+2026-07-01 09:40:01,813  INFO      + CAPLIPOINT: added to [5min] watchlist
+2026-07-01 09:40:01,813  INFO      + NILE: added to [5min] watchlist
+2026-07-01 09:40:01,814  INFO      + MOIL: added to [5min] watchlist
+2026-07-01 09:40:01,814  INFO      + RSYSTEMS: added to [5min] watchlist
+2026-07-01 09:40:01,814  INFO      + BAJEL: added to [5min] watchlist
+2026-07-01 09:40:01,814  INFO      + PLASTIBLEN: added to [5min] watchlist
+2026-07-01 09:40:01,814  INFO      + ZEEL: added to [5min] watchlist
+2026-07-01 09:40:01,814  INFO      + PVSL: added to [5min] watchlist
+2026-07-01 09:40:01,815  INFO      + BBNPNBETF: added to [5min] watchlist
+2026-07-01 09:40:01,815  INFO      + SHALPAINTS: added to [5min] watchlist
+2026-07-01 09:40:01,815  INFO      + BHARATCOAL: added to [5min] watchlist
+2026-07-01 09:40:01,815  INFO      + DEN: added to [5min] watchlist
+2026-07-01 09:40:01,815  INFO      + IRB: added to [5min] watchlist
+2026-07-01 09:40:01,815  INFO      + AKG: added to [5min] watchlist
+2026-07-01 09:40:01,816  INFO      + ASMS: added to [5min] watchlist
+2026-07-01 09:40:01,816  INFO      + BTML: added to [5min] watchlist
+2026-07-01 09:40:01,816  INFO      + TRU: added to [5min] watchlist
+2026-07-01 09:40:01,816  INFO      + MKPL: added to [5min] watchlist
+2026-07-01 09:40:01,817  INFO  
+── 5min candle closed | Chartink: 304 candidates, 22 new | tracking 1288 on this TF ──
+2026-07-01 09:40:01,817  INFO    Max positions reached — pausing scan
+2026-07-01 09:45:03,204  INFO      + JBCHEPHARM: added to [5min] watchlist
+2026-07-01 09:45:03,204  INFO      + HONDAPOWER: added to [5min] watchlist
+2026-07-01 09:45:03,204  INFO      + INOXINDIA: added to [5min] watchlist
+2026-07-01 09:45:03,205  INFO      + ASTERDM: added to [5min] watchlist
+2026-07-01 09:45:03,205  INFO      + TERASOFT: added to [5min] watchlist
+2026-07-01 09:45:03,205  INFO      + BPCL: added to [5min] watchlist
+2026-07-01 09:45:03,205  INFO      + LICNETFN50: added to [5min] watchlist
+2026-07-01 09:45:03,206  INFO      + HERANBA: added to [5min] watchlist
+2026-07-01 09:45:03,206  INFO      + ARFIN: added to [5min] watchlist
+2026-07-01 09:45:03,206  INFO      + IFCI: added to [5min] watchlist
+2026-07-01 09:45:03,206  INFO      + NFL: added to [5min] watchlist
+2026-07-01 09:45:03,206  INFO      + KRITI: added to [5min] watchlist
+2026-07-01 09:45:03,207  INFO      + GROWWHOSPI: added to [5min] watchlist
+2026-07-01 09:45:03,207  INFO      + VEDPOWER: added to [5min] watchlist
+2026-07-01 09:45:03,207  INFO      + SAMPANN: added to [5min] watchlist
+2026-07-01 09:45:03,207  INFO      + RAJTV: added to [5min] watchlist
+2026-07-01 09:45:03,207  INFO      + HLVLTD: added to [5min] watchlist
+2026-07-01 09:45:03,208  INFO      + SALASAR: added to [5min] watchlist
+2026-07-01 09:45:03,208  INFO      + KEEPLEARN: added to [5min] watchlist
+2026-07-01 09:45:03,208  INFO  
+── 5min candle closed | Chartink: 257 candidates, 19 new | tracking 1307 on this TF ──
+2026-07-01 09:45:03,209  INFO    Max positions reached — pausing scan
+2026-07-01 09:45:04,374  INFO      + NIFTYMIDLIQ15: added to [15min] watchlist
+2026-07-01 09:45:04,374  INFO      + GULFOILLUB: added to [15min] watchlist
+2026-07-01 09:45:04,374  INFO      + DBCORP: added to [15min] watchlist
+2026-07-01 09:45:04,375  INFO      + HISARMETAL: added to [15min] watchlist
+2026-07-01 09:45:04,375  INFO      + HECPROJECT: added to [15min] watchlist
+2026-07-01 09:45:04,375  INFO      + SERVOTECH: added to [15min] watchlist
+2026-07-01 09:45:04,375  INFO      + COASTCORP: added to [15min] watchlist
+2026-07-01 09:45:04,375  INFO      + RENUKA: added to [15min] watchlist
+2026-07-01 09:45:04,376  INFO      + ARCHIES: added to [15min] watchlist
+2026-07-01 09:45:04,376  INFO      + RADIOCITY: added to [15min] watchlist
+2026-07-01 09:45:04,376  INFO      + ASTRON: added to [15min] watchlist
+2026-07-01 09:45:04,376  INFO  
+── 15min candle closed | Chartink: 298 candidates, 11 new | tracking 367 on this TF ──
+2026-07-01 09:45:04,377  INFO    Max positions reached — pausing scan
+2026-07-01 09:45:05,562  INFO      + NIFTYM150QLTY50: added to [30min] watchlist
+2026-07-01 09:45:05,562  INFO      + LINCOLN: added to [30min] watchlist
+2026-07-01 09:45:05,563  INFO      + AMRUTANJAN: added to [30min] watchlist
+2026-07-01 09:45:05,563  INFO      + KOTAKBANK: added to [30min] watchlist
+2026-07-01 09:45:05,563  INFO      + ABCOTS: added to [30min] watchlist
+2026-07-01 09:45:05,563  INFO      + THOMASCOOK: added to [30min] watchlist
+2026-07-01 09:45:05,563  INFO      + GROWWPSE: added to [30min] watchlist
+2026-07-01 09:45:05,564  INFO      + KRITINUT: added to [30min] watchlist
+2026-07-01 09:45:05,564  INFO      + NIVABUPA: added to [30min] watchlist
+2026-07-01 09:45:05,564  INFO      + GRANDOAK: added to [30min] watchlist
+2026-07-01 09:45:05,564  INFO      + AMJLAND: added to [30min] watchlist
+2026-07-01 09:45:05,564  INFO      + IOB: added to [30min] watchlist
+2026-07-01 09:45:05,565  INFO  
+── 30min candle closed | Chartink: 535 candidates, 12 new | tracking 263 on this TF ──
+2026-07-01 09:45:05,565  INFO    Max positions reached — pausing scan
+2026-07-01 09:50:06,675  INFO      + ELANTAS: added to [5min] watchlist
+2026-07-01 09:50:06,676  INFO      + LINDEINDIA: added to [5min] watchlist
+2026-07-01 09:50:06,676  INFO      + TORNTPHARM: added to [5min] watchlist
+2026-07-01 09:50:06,676  INFO      + NUVAMA: added to [5min] watchlist
+2026-07-01 09:50:06,676  INFO      + OBEROIRLTY: added to [5min] watchlist
+2026-07-01 09:50:06,677  INFO      + ASTRAMICRO: added to [5min] watchlist
+2026-07-01 09:50:06,677  INFO      + SUMMITSEC: added to [5min] watchlist
+2026-07-01 09:50:06,677  INFO      + AVANTIFEED: added to [5min] watchlist
+2026-07-01 09:50:06,677  INFO      + RPSGVENT: added to [5min] watchlist
+2026-07-01 09:50:06,677  INFO      + POONAWALLA: added to [5min] watchlist
+2026-07-01 09:50:06,678  INFO      + GUFICBIO: added to [5min] watchlist
+2026-07-01 09:50:06,678  INFO      + INDRAMEDCO: added to [5min] watchlist
+2026-07-01 09:50:06,678  INFO      + MEGASTAR: added to [5min] watchlist
+2026-07-01 09:50:06,678  INFO      + RSWM: added to [5min] watchlist
+2026-07-01 09:50:06,678  INFO      + HEALTHADD: added to [5min] watchlist
+2026-07-01 09:50:06,678  INFO      + CANBK: added to [5min] watchlist
+2026-07-01 09:50:06,678  INFO      + MAHABANK: added to [5min] watchlist
+2026-07-01 09:50:06,679  INFO      + VASCONEQ: added to [5min] watchlist
+2026-07-01 09:50:06,679  INFO      + KMSUGAR: added to [5min] watchlist
+2026-07-01 09:50:06,679  INFO      + PHARMABEES: added to [5min] watchlist
+2026-07-01 09:50:06,679  INFO      + LATTEYS: added to [5min] watchlist
+2026-07-01 09:50:06,679  INFO      + BAJAJHIND: added to [5min] watchlist
+2026-07-01 09:50:06,680  INFO      + HEALTHY: added to [5min] watchlist
+2026-07-01 09:50:06,680  INFO      + JHS: added to [5min] watchlist
+2026-07-01 09:50:06,680  INFO  
+── 5min candle closed | Chartink: 295 candidates, 24 new | tracking 1331 on this TF ──
+2026-07-01 09:50:06,681  INFO    Max positions reached — pausing scan
+2026-07-01 09:55:07,657  INFO      + NIFTYHEALTHCARE: added to [5min] watchlist
+2026-07-01 09:55:07,657  INFO      + NETWEB: added to [5min] watchlist
+2026-07-01 09:55:07,657  INFO      + BBL: added to [5min] watchlist
+2026-07-01 09:55:07,658  INFO      + FINCABLES: added to [5min] watchlist
+2026-07-01 09:55:07,658  INFO      + ORCHPHARMA: added to [5min] watchlist
+2026-07-01 09:55:07,658  INFO      + CYIENT: added to [5min] watchlist
+2026-07-01 09:55:07,658  INFO      + HPL: added to [5min] watchlist
+2026-07-01 09:55:07,659  INFO      + HINDWAREAP: added to [5min] watchlist
+2026-07-01 09:55:07,659  INFO      + FSL: added to [5min] watchlist
+2026-07-01 09:55:07,659  INFO      + JAYAGROGN: added to [5min] watchlist
+2026-07-01 09:55:07,659  INFO      + GULPOLY: added to [5min] watchlist
+2026-07-01 09:55:07,659  INFO      + LFIC: added to [5min] watchlist
+2026-07-01 09:55:07,659  INFO      + JOCIL: added to [5min] watchlist
+2026-07-01 09:55:07,660  INFO      + SILGO: added to [5min] watchlist
+2026-07-01 09:55:07,660  INFO      + VIKRAN: added to [5min] watchlist
+2026-07-01 09:55:07,660  INFO      + ABFRL: added to [5min] watchlist
+2026-07-01 09:55:07,660  INFO      + HDFCQUAL: added to [5min] watchlist
+2026-07-01 09:55:07,660  INFO      + BVCL: added to [5min] watchlist
+2026-07-01 09:55:07,660  INFO      + SPENCERS: added to [5min] watchlist
+2026-07-01 09:55:07,660  INFO      + VINEETLAB: added to [5min] watchlist
+2026-07-01 09:55:07,661  INFO      + LTGILTBEES: added to [5min] watchlist
+2026-07-01 09:55:07,661  INFO      + BANK10ADD: added to [5min] watchlist
+2026-07-01 09:55:07,661  INFO      + RANASUG: added to [5min] watchlist
+2026-07-01 09:55:07,661  INFO      + EASEMYTRIP: added to [5min] watchlist
+2026-07-01 09:55:07,662  INFO  
+── 5min candle closed | Chartink: 290 candidates, 24 new | tracking 1355 on this TF ──
+2026-07-01 09:55:07,662  INFO    Max positions reached — pausing scan
+2026-07-01 10:00:08,658  INFO      + HYUNDAI: added to [5min] watchlist
+2026-07-01 10:00:08,659  INFO      + CARYSIL: added to [5min] watchlist
+2026-07-01 10:00:08,659  INFO      + PREMEXPLN: added to [5min] watchlist
+2026-07-01 10:00:08,659  INFO      + MEIL: added to [5min] watchlist
+2026-07-01 10:00:08,659  INFO      + HALDER: added to [5min] watchlist
+2026-07-01 10:00:08,659  INFO      + SUPERHOUSE: added to [5min] watchlist
+2026-07-01 10:00:08,659  INFO      + PRSMJOHNSN: added to [5min] watchlist
+2026-07-01 10:00:08,660  INFO      + ONEPOINT: added to [5min] watchlist
+2026-07-01 10:00:08,660  INFO      + RAJSREESUG: added to [5min] watchlist
+2026-07-01 10:00:08,660  INFO      + NECCLTD: added to [5min] watchlist
+2026-07-01 10:00:08,661  INFO  
+── 5min candle closed | Chartink: 274 candidates, 10 new | tracking 1365 on this TF ──
+2026-07-01 10:00:08,661  INFO    Max positions reached — pausing scan
+2026-07-01 10:00:09,604  INFO  
+── 15min candle closed | Chartink: 263 candidates, 0 new | tracking 367 on this TF ──
+2026-07-01 10:00:09,604  INFO    Max positions reached — pausing scan
+2026-07-01 10:00:09,627  INFO  
+── 45min candle closed | Chartink: 0 candidates, 0 new | tracking 4 on this TF ──
+2026-07-01 10:00:09,627  INFO    Max positions reached — pausing scan
+2026-07-01 10:05:10,636  INFO      + RELIANCE: added to [5min] watchlist
+2026-07-01 10:05:10,636  INFO      + SIKA: added to [5min] watchlist
+2026-07-01 10:05:10,637  INFO      + ASTEC: added to [5min] watchlist
+2026-07-01 10:05:10,637  INFO      + CAPILLARY: added to [5min] watchlist
+2026-07-01 10:05:10,637  INFO      + RVNL: added to [5min] watchlist
+2026-07-01 10:05:10,637  INFO      + IRFC: added to [5min] watchlist
+2026-07-01 10:05:10,638  INFO      + MTNL: added to [5min] watchlist
+2026-07-01 10:05:10,638  INFO      + UMAEXPORTS: added to [5min] watchlist
+2026-07-01 10:05:10,638  INFO  
+── 5min candle closed | Chartink: 269 candidates, 8 new | tracking 1373 on this TF ──
+2026-07-01 10:05:10,638  INFO    Max positions reached — pausing scan
+2026-07-01 10:10:11,631  INFO      + FLUOROCHEM: added to [5min] watchlist
+2026-07-01 10:10:11,631  INFO      + KPL: added to [5min] watchlist
+2026-07-01 10:10:11,631  INFO      + INNOVACAP: added to [5min] watchlist
+2026-07-01 10:10:11,631  INFO      + MUKANDLTD: added to [5min] watchlist
+2026-07-01 10:10:11,631  INFO      + NIITLTD: added to [5min] watchlist
+2026-07-01 10:10:11,632  INFO      + FINKURVE: added to [5min] watchlist
+2026-07-01 10:10:11,632  INFO      + BLKASHYAP: added to [5min] watchlist
+2026-07-01 10:10:11,632  INFO      + DHANBANK: added to [5min] watchlist
+2026-07-01 10:10:11,632  INFO  
+── 5min candle closed | Chartink: 255 candidates, 8 new | tracking 1381 on this TF ──
+2026-07-01 10:10:11,633  INFO    Max positions reached — pausing scan
+2026-07-01 10:15:12,728  INFO      + AAVAS: added to [5min] watchlist
+2026-07-01 10:15:12,728  INFO      + DEEDEV: added to [5min] watchlist
+2026-07-01 10:15:12,728  INFO      + VISHNU: added to [5min] watchlist
+2026-07-01 10:15:12,728  INFO      + DECCANCE: added to [5min] watchlist
+2026-07-01 10:15:12,728  INFO      + GUJAPOLLO: added to [5min] watchlist
+2026-07-01 10:15:12,729  INFO      + PRIMESECU: added to [5min] watchlist
+2026-07-01 10:15:12,729  INFO      + MUFTI: added to [5min] watchlist
+2026-07-01 10:15:12,729  INFO      + RHETAN: added to [5min] watchlist
+2026-07-01 10:15:12,729  INFO      + ENERGYDEV: added to [5min] watchlist
+2026-07-01 10:15:12,729  INFO      + GENUSPAPER: added to [5min] watchlist
+2026-07-01 10:15:12,730  INFO  
+── 5min candle closed | Chartink: 254 candidates, 10 new | tracking 1391 on this TF ──
+2026-07-01 10:15:12,730  INFO    Max positions reached — pausing scan
+2026-07-01 10:15:13,692  INFO      + CPPLUS: added to [15min] watchlist
+2026-07-01 10:15:13,692  INFO      + MOQUALITY: added to [15min] watchlist
+2026-07-01 10:15:13,693  INFO  
+── 15min candle closed | Chartink: 248 candidates, 2 new | tracking 369 on this TF ──
+2026-07-01 10:15:13,693  INFO    Max positions reached — pausing scan
+2026-07-01 10:15:14,693  INFO      + PONNIERODE: added to [30min] watchlist
+2026-07-01 10:15:14,693  INFO      + JAYSREETEA: added to [30min] watchlist
+2026-07-01 10:15:14,693  INFO      + DHRUV: added to [30min] watchlist
+2026-07-01 10:15:14,693  INFO      + SHARDUL: added to [30min] watchlist
+2026-07-01 10:15:14,694  INFO      + HYBRIDFIN: added to [30min] watchlist
+2026-07-01 10:15:14,694  INFO  
+── 30min candle closed | Chartink: 285 candidates, 5 new | tracking 268 on this TF ──
+2026-07-01 10:15:14,694  INFO    Max positions reached — pausing scan
+2026-07-01 10:15:14,717  INFO  
+── 1H candle closed | Chartink: 0 candidates, 0 new | tracking 0 on this TF ──
+2026-07-01 10:20:15,720  INFO      + LAURUSLABS: added to [5min] watchlist
+2026-07-01 10:20:15,720  INFO      + TARSONS: added to [5min] watchlist
+2026-07-01 10:20:15,720  INFO      + MAWANASUG: added to [5min] watchlist
+2026-07-01 10:20:15,721  INFO      + MIRZAINT: added to [5min] watchlist
+2026-07-01 10:20:15,721  INFO      + MORARJEE: added to [5min] watchlist
+2026-07-01 10:20:15,721  INFO  
+── 5min candle closed | Chartink: 245 candidates, 5 new | tracking 1396 on this TF ──
+2026-07-01 10:20:15,722  INFO    Max positions reached — pausing scan
+2026-07-01 10:25:16,870  INFO      + LUPIN: added to [5min] watchlist
+2026-07-01 10:25:16,870  INFO      + WHEELS: added to [5min] watchlist
+2026-07-01 10:25:16,870  INFO      + IMFA: added to [5min] watchlist
+2026-07-01 10:25:16,870  INFO      + SIGNATURE: added to [5min] watchlist
+2026-07-01 10:25:16,871  INFO      + BANKINDIA: added to [5min] watchlist
+2026-07-01 10:25:16,871  INFO      + SPLIL: added to [5min] watchlist
+2026-07-01 10:25:16,871  INFO      + EQUIPPP: added to [5min] watchlist
+2026-07-01 10:25:16,871  INFO      + DNAMEDIA: added to [5min] watchlist
+2026-07-01 10:25:16,872  INFO  
+── 5min candle closed | Chartink: 258 candidates, 8 new | tracking 1404 on this TF ──
+2026-07-01 10:25:16,872  INFO    Max positions reached — pausing scan
+2026-07-01 10:30:18,134  INFO      + ANANDRATHI: added to [5min] watchlist
+2026-07-01 10:30:18,135  INFO      + SWANCORP: added to [5min] watchlist
+2026-07-01 10:30:18,135  INFO      + ALPHAGEO: added to [5min] watchlist
+2026-07-01 10:30:18,135  INFO      + EMMBI: added to [5min] watchlist
+2026-07-01 10:30:18,136  INFO      + AERONEU: added to [5min] watchlist
+2026-07-01 10:30:18,136  INFO      + GILLANDERS: added to [5min] watchlist
+2026-07-01 10:30:18,136  INFO      + ORICONENT: added to [5min] watchlist
+2026-07-01 10:30:18,136  INFO      + AMDIND: added to [5min] watchlist
+2026-07-01 10:30:18,137  INFO      + RAMASTEEL: added to [5min] watchlist
+2026-07-01 10:30:18,137  INFO  
+── 5min candle closed | Chartink: 209 candidates, 9 new | tracking 1413 on this TF ──
+2026-07-01 10:30:18,137  INFO    Max positions reached — pausing scan
+2026-07-01 10:30:19,349  INFO      + PRUDMOULI: added to [15min] watchlist
+2026-07-01 10:30:19,350  INFO  
+── 15min candle closed | Chartink: 219 candidates, 1 new | tracking 370 on this TF ──
+2026-07-01 10:30:19,350  INFO    Max positions reached — pausing scan
+2026-07-01 10:35:20,460  INFO      + CRAFTSMAN: added to [5min] watchlist
+2026-07-01 10:35:20,460  INFO      + PFC: added to [5min] watchlist
+2026-07-01 10:35:20,460  INFO      + SUVEN: added to [5min] watchlist
+2026-07-01 10:35:20,460  INFO      + SMARTLINK: added to [5min] watchlist
+2026-07-01 10:35:20,461  INFO      + BOROSCI: added to [5min] watchlist
+2026-07-01 10:35:20,461  INFO      + BEDMUTHA: added to [5min] watchlist
+2026-07-01 10:35:20,461  INFO      + APTECHT: added to [5min] watchlist
+2026-07-01 10:35:20,461  INFO      + FIBERWEB: added to [5min] watchlist
+2026-07-01 10:35:20,462  INFO      + CAPTRUST: added to [5min] watchlist
+2026-07-01 10:35:20,462  INFO  
+── 5min candle closed | Chartink: 221 candidates, 9 new | tracking 1422 on this TF ──
+2026-07-01 10:35:20,462  INFO    Max positions reached — pausing scan
+2026-07-01 10:40:21,531  INFO      + WELCORP: added to [5min] watchlist
+2026-07-01 10:40:21,532  INFO      + ACC: added to [5min] watchlist
+2026-07-01 10:40:21,532  INFO      + NIFTYGS10YRCLN: added to [5min] watchlist
+2026-07-01 10:40:21,533  INFO      + GOLDIAM: added to [5min] watchlist
+2026-07-01 10:40:21,533  INFO      + ADANIPOWER: added to [5min] watchlist
+2026-07-01 10:40:21,533  INFO      + CHEMCON: added to [5min] watchlist
+2026-07-01 10:40:21,533  INFO      + TFL: added to [5min] watchlist
+2026-07-01 10:40:21,534  INFO  
+── 5min candle closed | Chartink: 223 candidates, 7 new | tracking 1429 on this TF ──
+2026-07-01 10:40:21,534  INFO    Max positions reached — pausing scan
+2026-07-01 10:45:22,545  INFO      + PRUDENT: added to [5min] watchlist
+2026-07-01 10:45:22,545  INFO      + KRITIKA: added to [5min] watchlist
+2026-07-01 10:45:22,546  INFO      + GATECH: added to [5min] watchlist
+2026-07-01 10:45:22,546  INFO  
+── 5min candle closed | Chartink: 252 candidates, 3 new | tracking 1432 on this TF ──
+2026-07-01 10:45:22,546  INFO    Max positions reached — pausing scan
+2026-07-01 10:45:23,488  INFO  
+── 15min candle closed | Chartink: 209 candidates, 0 new | tracking 370 on this TF ──
+2026-07-01 10:45:23,488  INFO    Max positions reached — pausing scan
+2026-07-01 10:45:24,404  INFO      + RIIL: added to [30min] watchlist
+2026-07-01 10:45:24,404  INFO      + PODDARMENT: added to [30min] watchlist
+2026-07-01 10:45:24,404  INFO      + AFSL: added to [30min] watchlist
+2026-07-01 10:45:24,405  INFO      + LAGNAM: added to [30min] watchlist
+2026-07-01 10:45:24,405  INFO  
+── 30min candle closed | Chartink: 244 candidates, 4 new | tracking 272 on this TF ──
+2026-07-01 10:45:24,405  INFO    Max positions reached — pausing scan
+2026-07-01 10:45:24,430  INFO  
+── 45min candle closed | Chartink: 0 candidates, 0 new | tracking 4 on this TF ──
+2026-07-01 10:45:24,430  INFO    Max positions reached — pausing scan
+2026-07-01 10:50:25,411  INFO      + TAALTECH: added to [5min] watchlist
+2026-07-01 10:50:25,411  INFO      + SHAILY: added to [5min] watchlist
+2026-07-01 10:50:25,411  INFO      + AVALON: added to [5min] watchlist
+2026-07-01 10:50:25,412  INFO      + GOODLUCK: added to [5min] watchlist
+2026-07-01 10:50:25,412  INFO      + RAYMOND: added to [5min] watchlist
+2026-07-01 10:50:25,412  INFO      + LOVABLE: added to [5min] watchlist
+2026-07-01 10:50:25,412  INFO      + ROSSELLIND: added to [5min] watchlist
+2026-07-01 10:50:25,413  INFO  
+── 5min candle closed | Chartink: 258 candidates, 7 new | tracking 1439 on this TF ──
+2026-07-01 10:50:25,413  INFO    Max positions reached — pausing scan
+2026-07-01 10:55:26,438  INFO      + INVPRECQ: added to [5min] watchlist
+2026-07-01 10:55:26,439  INFO      + GARFIBRES: added to [5min] watchlist
+2026-07-01 10:55:26,439  INFO      + BLISSGVS: added to [5min] watchlist
+2026-07-01 10:55:26,439  INFO      + SHREEPUSHK: added to [5min] watchlist
+2026-07-01 10:55:26,439  INFO      + MOGSEC: added to [5min] watchlist
+2026-07-01 10:55:26,440  INFO  
+── 5min candle closed | Chartink: 257 candidates, 5 new | tracking 1444 on this TF ──
+2026-07-01 10:55:26,440  INFO    Max positions reached — pausing scan
+2026-07-01 11:00:27,738  INFO      + VEEDOL: added to [5min] watchlist
+2026-07-01 11:00:27,738  INFO      + PPL: added to [5min] watchlist
+2026-07-01 11:00:27,739  INFO      + ENGINERSIN: added to [5min] watchlist
+2026-07-01 11:00:27,739  INFO      + UFO: added to [5min] watchlist
+2026-07-01 11:00:27,739  INFO      + MOHEALTH: added to [5min] watchlist
+2026-07-01 11:00:27,740  INFO  
+── 5min candle closed | Chartink: 198 candidates, 5 new | tracking 1449 on this TF ──
+2026-07-01 11:00:27,740  INFO    Max positions reached — pausing scan
+2026-07-01 11:00:28,873  INFO      + KIRANVYPAR: added to [15min] watchlist
+2026-07-01 11:00:28,874  INFO  
+── 15min candle closed | Chartink: 201 candidates, 1 new | tracking 371 on this TF ──
+2026-07-01 11:00:28,874  INFO    Max positions reached — pausing scan
+2026-07-01 11:05:29,971  INFO      + REPRO: added to [5min] watchlist
+2026-07-01 11:05:29,971  INFO      + NITIRAJ: added to [5min] watchlist
+2026-07-01 11:05:29,971  INFO      + PENIND: added to [5min] watchlist
+2026-07-01 11:05:29,972  INFO      + OILIETF: added to [5min] watchlist
+2026-07-01 11:05:29,972  INFO  
+── 5min candle closed | Chartink: 218 candidates, 4 new | tracking 1453 on this TF ──
+2026-07-01 11:05:29,972  INFO    Max positions reached — pausing scan
+2026-07-01 11:10:30,972  INFO      + ZYDUSWELL: added to [5min] watchlist
+2026-07-01 11:10:30,972  INFO      + INNOVISION: added to [5min] watchlist
+2026-07-01 11:10:30,972  INFO      + TBZ: added to [5min] watchlist
+2026-07-01 11:10:30,972  INFO      + HEALTHCARE: added to [5min] watchlist
+2026-07-01 11:10:30,973  INFO  
+── 5min candle closed | Chartink: 201 candidates, 4 new | tracking 1457 on this TF ──
+2026-07-01 11:10:30,973  INFO    Max positions reached — pausing scan
+2026-07-01 11:15:02,768  INFO      + MAPMYINDIA: added to [5min] watchlist
+2026-07-01 11:15:02,772  INFO      + AXISHCETF: added to [5min] watchlist
+2026-07-01 11:15:02,774  INFO      + BALPHARMA: added to [5min] watchlist
+2026-07-01 11:15:02,780  INFO  
+── 5min candle closed | Chartink: 159 candidates, 3 new | tracking 1460 on this TF ──
+2026-07-01 11:15:02,783  INFO    Max positions reached — pausing scan
+2026-07-01 11:15:04,431  INFO      + FOSECOIND: added to [15min] watchlist
+2026-07-01 11:15:04,431  INFO  
+── 15min candle closed | Chartink: 184 candidates, 1 new | tracking 372 on this TF ──
+2026-07-01 11:15:04,432  INFO    Max positions reached — pausing scan
+2026-07-01 11:15:05,603  INFO      + MITCON: added to [30min] watchlist
+2026-07-01 11:15:05,604  INFO      + WILLAMAGOR: added to [30min] watchlist
+2026-07-01 11:15:05,606  INFO  
+── 30min candle closed | Chartink: 218 candidates, 2 new | tracking 274 on this TF ──
+2026-07-01 11:15:05,606  INFO    Max positions reached — pausing scan
+2026-07-01 11:15:05,671  INFO  
+── 1H candle closed | Chartink: 0 candidates, 0 new | tracking 0 on this TF ──
+2026-07-01 11:20:06,916  INFO      + NIFTYOILANDGAS: added to [5min] watchlist
+2026-07-01 11:20:06,916  INFO      + STARHEALTH: added to [5min] watchlist
+2026-07-01 11:20:06,917  INFO      + DCM: added to [5min] watchlist
+2026-07-01 11:20:06,918  INFO      + MANGALAM: added to [5min] watchlist
+2026-07-01 11:20:06,919  INFO  
+── 5min candle closed | Chartink: 197 candidates, 4 new | tracking 1464 on this TF ──
+2026-07-01 11:20:06,919  INFO    Max positions reached — pausing scan
+2026-07-01 11:25:07,934  INFO      + PANACEABIO: added to [5min] watchlist
+2026-07-01 11:25:07,934  INFO      + PANACHE: added to [5min] watchlist
+2026-07-01 11:25:07,934  INFO      + AEGISVOPAK: added to [5min] watchlist
+2026-07-01 11:25:07,934  INFO      + CHEMBOND: added to [5min] watchlist
+2026-07-01 11:25:07,935  INFO  
+── 5min candle closed | Chartink: 200 candidates, 4 new | tracking 1468 on this TF ──
+2026-07-01 11:25:07,935  INFO    Max positions reached — pausing scan
+2026-07-01 11:30:08,945  INFO      + ZENSARTECH: added to [5min] watchlist
+2026-07-01 11:30:08,945  INFO  
+── 5min candle closed | Chartink: 207 candidates, 1 new | tracking 1469 on this TF ──
+2026-07-01 11:30:08,946  INFO    Max positions reached — pausing scan
+2026-07-01 11:30:09,891  INFO      + KSR: added to [15min] watchlist
+2026-07-01 11:30:09,891  INFO      + BAGFILMS: added to [15min] watchlist
+2026-07-01 11:30:09,892  INFO  
+── 15min candle closed | Chartink: 159 candidates, 2 new | tracking 374 on this TF ──
+2026-07-01 11:30:09,892  INFO    Max positions reached — pausing scan
+2026-07-01 11:30:09,919  INFO  
+── 45min candle closed | Chartink: 0 candidates, 0 new | tracking 4 on this TF ──
+2026-07-01 11:30:09,920  INFO    Max positions reached — pausing scan
+2026-07-01 11:35:10,916  INFO      + AJANTPHARM: added to [5min] watchlist
+2026-07-01 11:35:10,917  INFO      + MOLDTKPAC: added to [5min] watchlist
+2026-07-01 11:35:10,917  INFO      + SHAHALLOYS: added to [5min] watchlist
+2026-07-01 11:35:10,917  INFO      + FOODSIN: added to [5min] watchlist
+2026-07-01 11:35:10,917  INFO      + MEDICO: added to [5min] watchlist
+2026-07-01 11:35:10,919  INFO      + ATLANTAA: added to [5min] watchlist
+2026-07-01 11:35:10,920  INFO  
+── 5min candle closed | Chartink: 176 candidates, 6 new | tracking 1475 on this TF ──
+2026-07-01 11:35:10,920  INFO    Max positions reached — pausing scan
+2026-07-01 11:40:11,911  INFO      + NDGL: added to [5min] watchlist
+2026-07-01 11:40:11,911  INFO      + ALBERTDAVD: added to [5min] watchlist
+2026-07-01 11:40:11,912  INFO      + CENTEXT: added to [5min] watchlist
+2026-07-01 11:40:11,912  INFO      + VAL30IETF: added to [5min] watchlist
+2026-07-01 11:40:11,912  INFO  
+── 5min candle closed | Chartink: 183 candidates, 4 new | tracking 1479 on this TF ──
+2026-07-01 11:40:11,912  INFO    Max positions reached — pausing scan
+2026-07-01 11:45:13,226  INFO      + VENKEYS: added to [5min] watchlist
+2026-07-01 11:45:13,227  INFO      + HEXT: added to [5min] watchlist
+2026-07-01 11:45:13,227  INFO      + MOVALUE: added to [5min] watchlist
+2026-07-01 11:45:13,227  INFO      + NILAINFRA: added to [5min] watchlist
+2026-07-01 11:45:13,227  INFO  
+── 5min candle closed | Chartink: 201 candidates, 4 new | tracking 1483 on this TF ──
+2026-07-01 11:45:13,228  INFO    Max positions reached — pausing scan
+2026-07-01 11:45:14,436  INFO      + SURYALAXMI: added to [15min] watchlist
+2026-07-01 11:45:14,436  INFO  
+── 15min candle closed | Chartink: 170 candidates, 1 new | tracking 375 on this TF ──
+2026-07-01 11:45:14,437  INFO    Max positions reached — pausing scan
+2026-07-01 11:45:15,649  INFO      + SABEVENTS: added to [30min] watchlist
+2026-07-01 11:45:15,650  INFO  
+── 30min candle closed | Chartink: 189 candidates, 1 new | tracking 275 on this TF ──
+2026-07-01 11:45:15,650  INFO    Max positions reached — pausing scan
+2026-07-01 11:50:23,925  INFO  
+── 5min candle closed | Chartink: 0 candidates, 0 new | tracking 1483 on this TF ──
+2026-07-01 11:50:23,925  INFO    Max positions reached — pausing scan
+2026-07-01 11:55:34,023  INFO  
+── 5min candle closed | Chartink: 0 candidates, 0 new | tracking 1483 on this TF ──
+2026-07-01 11:55:34,024  INFO    Max positions reached — pausing scan
+2026-07-01 12:00:14,131  INFO  
+── 5min candle closed | Chartink: 0 candidates, 0 new | tracking 1483 on this TF ──
+2026-07-01 12:00:14,131  INFO    Max positions reached — pausing scan
+2026-07-01 12:00:24,219  INFO  
+── 15min candle closed | Chartink: 0 candidates, 0 new | tracking 375 on this TF ──
+2026-07-01 12:00:24,219  INFO    Max positions reached — pausing scan
+2026-07-01 12:05:25,282  INFO      + KRN: added to [5min] watchlist
+2026-07-01 12:05:25,283  INFO      + INDIANB: added to [5min] watchlist
+2026-07-01 12:05:25,283  INFO      + SWELECTES: added to [5min] watchlist
+2026-07-01 12:05:25,283  INFO      + SEMAC: added to [5min] watchlist
+2026-07-01 12:05:25,283  INFO      + SRGHFL: added to [5min] watchlist
+2026-07-01 12:05:25,283  INFO      + SMLT: added to [5min] watchlist
+2026-07-01 12:05:25,284  INFO      + SHRADHA: added to [5min] watchlist
+2026-07-01 12:05:25,284  INFO      + CENTRUM: added to [5min] watchlist
+2026-07-01 12:05:25,285  INFO  
+── 5min candle closed | Chartink: 178 candidates, 8 new | tracking 1491 on this TF ──
+2026-07-01 12:05:25,285  INFO    Max positions reached — pausing scan
+2026-07-01 12:10:26,340  INFO      + PIXTRANS: added to [5min] watchlist
+2026-07-01 12:10:26,340  INFO      + MOLDTECH: added to [5min] watchlist
+2026-07-01 12:10:26,341  INFO  
+── 5min candle closed | Chartink: 146 candidates, 2 new | tracking 1493 on this TF ──
+2026-07-01 12:10:26,341  INFO    Max positions reached — pausing scan
+2026-07-01 12:15:27,352  INFO      + WABAG: added to [5min] watchlist
+2026-07-01 12:15:27,352  INFO      + TRUALT: added to [5min] watchlist
+2026-07-01 12:15:27,353  INFO      + FLAIR: added to [5min] watchlist
+2026-07-01 12:15:27,353  INFO  
+── 5min candle closed | Chartink: 152 candidates, 3 new | tracking 1496 on this TF ──
+2026-07-01 12:15:27,354  INFO    Max positions reached — pausing scan
+2026-07-01 12:15:28,300  INFO      + KAUSHALYA: added to [15min] watchlist
+2026-07-01 12:15:28,300  INFO      + SURYALA: added to [15min] watchlist
+2026-07-01 12:15:28,300  INFO      + ABMKNO: added to [15min] watchlist
+2026-07-01 12:15:28,300  INFO      + MAANALU: added to [15min] watchlist
+2026-07-01 12:15:28,301  INFO  
+── 15min candle closed | Chartink: 148 candidates, 4 new | tracking 379 on this TF ──
+2026-07-01 12:15:28,301  INFO    Max positions reached — pausing scan
+2026-07-01 12:15:29,266  INFO  
+── 30min candle closed | Chartink: 169 candidates, 0 new | tracking 275 on this TF ──
+2026-07-01 12:15:29,267  INFO    Max positions reached — pausing scan
+2026-07-01 12:15:29,292  INFO  
+── 45min candle closed | Chartink: 0 candidates, 0 new | tracking 4 on this TF ──
+2026-07-01 12:15:29,293  INFO    Max positions reached — pausing scan
+2026-07-01 12:15:29,319  INFO  
+── 1H candle closed | Chartink: 0 candidates, 0 new | tracking 0 on this TF ──
+2026-07-01 12:20:30,295  INFO      + HARRMALAYA: added to [5min] watchlist
+2026-07-01 12:20:30,295  INFO      + COFFEEDAY: added to [5min] watchlist
+2026-07-01 12:20:30,295  INFO  
+── 5min candle closed | Chartink: 151 candidates, 2 new | tracking 1498 on this TF ──
+2026-07-01 12:20:30,296  INFO    Max positions reached — pausing scan
+2026-07-01 12:25:01,248  INFO      + SUBROS: added to [5min] watchlist
+2026-07-01 12:25:01,248  INFO      + PCBL: added to [5min] watchlist
+2026-07-01 12:25:01,248  INFO      + PATELENG: added to [5min] watchlist
+2026-07-01 12:25:01,249  INFO  
+── 5min candle closed | Chartink: 153 candidates, 3 new | tracking 1501 on this TF ──
+2026-07-01 12:25:01,249  INFO    Max positions reached — pausing scan
+2026-07-01 12:30:02,314  INFO      + KALYANKJIL: added to [5min] watchlist
+2026-07-01 12:30:02,314  INFO      + EMMVEE: added to [5min] watchlist
+2026-07-01 12:30:02,315  INFO  
+── 5min candle closed | Chartink: 131 candidates, 2 new | tracking 1503 on this TF ──
+2026-07-01 12:30:02,315  INFO    Max positions reached — pausing scan
+2026-07-01 12:30:03,280  INFO  
+── 15min candle closed | Chartink: 143 candidates, 0 new | tracking 379 on this TF ──
+2026-07-01 12:30:03,280  INFO    Max positions reached — pausing scan
+2026-07-01 12:35:04,592  INFO      + LTFOODS: added to [5min] watchlist
+2026-07-01 12:35:04,592  INFO  
+── 5min candle closed | Chartink: 145 candidates, 1 new | tracking 1504 on this TF ──
+2026-07-01 12:35:04,593  INFO    Max positions reached — pausing scan
+2026-07-01 12:40:05,631  INFO      + ACE: added to [5min] watchlist
+2026-07-01 12:40:05,631  INFO      + NATCOPHARM: added to [5min] watchlist
+2026-07-01 12:40:05,632  INFO      + NITINSPIN: added to [5min] watchlist
+2026-07-01 12:40:05,633  INFO  
+── 5min candle closed | Chartink: 157 candidates, 3 new | tracking 1507 on this TF ──
+2026-07-01 12:40:05,633  INFO    Max positions reached — pausing scan
+2026-07-01 12:45:06,666  INFO      + THANGAMAYL: added to [5min] watchlist
+2026-07-01 12:45:06,666  INFO      + RITCO: added to [5min] watchlist
+2026-07-01 12:45:06,667  INFO  
+── 5min candle closed | Chartink: 144 candidates, 2 new | tracking 1509 on this TF ──
+2026-07-01 12:45:06,667  INFO    Max positions reached — pausing scan
+2026-07-01 12:45:07,724  INFO      + COMPUSOFT: added to [15min] watchlist
+2026-07-01 12:45:07,724  INFO  
+── 15min candle closed | Chartink: 162 candidates, 1 new | tracking 380 on this TF ──
+2026-07-01 12:45:07,725  INFO    Max positions reached — pausing scan
+2026-07-01 12:45:08,719  INFO  
+── 30min candle closed | Chartink: 183 candidates, 0 new | tracking 275 on this TF ──
+2026-07-01 12:45:08,719  INFO    Max positions reached — pausing scan
+2026-07-01 12:50:09,710  INFO      + CENTUM: added to [5min] watchlist
+2026-07-01 12:50:09,710  INFO      + SOTL: added to [5min] watchlist
+2026-07-01 12:50:09,710  INFO      + KANORICHEM: added to [5min] watchlist
+2026-07-01 12:50:09,710  INFO      + CUBEXTUB: added to [5min] watchlist
+2026-07-01 12:50:09,711  INFO      + MENNPIS: added to [5min] watchlist
+2026-07-01 12:50:09,712  INFO  
+── 5min candle closed | Chartink: 146 candidates, 5 new | tracking 1514 on this TF ──
+2026-07-01 12:50:09,712  INFO    Max positions reached — pausing scan
+2026-07-01 12:55:10,770  INFO      + ORIENTHOT: added to [5min] watchlist
+2026-07-01 12:55:10,771  INFO  
+── 5min candle closed | Chartink: 133 candidates, 1 new | tracking 1515 on this TF ──
+2026-07-01 12:55:10,771  INFO    Max positions reached — pausing scan
+2026-07-01 13:00:11,752  INFO      + INDOTECH: added to [5min] watchlist
+2026-07-01 13:00:11,752  INFO      + TRANSPEK: added to [5min] watchlist
+2026-07-01 13:00:11,753  INFO      + PRECOT: added to [5min] watchlist
+2026-07-01 13:00:11,753  INFO      + RGL: added to [5min] watchlist
+2026-07-01 13:00:11,753  INFO      + IBULLSLTD: added to [5min] watchlist
+2026-07-01 13:00:11,754  INFO  
+── 5min candle closed | Chartink: 143 candidates, 5 new | tracking 1520 on this TF ──
+2026-07-01 13:00:11,754  INFO    Max positions reached — pausing scan
+2026-07-01 13:00:12,688  INFO  
+── 15min candle closed | Chartink: 128 candidates, 0 new | tracking 380 on this TF ──
+2026-07-01 13:00:12,688  INFO    Max positions reached — pausing scan
+2026-07-01 13:00:12,712  INFO  
+── 45min candle closed | Chartink: 0 candidates, 0 new | tracking 4 on this TF ──
+2026-07-01 13:00:12,713  INFO    Max positions reached — pausing scan
+2026-07-01 13:05:13,704  INFO      + MTEDUCARE: added to [5min] watchlist
+2026-07-01 13:05:13,704  INFO  
+── 5min candle closed | Chartink: 148 candidates, 1 new | tracking 1521 on this TF ──
+2026-07-01 13:05:13,704  INFO    Max positions reached — pausing scan
+2026-07-01 13:10:14,706  INFO      + BHEL: added to [5min] watchlist
+2026-07-01 13:10:14,707  INFO  
+── 5min candle closed | Chartink: 172 candidates, 1 new | tracking 1522 on this TF ──
+2026-07-01 13:10:14,707  INFO    Max positions reached — pausing scan
+2026-07-01 13:15:16,060  INFO  
+── 5min candle closed | Chartink: 138 candidates, 0 new | tracking 1522 on this TF ──
+2026-07-01 13:15:16,060  INFO    Max positions reached — pausing scan
+2026-07-01 13:15:17,214  INFO      + KIRIINDUS: added to [15min] watchlist
+2026-07-01 13:15:17,214  INFO  
+── 15min candle closed | Chartink: 142 candidates, 1 new | tracking 381 on this TF ──
+2026-07-01 13:15:17,214  INFO    Max positions reached — pausing scan
+2026-07-01 13:15:18,219  INFO  
+── 30min candle closed | Chartink: 151 candidates, 0 new | tracking 275 on this TF ──
+2026-07-01 13:15:18,219  INFO    Max positions reached — pausing scan
+2026-07-01 13:15:18,247  INFO  
+── 1H candle closed | Chartink: 0 candidates, 0 new | tracking 0 on this TF ──
+2026-07-01 13:20:19,256  INFO      + RACLGEAR: added to [5min] watchlist
+2026-07-01 13:20:19,256  INFO      + ARVIND: added to [5min] watchlist
+2026-07-01 13:20:19,257  INFO      + BLACKBUCK: added to [5min] watchlist
+2026-07-01 13:20:19,257  INFO      + ESSENTIA: added to [5min] watchlist
+2026-07-01 13:20:19,257  INFO  
+── 5min candle closed | Chartink: 153 candidates, 4 new | tracking 1526 on this TF ──
+2026-07-01 13:20:19,257  INFO    Max positions reached — pausing scan
+2026-07-01 13:25:20,393  INFO  
+── 5min candle closed | Chartink: 160 candidates, 0 new | tracking 1526 on this TF ──
+2026-07-01 13:25:20,393  INFO    Max positions reached — pausing scan
+2026-07-01 13:30:21,431  INFO      + TECILCHEM: added to [5min] watchlist
+2026-07-01 13:30:21,431  INFO      + GAYAHWS: added to [5min] watchlist
+2026-07-01 13:30:21,432  INFO  
+── 5min candle closed | Chartink: 150 candidates, 2 new | tracking 1528 on this TF ──
+2026-07-01 13:30:21,432  INFO    Max positions reached — pausing scan
+2026-07-01 13:30:22,354  INFO  
+── 15min candle closed | Chartink: 128 candidates, 0 new | tracking 381 on this TF ──
+2026-07-01 13:30:22,354  INFO    Max positions reached — pausing scan
+2026-07-01 13:35:23,323  INFO  
+── 5min candle closed | Chartink: 146 candidates, 0 new | tracking 1528 on this TF ──
+2026-07-01 13:35:23,323  INFO    Max positions reached — pausing scan
+2026-07-01 13:40:24,343  INFO      + NIFTYGS813YR: added to [5min] watchlist
+2026-07-01 13:40:24,343  INFO      + ADOR: added to [5min] watchlist
+2026-07-01 13:40:24,343  INFO      + TATACONSUM: added to [5min] watchlist
+2026-07-01 13:40:24,343  INFO      + APOLLO: added to [5min] watchlist
+2026-07-01 13:40:24,344  INFO  
+── 5min candle closed | Chartink: 163 candidates, 4 new | tracking 1532 on this TF ──
+2026-07-01 13:40:24,344  INFO    Max positions reached — pausing scan
+2026-07-01 13:45:26,786  INFO      + NIFTYGS48YR: added to [5min] watchlist
+2026-07-01 13:45:26,786  INFO      + NIFTYGSCOMPSITE: added to [5min] watchlist
+2026-07-01 13:45:26,787  INFO      + MAYURUNIQ: added to [5min] watchlist
+2026-07-01 13:45:26,788  INFO  
+── 5min candle closed | Chartink: 167 candidates, 3 new | tracking 1535 on this TF ──
+2026-07-01 13:45:26,788  INFO    Max positions reached — pausing scan
+2026-07-01 13:45:27,872  INFO  
+── 15min candle closed | Chartink: 135 candidates, 0 new | tracking 381 on this TF ──
+2026-07-01 13:45:27,873  INFO    Max positions reached — pausing scan
+2026-07-01 13:45:28,924  INFO      + ULTRAMAR: added to [30min] watchlist
+2026-07-01 13:45:28,925  INFO  
+── 30min candle closed | Chartink: 164 candidates, 1 new | tracking 276 on this TF ──
+2026-07-01 13:45:28,925  INFO    Max positions reached — pausing scan
+2026-07-01 13:45:28,959  INFO  
+── 45min candle closed | Chartink: 0 candidates, 0 new | tracking 4 on this TF ──
+2026-07-01 13:45:28,959  INFO    Max positions reached — pausing scan
+2026-07-01 13:50:30,074  INFO      + CEIGALL: added to [5min] watchlist
+2026-07-01 13:50:30,075  INFO  
+── 5min candle closed | Chartink: 164 candidates, 1 new | tracking 1536 on this TF ──
+2026-07-01 13:50:30,075  INFO    Max positions reached — pausing scan
+2026-07-01 13:55:01,087  INFO      + ICIL: added to [5min] watchlist
+2026-07-01 13:55:01,088  INFO  
+── 5min candle closed | Chartink: 147 candidates, 1 new | tracking 1537 on this TF ──
+2026-07-01 13:55:01,088  INFO    Max positions reached — pausing scan
+2026-07-01 14:00:02,101  INFO      + GVPIL: added to [5min] watchlist
+2026-07-01 14:00:02,101  INFO      + BANCOINDIA: added to [5min] watchlist
+2026-07-01 14:00:02,101  INFO      + BRIGADE: added to [5min] watchlist
+2026-07-01 14:00:02,102  INFO      + NRAIL: added to [5min] watchlist
+2026-07-01 14:00:02,102  INFO  
+── 5min candle closed | Chartink: 134 candidates, 4 new | tracking 1541 on this TF ──
+2026-07-01 14:00:02,102  INFO    Max positions reached — pausing scan
+2026-07-01 14:00:03,005  INFO  
+── 15min candle closed | Chartink: 116 candidates, 0 new | tracking 381 on this TF ──
+2026-07-01 14:00:03,005  INFO    Max positions reached — pausing scan
+2026-07-01 14:05:03,983  INFO      + UNIVASTU: added to [5min] watchlist
+2026-07-01 14:05:03,984  INFO  
+── 5min candle closed | Chartink: 147 candidates, 1 new | tracking 1542 on this TF ──
+2026-07-01 14:05:03,984  INFO    Max positions reached — pausing scan
+2026-07-01 14:10:05,003  INFO      + ETHOSLTD: added to [5min] watchlist
+2026-07-01 14:10:05,004  INFO  
+── 5min candle closed | Chartink: 142 candidates, 1 new | tracking 1543 on this TF ──
+2026-07-01 14:10:05,004  INFO    Max positions reached — pausing scan
+2026-07-01 14:15:07,424  INFO      + TNTELE: added to [5min] watchlist
+2026-07-01 14:15:07,425  INFO  
+── 5min candle closed | Chartink: 139 candidates, 1 new | tracking 1544 on this TF ──
+2026-07-01 14:15:07,425  INFO    Max positions reached — pausing scan
+2026-07-01 14:15:08,604  INFO  
+── 15min candle closed | Chartink: 135 candidates, 0 new | tracking 381 on this TF ──
+2026-07-01 14:15:08,604  INFO    Max positions reached — pausing scan
+2026-07-01 14:15:09,701  INFO      + AHLWEST: added to [30min] watchlist
+2026-07-01 14:15:09,702  INFO  
+── 30min candle closed | Chartink: 154 candidates, 1 new | tracking 277 on this TF ──
+2026-07-01 14:15:09,702  INFO    Max positions reached — pausing scan
+2026-07-01 14:15:09,732  INFO  
+── 1H candle closed | Chartink: 0 candidates, 0 new | tracking 0 on this TF ──
+2026-07-01 14:20:10,950  INFO      + GNA: added to [5min] watchlist
+2026-07-01 14:20:10,961  INFO      + ITCHOTELS: added to [5min] watchlist
+2026-07-01 14:20:10,970  INFO      + GANGESSECU: added to [5min] watchlist
+2026-07-01 14:20:10,977  INFO  
+── 5min candle closed | Chartink: 133 candidates, 3 new | tracking 1547 on this TF ──
+2026-07-01 14:20:10,995  INFO    Max positions reached — pausing scan
+2026-07-01 14:25:14,358  INFO      + INDNIPPON: added to [5min] watchlist
+2026-07-01 14:25:14,358  INFO  
+── 5min candle closed | Chartink: 147 candidates, 1 new | tracking 1548 on this TF ──
+2026-07-01 14:25:14,359  INFO    Max positions reached — pausing scan
+2026-07-01 14:30:15,387  INFO      + SJS: added to [5min] watchlist
+2026-07-01 14:30:15,388  INFO      + SBICARD: added to [5min] watchlist
+2026-07-01 14:30:15,388  INFO      + EIEL: added to [5min] watchlist
+2026-07-01 14:30:15,388  INFO  
+── 5min candle closed | Chartink: 153 candidates, 3 new | tracking 1551 on this TF ──
+2026-07-01 14:30:15,389  INFO    Max positions reached — pausing scan
+2026-07-01 14:30:16,338  INFO  
+── 15min candle closed | Chartink: 126 candidates, 0 new | tracking 381 on this TF ──
+2026-07-01 14:30:16,338  INFO    Max positions reached — pausing scan
+2026-07-01 14:30:16,362  INFO  
+── 45min candle closed | Chartink: 0 candidates, 0 new | tracking 4 on this TF ──
+2026-07-01 14:30:16,362  INFO    Max positions reached — pausing scan
+2026-07-01 14:35:17,404  INFO      + SUPRIYA: added to [5min] watchlist
+2026-07-01 14:35:17,404  INFO      + BATAINDIA: added to [5min] watchlist
+2026-07-01 14:35:17,405  INFO      + IOC: added to [5min] watchlist
+2026-07-01 14:35:17,405  INFO      + GANESHBE: added to [5min] watchlist
+2026-07-01 14:35:17,405  INFO      + SALSTEEL: added to [5min] watchlist
+2026-07-01 14:35:17,406  INFO  
+── 5min candle closed | Chartink: 143 candidates, 5 new | tracking 1556 on this TF ──
+2026-07-01 14:35:17,406  INFO    Max positions reached — pausing scan
+2026-07-01 14:40:18,429  INFO      + HIKAL: added to [5min] watchlist
+2026-07-01 14:40:18,430  INFO  
+── 5min candle closed | Chartink: 154 candidates, 1 new | tracking 1557 on this TF ──
+2026-07-01 14:40:18,430  INFO    Max positions reached — pausing scan
+2026-07-01 14:45:19,503  INFO      + VARROC: added to [5min] watchlist
+2026-07-01 14:45:19,503  INFO      + NSLNISP: added to [5min] watchlist
+2026-07-01 14:45:19,503  INFO      + LTGILTCASE: added to [5min] watchlist
+2026-07-01 14:45:19,504  INFO  
+── 5min candle closed | Chartink: 180 candidates, 3 new | tracking 1560 on this TF ──
+2026-07-01 14:45:19,504  INFO    Max positions reached — pausing scan
+2026-07-01 14:45:20,517  INFO  
+── 15min candle closed | Chartink: 147 candidates, 0 new | tracking 381 on this TF ──
+2026-07-01 14:45:20,517  INFO    Max positions reached — pausing scan
+2026-07-01 14:45:21,477  INFO  
+── 30min candle closed | Chartink: 165 candidates, 0 new | tracking 277 on this TF ──
+2026-07-01 14:45:21,477  INFO    Max positions reached — pausing scan
+2026-07-01 14:50:22,601  INFO  
+── 5min candle closed | Chartink: 196 candidates, 0 new | tracking 1560 on this TF ──
+2026-07-01 14:50:22,602  INFO    Max positions reached — pausing scan
+2026-07-01 14:55:23,645  INFO      + ARMANFIN: added to [5min] watchlist
+2026-07-01 14:55:23,645  INFO      + WIPRO: added to [5min] watchlist
+2026-07-01 14:55:23,646  INFO  
+── 5min candle closed | Chartink: 185 candidates, 2 new | tracking 1562 on this TF ──
+2026-07-01 14:55:23,646  INFO    Max positions reached — pausing scan
+2026-07-01 15:00:24,634  INFO      + SUPREMEIND: added to [5min] watchlist
+2026-07-01 15:00:24,634  INFO      + NH: added to [5min] watchlist
+2026-07-01 15:00:24,635  INFO      + PUNJABCHEM: added to [5min] watchlist
+2026-07-01 15:00:24,635  INFO      + ANUHPHR: added to [5min] watchlist
+2026-07-01 15:00:24,635  INFO  
+── 5min candle closed | Chartink: 157 candidates, 4 new | tracking 1566 on this TF ──
+2026-07-01 15:00:24,636  INFO    Max positions reached — pausing scan
+2026-07-01 15:00:25,529  INFO  
+── 15min candle closed | Chartink: 131 candidates, 0 new | tracking 381 on this TF ──
+2026-07-01 15:00:25,529  INFO    Max positions reached — pausing scan
+2026-07-01 15:05:26,522  INFO      + WSTCSTPAPR: added to [5min] watchlist
+2026-07-01 15:05:26,522  INFO      + KOLTEPATIL: added to [5min] watchlist
+2026-07-01 15:05:26,522  INFO      + PARKHOSPS: added to [5min] watchlist
+2026-07-01 15:05:26,523  INFO      + VLSFINANCE: added to [5min] watchlist
+2026-07-01 15:05:26,523  INFO  
+── 5min candle closed | Chartink: 183 candidates, 4 new | tracking 1570 on this TF ──
+2026-07-01 15:05:26,523  INFO    Max positions reached — pausing scan
+2026-07-01 15:10:27,534  INFO      + DVL: added to [5min] watchlist
+2026-07-01 15:10:27,534  INFO      + MCL: added to [5min] watchlist
+2026-07-01 15:10:27,534  INFO      + FLEXIADD: added to [5min] watchlist
+2026-07-01 15:10:27,535  INFO  
+── 5min candle closed | Chartink: 221 candidates, 3 new | tracking 1573 on this TF ──
+2026-07-01 15:10:27,535  INFO    Max positions reached — pausing scan
+2026-07-01 15:15:28,525  INFO      + LMW: added to [5min] watchlist
+2026-07-01 15:15:28,525  INFO      + NEXT30ADD: added to [5min] watchlist
+2026-07-01 15:15:28,525  INFO      + JYOTISTRUC: added to [5min] watchlist
+2026-07-01 15:15:28,526  INFO  
+── 5min candle closed | Chartink: 233 candidates, 3 new | tracking 1576 on this TF ──
+2026-07-01 15:15:28,526  INFO    Max positions reached — pausing scan
+2026-07-01 15:15:29,479  INFO  
+── 15min candle closed | Chartink: 189 candidates, 0 new | tracking 381 on this TF ──
+2026-07-01 15:15:29,479  INFO    Max positions reached — pausing scan
+2026-07-01 15:15:30,392  INFO      + MOMIDMTM: added to [30min] watchlist
+2026-07-01 15:15:30,393  INFO  
+── 30min candle closed | Chartink: 198 candidates, 1 new | tracking 278 on this TF ──
+2026-07-01 15:15:30,393  INFO    Max positions reached — pausing scan
+2026-07-01 15:15:30,419  INFO  
+── 45min candle closed | Chartink: 0 candidates, 0 new | tracking 4 on this TF ──
+2026-07-01 15:15:30,419  INFO    Max positions reached — pausing scan
+2026-07-01 15:15:30,453  INFO  
+── 1H candle closed | Chartink: 0 candidates, 0 new | tracking 0 on this TF ──
+2026-07-01 15:20:00,485  INFO  ⏰ SQUARE OFF — closing all open positions
+2026-07-01 15:20:00,487  INFO      [PAPER] SELL 3×VENKEYS | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 15:20:01,159  INFO    ✗ CLOSED  VENKEYS [5min] | exit=₹1418.0 | P&L=₹-66.9 (-1.55%) | reason=SQUARE_OFF
+2026-07-01 15:20:01,161  INFO      [PAPER] SELL 7×LINCOLN | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 15:20:01,771  INFO    ✗ CLOSED  LINCOLN [5min] | exit=₹621.6 | P&L=₹-58.8 (-1.33%) | reason=SQUARE_OFF
+2026-07-01 15:20:01,772  INFO      [PAPER] SELL 19×SATIN | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 15:20:02,345  INFO    ✗ CLOSED  SATIN [5min] | exit=₹251.59 | P&L=+₹26.41 (+0.56%) | reason=SQUARE_OFF
+2026-07-01 15:20:02,347  INFO      [PAPER] SELL 21×AEGISVOPAK | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 15:20:02,915  INFO    ✗ CLOSED  AEGISVOPAK [5min] | exit=₹235.47 | P&L=₹-43.89 (-0.88%) | reason=SQUARE_OFF
+2026-07-01 15:20:02,916  INFO      [PAPER] SELL 128×SIGMA | type=MARKET price=₹0.0 trigger=₹0.0
+2026-07-01 15:20:03,503  INFO    ✗ CLOSED  SIGMA [5min] | exit=₹38.0 | P&L=₹-99.84 (-2.01%) | reason=SQUARE_OFF
+2026-07-01 15:20:03,529  INFO  Watchlist state saved: 2239 symbols carried to next session
+2026-07-01 15:20:03,530  INFO  Market session ended.
+2026-07-01 15:20:03,530  INFO  
+============================================================
+2026-07-01 15:20:03,530  INFO  SESSION COMPLETE
+2026-07-01 15:20:03,530  INFO  Total trades : 5
+2026-07-01 15:20:03,531  INFO  Winners      : 1
+2026-07-01 15:20:03,531  INFO  Losers       : 4
+2026-07-01 15:20:03,531  INFO  Total P&L    : ₹-243.02
+2026-07-01 15:20:03,531  INFO  ============================================================
