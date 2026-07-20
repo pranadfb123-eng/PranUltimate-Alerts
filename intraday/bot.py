@@ -473,7 +473,16 @@ def build_range_box(df, touch_idx, fl_pos):
     # This captures the true resistance (bounce peak / pre-dip highs) not just
     # the post-FL segment.  The forward walk then extends it only if later
     # candles inside the box push to a new high (rare in a proper consolidation).
-    ceiling = float(df.iloc[touch_idx : fl_pos + 1]["high"].max())
+    #
+    # Guard: if fl_pos < touch_idx (First Low occurred BEFORE the EMA touch
+    # candle — possible when the V-dip low sits 1-3 candles earlier), the slice
+    # df.iloc[touch_idx : fl_pos+1] is reversed and pandas returns an EMPTY
+    # DataFrame; .max() on an empty series yields NaN, which propagates into
+    # box["ceiling"] and is then written to watchlist_state, making the box
+    # permanently un-fireable.  Fix: always slice with ordered bounds.
+    _seg_lo = min(touch_idx, fl_pos)
+    _seg_hi = max(touch_idx, fl_pos) + 1
+    ceiling = float(df.iloc[_seg_lo : _seg_hi]["high"].max())
     breakout_pos = None
 
     for i in range(range_start, n):
@@ -873,7 +882,7 @@ def is_consolidating(df):
     return True
 
 
-def has_higher_tf_consolidation(tv, symbol, current_tf):
+def has_higher_tf_consolidation(tv, symbol, current_tf, _out=None):
     """
     Checks if the stock is consolidating on any HIGHER timeframe than current_tf.
     If yes → the intraday signal / box confirmation should be skipped (higher TF owns the move).
@@ -887,6 +896,12 @@ def has_higher_tf_consolidation(tv, symbol, current_tf):
 
     Capped at 4H — Daily/Weekly consolidations are too far removed to block an
     intraday trade reliably.
+
+    Optional `_out` dict: when a "recently broken out" block fires, the caller
+    may pass an empty dict here and it will be populated with:
+        {"tf": tf_label, "floor": float, "ceiling": float, "candles_above": int}
+    This lets the Chartink-add path hand the symbol off to that higher TF's
+    watchlist for monitoring, instead of silently discarding the box data.
     """
     # Full ordered ladder from lowest to highest intraday TF
     _ALL_INTRADAY_TFS = ["5min", "15min", "30min", "45min", "1H", "2H", "3H", "4H"]
@@ -929,6 +944,11 @@ def has_higher_tf_consolidation(tv, symbol, current_tf):
                             if float(df_ind.iloc[i]["close"]) > _ceiling
                         )
                         if _candles_above < 5:
+                            if _out is not None:
+                                _out["tf"]           = tf_label
+                                _out["floor"]        = float(df_ind.iloc[_fl_pos]["low"])
+                                _out["ceiling"]      = _ceiling
+                                _out["candles_above"] = _candles_above
                             return (f"recently broken out on {tf_label} "
                                     f"(only {_candles_above} candle"
                                     f"{'s' if _candles_above != 1 else ''} above ceiling)")
@@ -1285,7 +1305,7 @@ def startup_gap_check(tv, watchlist_state):
                         "15min": 40,   # 5min  → 15min: ~40 candles (≈2 trading days)
                         "30min": 16,   # 15min → 30min: ~16 candles (≈2 trading days)
                         "45min": 12,   # 30min → 45min: ~12 candles (≈2 trading days)
-                        "1H":     8,   # 45min → 1H:   ~8 candles  (≈2 trading days)
+                        "1H":    32,   # 45min → 1H:   ~32 candles (≈5 trading days)
                     }
                     _cur_upgrade_tf = tf
                     try:
@@ -1483,7 +1503,6 @@ def run():
                                 {"close": _sl_close, "ema8": _sl_ema8,
                                  "entry": _sl_pos.get("entry_price"),
                                  "qty":   _sl_pos.get("quantity")})
-                    _send_bot_alert(f"🔴 <b>{_sl_sym}</b> [{tf}]: 8 EMA exit\nClose ₹{_sl_close:.2f} < 8 EMA ₹{_sl_ema8:.2f}")
                     dhan.place_order(_sl_sym, _sl_pos["quantity"], "SELL")
                     pm.close(_sl_sym, _sl_close, "8EMA_CLOSE_EXIT")
 
@@ -1559,9 +1578,33 @@ def run():
                     # Higher-TF consolidation guard: if a higher TF is already
                     # consolidating, that TF owns the move — a lower-TF entry is
                     # premature and should be skipped entirely.
-                    _htf = has_higher_tf_consolidation(tv, sym, tf)
+                    _htf_box = {}
+                    _htf = has_higher_tf_consolidation(tv, sym, tf, _htf_box)
                     if _htf:
                         log.info(f"    SKIP {sym} [{tf}] -- higher TF [{_htf}] consolidation active (Chartink add)")
+                        # Recent-breakout case: the higher-TF box was computed purely as
+                        # a rejection reason and would otherwise be discarded.  Hand the
+                        # symbol off to that TF's watchlist so we can monitor for a
+                        # sustained breakout there (box_confirmed=True because the
+                        # ceiling has already been crossed; we just need more candles).
+                        if (_htf_box
+                                and (sym not in watchlist_state
+                                     or watchlist_state[sym].get("tf") != _htf_box["tf"])):
+                            _hb_tf  = _htf_box["tf"]
+                            _hb_fl  = _htf_box["floor"]
+                            _hb_cl  = _htf_box["ceiling"]
+                            watchlist_state[sym] = {
+                                "tf":                 _hb_tf,
+                                "floor":              _hb_fl,
+                                "ceiling":            _hb_cl,
+                                "box_confirmed":      True,
+                                "added_date":         now.strftime("%Y-%m-%d"),
+                                "box_confirmed_date": now.strftime("%Y-%m-%d"),
+                            }
+                            log.info(f"    + {sym}: handed off to [{_hb_tf}] watchlist "
+                                     f"(recent breakout, "
+                                     f"floor=₹{_hb_fl:.2f}, ceiling=₹{_hb_cl:.2f}, "
+                                     f"{_htf_box['candles_above']} candle(s) above)")
                         continue
                     watchlist_state[sym] = {
                         "tf":                 tf,
@@ -1911,7 +1954,6 @@ def run():
                                                          "resistance": signal["resistance"],
                                                          "stop_loss": signal["stop_loss"],
                                                          "qty": qty})
-                                            _send_bot_alert(f"✅ <b>{symbol}</b> [{tf}]: ENTRY (locked box)\nClose ₹{signal['close']} | Resistance ₹{signal['resistance']} | SL ₹{signal['stop_loss']}")
                                             entered_today.add(_sig_key2)
                                 del watchlist_state[symbol]
 
@@ -2004,7 +2046,6 @@ def run():
                                                      "resistance": signal["resistance"],
                                                      "stop_loss": signal["stop_loss"],
                                                      "qty": qty})
-                                        _send_bot_alert(f"✅ <b>{symbol}</b> [{tf}]: ENTRY (fresh)\nClose ₹{signal['close']} | Resistance ₹{signal['resistance']} | SL ₹{signal['stop_loss']}")
                                         entered_today.add(_sig_key2)
                             del watchlist_state[symbol]
 
@@ -2041,7 +2082,7 @@ def run():
                                         "15min": 40,   # 5min → 15min: ~40 candles
                                         "30min": 16,   # 15min → 30min: ~16 candles
                                         "45min": 12,   # 30min → 45min: ~12 candles
-                                        "1H":     8,   # 45min → 1H:   ~8 candles
+                                        "1H":    32,   # 45min → 1H:  ~32 candles (~5 trading days)
                                     }
                                     _cur_upgrade_tf = tf
                                     while True:
@@ -2056,18 +2097,43 @@ def run():
                                         _df_htf_ind = add_indicators(_df_htf_raw)
                                         if len(_df_htf_ind) < _htf_lb:
                                             break
-                                        _recent_htf = _df_htf_ind.iloc[-_htf_lb:]
-                                        # Primary: candle range contains the 200 EMA
-                                        _ema_wick = (
-                                            (_recent_htf["low"] <= _recent_htf["ema200"]) &
-                                            (_recent_htf["ema200"] <= _recent_htf["high"])
-                                        ).any()
-                                        # Secondary: price crossed through the 200 EMA
-                                        # (close went from one side to the other)
-                                        _above_ema  = _recent_htf["close"] > _recent_htf["ema200"]
-                                        _ema_cross  = (_above_ema != _above_ema.shift(1)).any()
-                                        if _ema_wick or _ema_cross:
-                                            _touch_type = "wick" if _ema_wick else "close-cross"
+                                        # Per-candle touch scan with consolidation filter
+                                        # (mirrors the startup_gap_check loop — Sanghvi fix
+                                        # applies here too to avoid upgrading into a ranging
+                                        # zone where EMA has been inside range for days).
+                                        _touch_found = False
+                                        _touch_type  = None
+                                        _n_htf        = len(_df_htf_ind)
+                                        _window_start = _n_htf - _htf_lb
+                                        for _ci in range(_window_start, _n_htf):
+                                            _row = _df_htf_ind.iloc[_ci]
+                                            _ema = _row["ema200"]
+                                            if _ema == 0:
+                                                continue
+                                            # Primary: candle wick/range touches the 200 EMA
+                                            if _row["low"] <= _ema <= _row["high"]:
+                                                # Consolidation filter: skip if EMA was already
+                                                # inside range for 3+ of the 5 preceding candles
+                                                _consol_count = 0
+                                                for _j in range(max(0, _ci - 5), _ci):
+                                                    _prow = _df_htf_ind.iloc[_j]
+                                                    if _prow["low"] <= _prow["ema200"] <= _prow["high"]:
+                                                        _consol_count += 1
+                                                if _consol_count >= 3:
+                                                    continue  # EMA hugging — not a fresh touch
+                                                _touch_found = True
+                                                _touch_type  = "wick"
+                                                break
+                                            # Secondary: close crossed through the 200 EMA
+                                            if _ci > _window_start:
+                                                _prev       = _df_htf_ind.iloc[_ci - 1]
+                                                _above_now  = _row["close"]  > _ema
+                                                _above_prev = _prev["close"] > _prev["ema200"]
+                                                if _above_now != _above_prev:
+                                                    _touch_found = True
+                                                    _touch_type  = "close-cross"
+                                                    break
+                                        if _touch_found:
                                             log.info(
                                                 f"  {symbol} [{_cur_upgrade_tf}]: recent {_next_tf} 200 EMA "
                                                 f"touch detected ({_touch_type}, last {_htf_lb} "
@@ -2092,15 +2158,32 @@ def run():
                                         time.sleep(1.0)
                                         return
 
+                                    # Guard: ceiling must be a real number.
+                                    # If build_range_box returns NaN (e.g. because
+                                    # fl_pos < touch_idx left an empty slice — now
+                                    # fixed at source, but kept here as belt-and-
+                                    # suspenders), do NOT lock the box.  Leave the
+                                    # stock unconfirmed so it re-evaluates next cycle
+                                    # rather than being confirmed with an un-fireable
+                                    # NaN ceiling that blocks every future signal.
+                                    _box_ceil = box["ceiling"]
+                                    if _box_ceil is None or pd.isna(_box_ceil):
+                                        log.warning(
+                                            f"  {symbol} [{tf}]: box ceiling is NaN/None "
+                                            f"(fl_pos={fl_pos}, touch_idx={touch_idx}) — "
+                                            f"skipping confirmation, will re-evaluate next cycle"
+                                        )
+                                        time.sleep(1.0)
+                                        return
                                     watchlist_state[symbol].update({
                                         "floor":              first_low,
-                                        "ceiling":            box["ceiling"],
+                                        "ceiling":            _box_ceil,
                                         "box_confirmed":      True,
                                         "box_confirmed_date": now.strftime("%Y-%m-%d"),
                                     })
                                     log.info(f"  {symbol} [{tf}]: box CONFIRMED -- "
                                              f"floor Rs{first_low:.2f} / "
-                                             f"ceil Rs{box['ceiling']:.2f}")
+                                             f"ceil Rs{_box_ceil:.2f}")
                                 else:
                                     log.info(f"  {symbol} [{tf}]: {reason}")
                             else:
@@ -2129,8 +2212,31 @@ def run():
 
                         else:
                             log.info(f"  {symbol} [{tf}]: {reason}")
-                            _TERMINAL = ("stale breakout", "box too wide")
-                            if any(reason.startswith(t) for t in _TERMINAL):
+                            if reason.startswith("stale breakout"):
+                                _next_tf = TF_CASCADE.get(tf)  # e.g. 15min → 30min
+                                _cascaded = False
+                                if _next_tf:
+                                    # Check if a fresh 200 EMA touch exists on the higher TF
+                                    _df_next = fetch_hist(tv, symbol, _next_tf)
+                                    if _df_next is not None and len(_df_next) >= 50:
+                                        _df_next = add_indicators(_df_next)
+                                        _touch_idx = find_200ema_touch(_df_next, symbol=symbol, tf=_next_tf)
+                                        if _touch_idx is not None:
+                                            # Valid touch found — escalate to higher TF, fresh unconfirmed
+                                            watchlist_state[symbol] = {
+                                                "tf": _next_tf,
+                                                "floor": None,
+                                                "ceiling": None,
+                                                "box_confirmed": False,
+                                                "added_date": now.strftime("%Y-%m-%d"),
+                                            }
+                                            log.info(f"  {symbol}: stale {tf} breakout → escalating to [{_next_tf}] (fresh EMA touch found)")
+                                            _log_action(symbol, tf, "STALE_CASCADE", {"new_tf": _next_tf})
+                                            _cascaded = True
+                                if not _cascaded:
+                                    log.info(f"  {symbol} [{tf}]: stale breakout — no higher TF touch, removing")
+                                    del watchlist_state[symbol]
+                            elif reason.startswith("box too wide"):
                                 del watchlist_state[symbol]
                                 log.info(f"  {symbol} [{tf}]: removed -- terminal outcome, will re-discover if new setup forms")
 
@@ -2156,3 +2262,40 @@ def run():
                 df   = add_indicators(df)
                 if len(df) == 0:
                     continue
+                last = df.iloc[-1]
+                _exit_ema8 = last.get("ema8")
+                if _exit_ema8 is None or pd.isna(_exit_ema8):
+                    continue
+
+                # Exit: last closed candle below 8 EMA
+                if last["close"] < last["ema8"]:
+                    log.info(f"\n  \U0001f4c9 EXIT: {symbol} | "
+                             f"close ₹{round(float(last['close']),2)} < "
+                             f"8EMA ₹{round(float(last['ema8']),2)}")
+                    # Cancel existing SL order before placing market sell
+                    sl_oid = pos.get("sl_order_id")
+                    if sl_oid and not cfg["paper_trading"]:
+                        dhan.cancel_order(sl_oid)
+                    dhan.place_order(symbol, pos["quantity"], "SELL")
+                    pm.close(symbol, float(last["close"]), "8_EMA_EXIT")
+
+            except Exception as e:
+                log.error(f"  Exit monitor error {symbol}: {e}")
+
+        time.sleep(30)   # main loop: check every 30 seconds
+
+    # ── End of session summary ───────────────────────────────────────────────
+    total_pnl   = round(sum(t["pnl"] for t in pm.trades), 2)
+    win_trades  = [t for t in pm.trades if t["pnl"] > 0]
+    lose_trades = [t for t in pm.trades if t["pnl"] <= 0]
+    log.info("\n" + "=" * 60)
+    log.info(f"SESSION COMPLETE")
+    log.info(f"Total trades : {len(pm.trades)}")
+    log.info(f"Winners      : {len(win_trades)}")
+    log.info(f"Losers       : {len(lose_trades)}")
+    log.info(f"Total P&L    : ₹{total_pnl}")
+    log.info("=" * 60)
+    pm._save()
+
+if __name__ == "__main__":
+    run()
