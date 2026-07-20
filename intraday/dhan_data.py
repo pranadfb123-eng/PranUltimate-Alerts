@@ -356,6 +356,22 @@ class DhanData:
             if _now < _candle_close_time:
                 df = df.iloc[:-1]
 
+        # Freshness guard: if the last candle is >3 calendar days old, the API
+        # silently returned a stale snapshot (confirmed Dhan incident July 16-17, 2026:
+        # 293 stock/tf combos received frozen historical data with no HTTP error).
+        if len(df) > 0:
+            _last_ts = df.index[-1]
+            if _last_ts.tzinfo is None:
+                _last_ts = _last_ts.tz_localize(_IST)
+            _age_days = (_now - _last_ts).total_seconds() / 86400
+            if _age_days > 3:
+                self._last_error = (
+                    f"Stale data detected: last candle is {_age_days:.0f} days old "
+                    f"({_last_ts.strftime('%Y-%m-%d %H:%M')} IST) — treating fetch as failed"
+                )
+                print(f"  [{sec_id}] {interval}min: {self._last_error}")
+                return None
+
         return df
 
     def _get_daily(self, sec_id, days_back=500):
